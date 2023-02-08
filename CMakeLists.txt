@@ -67,6 +67,11 @@ ki18n_install(po)
 add_subdirectory(data)
 add_subdirectory(src)
 if (BUILD_TESTING)
+    find_package(Qt6Test ${REQUIRED_QT_VERSION} NO_MODULE REQUIRED)
+    set_package_properties(Qt6Test PROPERTIES
+        TYPE REQUIRED
+        PURPOSE "Required for unit tests")
+
     add_subdirectory(autotests)
     add_subdirectory(tests)
 endif()

@@ -5,11 +5,6 @@ include(ECMMarkAsTest)
 include(ECMMarkNonGuiExecutable)
 include(ECMAddTests)
 
-find_package(Qt6Test ${REQUIRED_QT_VERSION} NO_MODULE REQUIRED)
-set_package_properties(Qt6Test PROPERTIES
-    TYPE REQUIRED
-    PURPOSE "Required for unit tests")
-
 ecm_add_test(kmoretools/kmoretoolstest.cpp ../src/kmoretools_debug.cpp
              LINK_LIBRARIES Qt6::Test Qt6::Widgets KF6::I18n KF6::KIOGui KF6::MoreTools
              TEST_NAME kmoretoolstest)
