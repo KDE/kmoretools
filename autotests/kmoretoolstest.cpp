@@ -4,9 +4,9 @@
     SPDX-License-Identifier: LGPL-2.1-only OR LGPL-3.0-only OR LicenseRef-KDE-Accepted-LGPL
 */
 
-#include <../src/kmoretools/kmoretools.h>
-#include <../src/kmoretools/kmoretools_p.h>
-#include <../src/kmoretools/kmoretoolspresets.h>
+#include <../src/kmoretools.h>
+#include <../src/kmoretools_p.h>
+#include <../src/kmoretoolspresets.h>
 
 #include <QPushButton>
 #include <QRegularExpression>

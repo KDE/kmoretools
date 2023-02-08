@@ -4,10 +4,10 @@
     SPDX-License-Identifier: LGPL-2.1-only OR LGPL-3.0-only OR LicenseRef-KDE-Accepted-LGPL
 */
 
-#include <../src/kmoretools/kmoretools.h>
-#include <../src/kmoretools/kmoretools_p.h>
-#include <../src/kmoretools/kmoretoolsmenufactory.h>
-#include <../src/kmoretools/kmoretoolspresets.h>
+#include "kmoretools.h"
+#include "kmoretools_p.h"
+#include "kmoretoolsmenufactory.h"
+#include "kmoretoolspresets.h"
 
 #include <QTest>
 
