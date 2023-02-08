@@ -65,61 +65,57 @@ bool menuAtLeastOneActionWithText(const QMenu *menu, const QString &text)
 
 void KMoreToolsTestInteractive::test_buildMenu_WithQActions_interative1()
 {
-    KMoreTools kmt(_("unittest-kmoretools/qactions")); // todo: disable copy-ctor!?
+    KMoreTools kmt("unittest-kmoretools/qactions"); // todo: disable copy-ctor!?
 
-    auto f = [&kmt](QString title) { // NOTE: capture by reference! see https://en.wikipedia.org/wiki/Anonymous_function
-        const auto menuBuilder = kmt.menuBuilder();
-        menuBuilder->clear();
-        QMenu menu;
-        menuBuilder->addMenuItem(new QAction(_("Hallo 1"), &menu), _("id1"));
-        menuBuilder->addMenuItem(new QAction(_("Hallo 2"), &menu), _("id2"));
-        menuBuilder->addMenuItem(new QAction(_("Hallo 3"), &menu), _("id3"));
+    const auto menuBuilder = kmt.menuBuilder();
+    menuBuilder->clear();
+    QMenu menu;
+    menuBuilder->addMenuItem(new QAction("Hallo 1", &menu), "id1");
+    menuBuilder->addMenuItem(new QAction("Hallo 2", &menu), "id2");
+    menuBuilder->addMenuItem(new QAction("Hallo 3", &menu), "id3");
 
-        menuBuilder->buildByAppendingToMenu(&menu);
-        menuBuilder->showConfigDialog(title);
-    };
-
-    f(_("test_buildMenu_WithQActions 1"));
+    menuBuilder->buildByAppendingToMenu(&menu);
+    menuBuilder->showConfigDialog("test_buildMenu_WithQActions 1");
 }
 
 void KMoreToolsTestInteractive::testConfigDialogImpl(bool withNotInstalled, bool withMultipleItemsPerNotInstalledService, const QString &description)
 {
-    KMoreTools kmt(_("unittest-kmoretools/2"));
-    const auto kateApp = kmt.registerServiceByDesktopEntryName(_("org.kde.kate"));
-    const auto gitgApp = kmt.registerServiceByDesktopEntryName(_("gitg"));
-    const auto notinstApp = kmt.registerServiceByDesktopEntryName(_("mynotinstalledapp"));
-    const auto notinstApp2 = kmt.registerServiceByDesktopEntryName(_("mynotinstapp2"));
-    notinstApp2->setHomepageUrl(QUrl(_("https://www.kde.org")));
+    KMoreTools kmt("unittest-kmoretools/2");
+    const auto kateApp = kmt.registerServiceByDesktopEntryName("org.kde.kate");
+    const auto gitgApp = kmt.registerServiceByDesktopEntryName("gitg");
+    const auto notinstApp = kmt.registerServiceByDesktopEntryName("mynotinstalledapp");
+    const auto notinstApp2 = kmt.registerServiceByDesktopEntryName("mynotinstapp2");
+    notinstApp2->setHomepageUrl(QUrl("https://www.kde.org"));
     const auto menuBuilder = kmt.menuBuilder();
     menuBuilder->addMenuItem(kateApp);
     menuBuilder->addMenuItem(gitgApp);
     if (withNotInstalled) {
         auto item1 = menuBuilder->addMenuItem(notinstApp);
-        item1->setInitialItemText(notinstApp->formatString(_("$Name - item 1")));
+        item1->setInitialItemText(notinstApp->formatString("$Name - item 1"));
 
         menuBuilder->addMenuItem(notinstApp2);
 
         if (withMultipleItemsPerNotInstalledService) {
             auto item3 = menuBuilder->addMenuItem(notinstApp);
-            item3->setInitialItemText(notinstApp->formatString(_("$Name - second item")));
+            item3->setInitialItemText(notinstApp->formatString("$Name - second item"));
         }
     }
     auto i1 = menuBuilder->addMenuItem(kateApp, KMoreTools::MenuSection_More);
-    i1->setId(_("kate1"));
-    i1->setInitialItemText(_("Kate more"));
+    i1->setId("kate1");
+    i1->setInitialItemText("Kate more");
     auto i2 = menuBuilder->addMenuItem(gitgApp, KMoreTools::MenuSection_More);
-    i2->setId(_("gitg1"));
-    i2->setInitialItemText(_("gitg more"));
+    i2->setId("gitg1");
+    i2->setInitialItemText("gitg more");
     menuBuilder->showConfigDialog(description);
 
     // show resulting menu
     auto dlg = new QDialog();
-    auto button = new QPushButton(_("Test the menu"), dlg);
+    auto button = new QPushButton("Test the menu", dlg);
     auto menu = new QMenu(dlg);
     menuBuilder->buildByAppendingToMenu(menu);
     button->setMenu(menu); // TODO: connect to the button click signal to always rebuild the menu
     auto label =
-        new QLabel(_("Test the menu and hit Esc to exit if you are done. Note that changes made via the Configure dialog will have no immediate effect."), dlg);
+        new QLabel("Test the menu and hit Esc to exit if you are done. Note that changes made via the Configure dialog will have no immediate effect.", dlg);
     label->setWordWrap(true);
     auto layout = new QHBoxLayout();
     layout->addWidget(button);
@@ -134,17 +130,17 @@ void KMoreToolsTestInteractive::testConfigDialogImpl(bool withNotInstalled, bool
 
 void KMoreToolsTestInteractive::testConfigDialogAllInstalled()
 {
-    testConfigDialogImpl(false, false, _("TEST all installed"));
+    testConfigDialogImpl(false, false, "TEST all installed");
 }
 
 void KMoreToolsTestInteractive::testConfigDialogSomeNotInstalled()
 {
-    testConfigDialogImpl(true, false, _("TEST some not installed"));
+    testConfigDialogImpl(true, false, "TEST some not installed");
 }
 
 void KMoreToolsTestInteractive::testConfigDialogNotInstalled1Service2Items()
 {
-    testConfigDialogImpl(true, true, _("TEST more than one item for one not installed service"));
+    testConfigDialogImpl(true, true, "TEST more than one item for one not installed service");
 }
 
 void KMoreToolsTestInteractive::testDialogForGroupingNames()
@@ -152,32 +148,34 @@ void KMoreToolsTestInteractive::testDialogForGroupingNames()
     // show resulting menu
     auto dlg = new QDialog();
     auto labelInfo = new QLabel(
-        _("First, select a URL (leave the URL box empty to give no URL; don't forget to add file:// or https://). Then, select a grouping name. => A menu will "
-          "be created that you can try out. KDE4/KF5: If an application does not start even there is the launch indicator, try: $ eval `dbus-launch`"),
+        "First, select a URL (leave the URL box empty to give no URL; don't forget to add file:// or https://). Then, select a grouping name. => A menu will "
+        "be created that you can try out. KDE4/KF5: If an application does not start even there is the launch indicator, try: $ eval `dbus-launch`",
         dlg);
     labelInfo->setWordWrap(true);
-    auto selectButton = new QPushButton(_("Select grouping name..."), dlg);
-    auto labelLineEdit = new QLabel(_("URL 1 (file://..., https://...)"), dlg);
+    auto selectButton = new QPushButton("Select grouping name...", dlg);
+    auto labelLineEdit = new QLabel("URL 1 (file://..., https://...", dlg);
     auto urlLineEdit = new QLineEdit(dlg);
-    urlLineEdit->setText(_("file:///etc/bash.bashrc"));
-    auto menuButton = new QPushButton(_("<wait for selection>"), dlg);
+    urlLineEdit->setText("file:///etc/bash.bashrc");
+    auto menuButton = new QPushButton("<wait for selection>", dlg);
 
-    const auto groupingNamesList = {_("disk-usage"),
-                                    _("disk-partitions"),
-                                    _("files-find"),
-                                    _("font-tools"),
-                                    _("git-clients-for-folder"),
-                                    _("git-clients-and-actions"),
-                                    _("icon-browser"),
-                                    _("language-dictionary"),
-                                    _("mouse-tools"),
-                                    _("screenrecorder"),
-                                    _("screenshot-take"),
-                                    _("system-monitor-processes"),
-                                    _("system-monitor-logs"),
-                                    _("time-countdown")};
+    const auto groupingNamesList = {
+        "disk-usage",
+        "disk-partitions",
+        "files-find",
+        "font-tools",
+        "git-clients-for-folder",
+        "git-clients-and-actions",
+        "icon-browser",
+        "language-dictionary",
+        "mouse-tools",
+        "screenrecorder",
+        "screenshot-take",
+        "system-monitor-processes",
+        "system-monitor-logs",
+        "time-countdown",
+    };
 
-    KMoreToolsMenuFactory menuFactory(_("unittest-kmoretools/3"));
+    KMoreToolsMenuFactory menuFactory("unittest-kmoretools/3");
 
     auto groupingNamesMenu = new QMenu(dlg);
     QMenu *moreToolsMenu = nullptr;
@@ -196,8 +194,7 @@ void KMoreToolsTestInteractive::testDialogForGroupingNames()
                                  url.setUrl(urlLineEdit->text());
                              }
                              moreToolsMenu = menuFactory.createMenuFromGroupingNames({groupingName}, url);
-                             menuButton->setText(
-                                 QString(_("menu for: '%1' (URL arg: %2)...")).arg(groupingName, url.isEmpty() ? _("<empty>") : _("<see URL 1>")));
+                             menuButton->setText(QString("menu for: '%1' (URL arg: %2...").arg(groupingName, url.isEmpty() ? "<empty>" : "<see URL 1>"));
                              menuButton->setMenu(moreToolsMenu);
                          });
     }
@@ -223,15 +220,15 @@ void KMoreToolsTestInteractive::testDialogForGroupingNames()
 
 void KMoreToolsTestInteractive::testLazyMenu()
 {
-    KMoreToolsMenuFactory menuFactory(_("unittest-kmoretools/4"));
+    KMoreToolsMenuFactory menuFactory("unittest-kmoretools/4");
 
-    auto moreToolsMenu = menuFactory.createMenuFromGroupingNames({_("git-clients-for-folder")});
+    auto moreToolsMenu = menuFactory.createMenuFromGroupingNames({"git-clients-for-folder"});
 
     auto dlg = new QDialog();
-    auto button = new QPushButton(_("Test the lazy menu"), dlg);
+    auto button = new QPushButton("Test the lazy menu", dlg);
     button->setMenu(moreToolsMenu);
     auto label =
-        new QLabel(_("Test the menu and hit Esc to exit if you are done. Note that changes made via the Configure dialog will have no immediate effect."), dlg);
+        new QLabel("Test the menu and hit Esc to exit if you are done. Note that changes made via the Configure dialog will have no immediate effect.", dlg);
     label->setWordWrap(true);
     auto layout = new QHBoxLayout();
     layout->addWidget(button);
