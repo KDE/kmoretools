@@ -1,7 +1,7 @@
 # SPDX-FileCopyrightText: none
 # SPDX-License-Identifier: CC0-1.0
 
-maintainer: leinir
+maintainer: alex
 description: Support for downloading application assets from the network
 tier: 3
 type: solution
@@ -14,9 +14,8 @@ portingAid: false
 deprecated: false
 release: true
 libraries:
- - qmake: KNewStuff
-   cmake: "KF6::NewStuff"
-cmakename: KF6NewStuff
+   - cmake: "KF6::MoreTools"
+cmakename: KF6MoreTools
 
 public_lib: true
 group: Frameworks

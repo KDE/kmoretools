@@ -47,49 +47,17 @@ include(KDEClangFormat)
 include(KDEGitCommitHooks)
 include(CMakeDependentOption)
 
-find_package(KF6Attica ${KF_DEP_VERSION} CONFIG REQUIRED)
-set_package_properties(KF6Attica PROPERTIES DESCRIPTION "A Qt library that implements the Open Collaboration Services API"
-                       PURPOSE "Support for Get Hot New Stuff in KNewStuff"
-                       URL "https://commits.kde.org/attica"
-                       TYPE REQUIRED
-                      )
-find_package(KF6Kirigami2 2.12.0)
-set_package_properties(KF6Kirigami2 PROPERTIES
-    DESCRIPTION "KDE's lightweight user interface framework for mobile and convergent applications"
-    URL "https://techbase.kde.org/Kirigami"
-    PURPOSE "Required by KNewStuffQuick's qml components"
-    TYPE RUNTIME)
-
-find_package(KF6Syndication ${KF6_DEP_VERSION})
-set_package_properties(KF6Syndication PROPERTIES
-    DESCRIPTION "KDE's RSS/Atom parser library"
-    PURPOSE "Used by the OPDS provider to handle most of the parsing."
-    TYPE OPTIONAL
-)
-
-
 option(BUILD_QCH "Build API documentation in QCH format (for e.g. Qt Assistant, Qt Creator & KDevelop)" OFF)
 add_feature_info(QCH ${BUILD_QCH} "API documentation in QCH format (for e.g. Qt Assistant, Qt Creator & KDevelop)")
 
-cmake_dependent_option(BUILD_DESIGNERPLUGIN "Build plugin for Qt Designer" ON "NOT CMAKE_CROSSCOMPILING" OFF)
-add_feature_info(DESIGNERPLUGIN ${BUILD_DESIGNERPLUGIN} "Build plugin for Qt Designer")
-
 set(EXCLUDE_DEPRECATED_BEFORE_AND_AT 0 CACHE STRING "Control the range of deprecated API excluded from the build [default=0].")
 
-ecm_setup_version(PROJECT VARIABLE_PREFIX KNEWSTUFF
-                        VERSION_HEADER "${CMAKE_CURRENT_BINARY_DIR}/knewstuff_version.h"
-                        PACKAGE_VERSION_FILE "${CMAKE_CURRENT_BINARY_DIR}/KF6NewStuffConfigVersion.cmake"
-                        SOVERSION 6)
-ecm_setup_version(PROJECT VARIABLE_PREFIX KNEWSTUFFCORE
-                        VERSION_HEADER "${CMAKE_CURRENT_BINARY_DIR}/knewstuffcore_version.h"
-                        PACKAGE_VERSION_FILE "${CMAKE_CURRENT_BINARY_DIR}/KF6NewStuffCoreConfigVersion.cmake"
-                        SOVERSION 6)
-ecm_setup_version(PROJECT VARIABLE_PREFIX KNEWSTUFFQUICK
-                        VERSION_HEADER "${CMAKE_CURRENT_BINARY_DIR}/knewstuffquick_version.h"
-                        PACKAGE_VERSION_FILE "${CMAKE_CURRENT_BINARY_DIR}/KF6NewStuffQuickConfigVersion.cmake"
+ecm_setup_version(PROJECT VARIABLE_PREFIX KMORETOOLS
+                        VERSION_HEADER "${CMAKE_CURRENT_BINARY_DIR}/kmoretools_version.h"
+                        PACKAGE_VERSION_FILE "${CMAKE_CURRENT_BINARY_DIR}/KF6MoreToolsConfigVersion.cmake"
                         SOVERSION 6)
 
-add_definitions(-DTRANSLATION_DOMAIN=\"knewstuff5\")
+add_definitions(-DTRANSLATION_DOMAIN=\"kmoretools\")
 ecm_set_disabled_deprecation_versions(
     QT 6.4.0
     KF 5.102
@@ -103,78 +71,34 @@ if (BUILD_TESTING)
     add_subdirectory(tests)
 endif()
 
-set(CMAKECONFIG_INSTALL_DIR "${KDE_INSTALL_CMAKEPACKAGEDIR}/KF6NewStuff")
-set(CMAKECONFIGCORE_INSTALL_DIR "${KDE_INSTALL_CMAKEPACKAGEDIR}/KF6NewStuffCore")
-set(CMAKECONFIGQUICK_INSTALL_DIR "${KDE_INSTALL_CMAKEPACKAGEDIR}/KF6NewStuffQuick")
+set(CMAKECONFIG_INSTALL_DIR "${KDE_INSTALL_CMAKEPACKAGEDIR}/KF6MoreTools")
 
 if (BUILD_QCH)
     ecm_install_qch_export(
-        TARGETS KF6NewStuff_QCH
-        FILE KF6NewStuffQchTargets.cmake
+        TARGETS KF6MoreTools_QCH
+        FILE KF6MoreToolsQchTargets.cmake
         DESTINATION "${CMAKECONFIG_INSTALL_DIR}"
         COMPONENT Devel
     )
-    set(PACKAGE_INCLUDE_QCHTARGETS "include(\"\${CMAKE_CURRENT_LIST_DIR}/KF6NewStuffQchTargets.cmake\")")
-    ecm_install_qch_export(
-        TARGETS KF6NewStuffCore_QCH
-        FILE KF6NewStuffCoreQchTargets.cmake
-        DESTINATION "${CMAKECONFIGCORE_INSTALL_DIR}"
-        COMPONENT Devel
-    )
-    set(PACKAGE_INCLUDE_CORE_QCHTARGETS "include(\"\${CMAKE_CURRENT_LIST_DIR}/KF6NewStuffCoreQchTargets.cmake\")")
-    # TODO: KF6NewStuffQuick
 endif()
 
 include(CMakePackageConfigHelpers)
 
 configure_package_config_file(
-  "${CMAKE_CURRENT_SOURCE_DIR}/KF6NewStuffConfig.cmake.in"
-  "${CMAKE_CURRENT_BINARY_DIR}/KF6NewStuffConfig.cmake"
+  "${CMAKE_CURRENT_SOURCE_DIR}/KF6MoreToolsConfig.cmake.in"
+  "${CMAKE_CURRENT_BINARY_DIR}/KF6MoreToolsConfig.cmake"
   INSTALL_DESTINATION ${CMAKECONFIG_INSTALL_DIR}
 )
 
-configure_package_config_file(
-  "${CMAKE_CURRENT_SOURCE_DIR}/KF6NewStuffCoreConfig.cmake.in"
-  "${CMAKE_CURRENT_BINARY_DIR}/KF6NewStuffCoreConfig.cmake"
-  INSTALL_DESTINATION ${CMAKECONFIGCORE_INSTALL_DIR}
-)
-
-configure_package_config_file(
-  "${CMAKE_CURRENT_SOURCE_DIR}/KF6NewStuffQuickConfig.cmake.in"
-  "${CMAKE_CURRENT_BINARY_DIR}/KF6NewStuffQuickConfig.cmake"
-  INSTALL_DESTINATION ${CMAKECONFIGQUICK_INSTALL_DIR}
-)
-
 install(FILES
-  "${CMAKE_CURRENT_BINARY_DIR}/KF6NewStuffConfig.cmake"
-  "${CMAKE_CURRENT_BINARY_DIR}/KF6NewStuffConfigVersion.cmake"
+  "${CMAKE_CURRENT_BINARY_DIR}/KF6MoreToolsConfig.cmake"
+  "${CMAKE_CURRENT_BINARY_DIR}/KF6MoreToolsConfigVersion.cmake"
   DESTINATION "${CMAKECONFIG_INSTALL_DIR}"
   COMPONENT Devel
 )
-install(FILES
-  "${CMAKE_CURRENT_BINARY_DIR}/KF6NewStuffCoreConfig.cmake"
-  "${CMAKE_CURRENT_BINARY_DIR}/KF6NewStuffCoreConfigVersion.cmake"
-  DESTINATION "${CMAKECONFIGCORE_INSTALL_DIR}"
-  COMPONENT Devel
-)
 
-install(FILES
-  "${CMAKE_CURRENT_BINARY_DIR}/KF6NewStuffQuickConfig.cmake"
-  "${CMAKE_CURRENT_BINARY_DIR}/KF6NewStuffQuickConfigVersion.cmake"
-  DESTINATION "${CMAKECONFIGQUICK_INSTALL_DIR}"
-  COMPONENT Devel
-)
-
-install(EXPORT KF6NewStuffTargets DESTINATION "${CMAKECONFIG_INSTALL_DIR}" FILE KF6NewStuffTargets.cmake NAMESPACE KF6:: )
-install(EXPORT KF6NewStuffCoreTargets DESTINATION "${CMAKECONFIGCORE_INSTALL_DIR}" FILE KF6NewStuffCoreTargets.cmake NAMESPACE KF6:: )
-
-install(FILES
-    ${CMAKE_CURRENT_BINARY_DIR}/knewstuff_version.h
-    ${CMAKE_CURRENT_BINARY_DIR}/knewstuffcore_version.h
-    ${CMAKE_CURRENT_BINARY_DIR}/knewstuffquick_version.h
-  DESTINATION ${KDE_INSTALL_INCLUDEDIR_KF}/KNewStuff3
-  COMPONENT Devel
-)
+install(EXPORT KF6MoreToolsTargets DESTINATION "${CMAKECONFIG_INSTALL_DIR}" FILE KF6MoreToolsTargets.cmake NAMESPACE KF6:: )
+install(FILES ${CMAKE_CURRENT_BINARY_DIR}/kmoretools_version.h DESTINATION ${KDE_INSTALL_INCLUDEDIR_KF} COMPONENT Devel)
 
 feature_summary(WHAT ALL FATAL_ON_MISSING_REQUIRED_PACKAGES)
 
