@@ -39,6 +39,7 @@ install(
     FILES
         ${KMoreTools_CamelCase_HEADERS}
         ${KMoreTools_HEADERS}
+        ${CMAKE_CURRENT_BINARY_DIR}/kmoretools_export.h
     DESTINATION ${KDE_INSTALL_INCLUDEDIR_KF}/KMoreTools
     COMPONENT Devel
 )
@@ -64,7 +65,7 @@ target_link_libraries(KF6MoreTools
 set_target_properties(KF6MoreTools PROPERTIES
    VERSION ${KMORETOOLS_VERSION}
    SOVERSION ${KMORETOOLS_SOVERSION}
-   EXPORT_NAME KMoreTools
+   EXPORT_NAME MoreTools
 )
 
 install(TARGETS KF6MoreTools EXPORT KF6MoreToolsTargets ${KF_INSTALL_TARGETS_DEFAULT_ARGS})
