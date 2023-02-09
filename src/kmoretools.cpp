@@ -125,14 +125,14 @@ KMoreToolsService *KMoreTools::registerServiceByDesktopEntryName(const QString &
         isInstalled = (tryExecProp.isValid() && !QStandardPaths::findExecutable(tryExecProp.toString()).isEmpty())
             || !QStandardPaths::findExecutable(kmtDesktopfile->exec()).isEmpty();
     } else {
-        Q_ASSERT(false); // case not handled
+        Q_UNREACHABLE(); // case not handled
     }
 
     auto registeredService =
         new KMoreToolsService(d->kmtDesktopfileSubdirOrUniqueId(kmtDesktopfileSubdir), desktopEntryName, isInstalled, installedService, kmtDesktopfile);
 
     // add or replace item in serviceList
-    auto foundService = std::find_if(d->serviceList.begin(), d->serviceList.end(), [desktopEntryName](KMoreToolsService *service) {
+    auto foundService = std::find_if(d->serviceList.begin(), d->serviceList.end(), [&desktopEntryName](KMoreToolsService *service) {
         return service->desktopEntryName() == desktopEntryName;
     });
     if (foundService == d->serviceList.end()) {
@@ -440,8 +440,8 @@ public:
         QList<KMoreToolsMenuItem *> menuItemsSortedAsConfigured;
 
         // presort as in configuredStructure
-        for (const auto &item : std::as_const(configuredStructure.list)) {
-            auto foundItem = std::find_if(menuItemsSource.begin(), menuItemsSource.end(), [item](const KMoreToolsMenuItem *kMenuItem) {
+        for (const KmtMenuItemDto &item : std::as_const(configuredStructure.list)) {
+            auto foundItem = std::find_if(menuItemsSource.begin(), menuItemsSource.end(), [&item](const KMoreToolsMenuItem *kMenuItem) {
                 return kMenuItem->id() == item.id;
             });
             if (foundItem != menuItemsSource.end()) {
@@ -529,7 +529,7 @@ public:
 
 KMoreToolsMenuBuilder::KMoreToolsMenuBuilder()
 {
-    Q_ASSERT(false);
+    Q_UNREACHABLE();
 }
 
 KMoreToolsMenuBuilder::KMoreToolsMenuBuilder(const QString &uniqueId, const QString &userConfigPostfix)
@@ -656,9 +656,6 @@ void KMoreToolsMenuBuilder::buildByAppendingToMenu(QMenu *menu,
         }
     }
 }
-
-// ------------------------------------------------------------------------------------------------
-// ------------------------------------------------------------------------------------------------
 
 class KMoreToolsMenuItemPrivate
 {

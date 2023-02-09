@@ -263,7 +263,7 @@ public:
                     list.removeAt(prevIndex + 1);
                 }
             } else {
-                Q_ASSERT(false);
+                Q_UNREACHABLE();
             }
         } else {
             qWarning() << "selItem != list.end() == false";
@@ -284,7 +284,7 @@ public:
             } else if (selItem->menuSection == KMoreTools::MenuSection_More) {
                 selItem->menuSection = KMoreTools::MenuSection_Main;
             } else {
-                Q_ASSERT(false);
+                Q_UNREACHABLE();
             }
         }
 

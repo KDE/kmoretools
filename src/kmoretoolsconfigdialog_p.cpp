@@ -131,7 +131,7 @@ public:
                         moreSelItem = listItem;
                     }
                 } else {
-                    Q_ASSERT(false);
+                    Q_UNREACHABLE();
                 }
             }
         }
