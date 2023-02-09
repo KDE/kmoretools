@@ -17,6 +17,7 @@
 #include <KConfig>
 #include <KConfigGroup>
 #include <KLocalizedString>
+#include <optional>
 
 class KMoreToolsPrivate
 {
@@ -460,7 +461,7 @@ public:
             const auto registeredService = item->registeredService();
 
             if ((registeredService && registeredService->isInstalled()) || !registeredService) { // if a QAction was registered directly
-                auto confItem = configuredStructure.findInstalled(item->id());
+                std::optional<KmtMenuItemDto> confItem = configuredStructure.findInstalled(item->id());
                 if ((!confItem && item->defaultLocation() == KMoreTools::MenuSection_Main)
                     || (confItem && confItem->menuSection == KMoreTools::MenuSection_Main)) {
                     mstruct.mainItems.append(item);

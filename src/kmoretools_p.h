@@ -19,6 +19,7 @@
 
 #include <KIO/OpenUrlJob>
 #include <KLocalizedString>
+#include <optional>
 
 #define _ QStringLiteral
 
@@ -132,21 +133,16 @@ public: // should be private but we would like to unit test
         return r;
     }
 
-    /**
-     * don't store the returned pointer, but you can deref it which calls copy ctor
-     */
-    const KmtMenuItemDto *findInstalled(const QString &id) const
+    std::optional<KmtMenuItemDto> findInstalled(const QString &id) const
     {
         auto foundItem = std::find_if(list.begin(), list.end(), [id](const KmtMenuItemDto &item) {
             return item.id == id && item.isInstalled;
         });
         if (foundItem != list.end()) {
-            // deref iterator which is a const MenuItemDto& from which we get the pointer
-            // (todo: is this a good idea?)
-            return &(*foundItem);
+            return *foundItem;
         }
 
-        return nullptr;
+        return std::nullopt;
     }
 
 public:
