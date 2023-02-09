@@ -94,16 +94,11 @@ KMoreToolsService *KMoreTools::registerServiceByDesktopEntryName(const QString &
 
     if (isKmtDesktopfileProvided) {
         kmtDesktopfile = KService::Ptr(new KService(foundKmtDesktopfilePath));
-        // todo later: what exactly does "isValid" mean? Valid syntax? Or installed in system?
-        //             right now we cannot use it
-        // Q_ASSERT_X(kmtDesktopfile->isValid(), "addServiceByDesktopFile", "the kmt-desktopfile is provided but not valid. This must be fixed.");
-        // qDebug() << "  INFO: kmt-desktopfile provided and valid.";
-        if (kmtDesktopfile->exec().isEmpty()) {
+        if (!kmtDesktopfile->isValid()) {
             qCCritical(KMORETOOLS) << "KMoreTools::registerServiceByDesktopEntryName: the kmt-desktopfile " << desktopEntryName
                                    << " is provided but no Exec line is specified. The desktop file is probably faulty. Please fix. Return nullptr.";
             return nullptr;
         }
-        // qDebug() << "  INFO: kmt-desktopfile provided.";
     } else {
         qCWarning(KMORETOOLS) << "KMoreTools::registerServiceByDesktopEntryName: desktopEntryName " << desktopEntryName
                               << " (kmtDesktopfileSubdir=" << kmtDesktopfileSubdir
