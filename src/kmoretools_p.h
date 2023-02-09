@@ -10,6 +10,7 @@
 #include "kmoretools.h"
 
 #include <QDebug>
+#include <QDesktopServices>
 #include <QDir>
 #include <QJsonArray>
 #include <QJsonDocument>
@@ -17,7 +18,6 @@
 #include <QRegularExpression>
 #include <QUrl>
 
-#include <KIO/OpenUrlJob>
 #include <KLocalizedString>
 #include <optional>
 
@@ -368,22 +368,17 @@ public:
         if (homepageUrl.isValid()) {
             auto websiteAction = submenuForNotInstalled->addAction(i18nc("@action:inmenu", "Visit homepage"));
             websiteAction->setIcon(QIcon::fromTheme(QStringLiteral("internet-services")));
-            auto url = homepageUrl;
             // todo/review: is it ok to have sender and receiver the same object?
-            QObject::connect(websiteAction, &QAction::triggered, websiteAction, [url](bool) {
-                auto *job = new KIO::OpenUrlJob(url);
-                job->start();
+            QObject::connect(websiteAction, &QAction::triggered, websiteAction, [homepageUrl]() {
+                QDesktopServices::openUrl(homepageUrl);
             });
         }
-
-        QUrl appstreamUrl = QUrl(QStringLiteral("appstream://") % appstreamId);
 
         if (!appstreamId.isEmpty()) {
             auto installAction = submenuForNotInstalled->addAction(i18nc("@action:inmenu", "Install"));
             installAction->setIcon(QIcon::fromTheme(QStringLiteral("download")));
-            QObject::connect(installAction, &QAction::triggered, installAction, [appstreamUrl](bool) {
-                auto *job = new KIO::OpenUrlJob(appstreamUrl);
-                job->start();
+            QObject::connect(installAction, &QAction::triggered, installAction, [appstreamId]() {
+                QDesktopServices::openUrl(QUrl(QStringLiteral("appstream://") + appstreamId));
             });
         }
 
