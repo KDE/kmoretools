@@ -65,7 +65,7 @@ bool menuAtLeastOneActionWithText(const QMenu *menu, const QString &text)
 
 void KMoreToolsTestInteractive::test_buildMenu_WithQActions_interative1()
 {
-    KMoreTools kmt("unittest-kmoretools/qactions"); // todo: disable copy-ctor!?
+    KMoreTools kmt("unittest-kmoretools/qactions");
 
     const auto menuBuilder = kmt.menuBuilder();
     menuBuilder->clear();
