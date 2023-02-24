@@ -9,15 +9,7 @@ Dependencies:
     'frameworks/ki18n' : '@same'
     'frameworks/kitemviews' : '@same'
     'frameworks/karchive' : '@same'
-    'frameworks/kiconthemes' : '@same'
-    'frameworks/ktextwidgets' : '@same'
-    'frameworks/kxmlgui' : '@same'
-    'frameworks/solid' : '@same'
-    'frameworks/kbookmarks' : '@same'
     'frameworks/kio' : '@same'
-    'frameworks/kirigami' : '@same'
-    'frameworks/kpackage' : '@same'
-    'frameworks/syndication' : '@same'
 
 Options:
   test-before-installing: True
