@@ -14,4 +14,6 @@ install(DIRECTORY
     kmoretools-desktopfiles/
     DESTINATION ${KDE_INSTALL_DATADIR_KF}/kmoretools/presets-kmoretools
     PATTERN "*.desktop" EXCLUDE
+    PATTERN "*.md" EXCLUDE
+    PATTERN "*.TODO" EXCLUDE
     PATTERN "*.sh" EXCLUDE)
