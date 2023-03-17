@@ -56,7 +56,6 @@ target_link_libraries(KF6MoreTools
     KF6::KIOCore               # For network fetching operations
     KF6::KIOWidgets            # For KUrlRequester
     KF6::I18n                  # For translations
-    KF6::ItemViews             # For buttons on download dialog
     KF6::ConfigCore            # KAuthorized
     Qt6::Qml
     Qt6::Quick
