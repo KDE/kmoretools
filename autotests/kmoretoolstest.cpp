@@ -49,7 +49,7 @@ void KMoreToolsTest::initTestCase()
 {
     QStandardPaths::setTestModeEnabled(true);
 
-    const QString dest = QStandardPaths::writableLocation(QStandardPaths::GenericDataLocation) + QStringLiteral("/kf5/kmoretools/unittest-kmoretools/1/");
+    const QString dest = QStandardPaths::writableLocation(QStandardPaths::GenericDataLocation) + QStringLiteral("/kf6/kmoretools/unittest-kmoretools/1/");
     QVERIFY(QDir(dest).removeRecursively());
     QVERIFY(QDir().mkpath(dest));
     for (const QString &fileName : {QStringLiteral("a.desktop"), QStringLiteral("b.desktop"), QStringLiteral("c.desktop")}) {
@@ -58,7 +58,7 @@ void KMoreToolsTest::initTestCase()
         QVERIFY(QFile::copy(srcFile, dest + fileName));
     }
 
-    const QString dest2 = QStandardPaths::writableLocation(QStandardPaths::GenericDataLocation) + QStringLiteral("/kf5/kmoretools/unittest-kmoretools/2/");
+    const QString dest2 = QStandardPaths::writableLocation(QStandardPaths::GenericDataLocation) + QStringLiteral("/kf6/kmoretools/unittest-kmoretools/2/");
     QVERIFY(QDir(dest2).removeRecursively());
     QVERIFY(QDir().mkpath(dest2));
     const auto fileNames = {QStringLiteral("org.kde.kate.desktop"),

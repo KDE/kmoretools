@@ -69,7 +69,7 @@ public:
 
     static QString findFileInKmtDesktopfilesDir(const QString &kmtDesktopfileSubdir, const QString &filename)
     {
-        const QString kmtDesktopfilesFilename = QLatin1String("kf5/kmoretools/") + kmtDesktopfileSubdir + QLatin1Char('/') + filename;
+        const QString kmtDesktopfilesFilename = QLatin1String("kf6/kmoretools/") + kmtDesktopfileSubdir + QLatin1Char('/') + filename;
         const QString foundKmtFile = QStandardPaths::locate(QStandardPaths::GenericDataLocation, kmtDesktopfilesFilename);
 
         return foundKmtFile;
