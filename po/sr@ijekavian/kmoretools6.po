@@ -1,0 +1,838 @@
+# Translation of knewstuff5.po into Serbian.
+# Marko Rosic <roske@kde.org.yu>, 2003.
+# Toplica Tanaskovic <toptan@kde.org.yu>, 2003, 2004, 2005.
+# Chusslove Illich <caslav.ilic@gmx.net>, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017.
+# Dalibor Djuric <daliborddjuric@gmail.com>, 2009, 2010, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: knewstuff5\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2023-06-10 02:08+0000\n"
+"PO-Revision-Date: 2017-09-28 17:58+0200\n"
+"Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
+"Language-Team: Serbian <kde-i18n-sr@kde.org>\n"
+"Language: sr@ijekavian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+"X-Environment: kde\n"
+
+#: kmoretools.cpp:517
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Not installed:"
+msgstr "Није инсталирано:"
+
+#: kmoretools.cpp:614
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "More"
+msgstr "Више"
+
+#: kmoretools.cpp:650
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Configure..."
+msgstr "Подеси..."
+
+#: kmoretools_p.h:369
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Visit homepage"
+msgstr "Посети домаћу страницу"
+
+#: kmoretools_p.h:378
+#, fuzzy, kde-format
+#| msgid "Install"
+msgctxt "@action:inmenu"
+msgid "Install"
+msgstr "Инсталирај"
+
+#: kmoretools_p.h:386
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "No further information available."
+msgstr "Нема даљих података."
+
+# >> @title:window
+#: kmoretoolsconfigdialog_p.cpp:170
+#, kde-format
+msgid "Configure menu"
+msgstr "Мени за подешавање"
+
+# >> @title:window
+#: kmoretoolsconfigdialog_p.cpp:172
+#, kde-format
+msgid "Configure menu - %1"
+msgstr "Мени за подешавање — %1"
+
+# literal-segment: GenericName
+#: kmoretoolsmenufactory.cpp:172
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "$GenericName - current folder"
+msgctxt "@action:inmenu %1=\"$GenericName\""
+msgid "%1 - current folder"
+msgstr "$GenericName — текућа фасцикла"
+
+# literal-segment: GenericName
+#: kmoretoolsmenufactory.cpp:181
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "$GenericName - current device"
+msgctxt "@action:inmenu %1=\"$GenericName\""
+msgid "%1 - current device"
+msgstr "$GenericName — текући уређај"
+
+# literal-segment: GenericName
+#: kmoretoolsmenufactory.cpp:194
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "$GenericName - all devices"
+msgctxt "@action:inmenu %1=\"$GenericName\""
+msgid "%1 - all devices"
+msgstr "$GenericName — сви уређаји"
+
+#. i18n: ectx: property (title), widget (QGroupBox, gbMainSection)
+#: ui/kmoretoolsconfigwidget.ui:25
+#, kde-format
+msgid "Main section"
+msgstr "Главни одељак"
+
+#. i18n: ectx: property (text), widget (QToolButton, buttonMoveDown)
+#: ui/kmoretoolsconfigwidget.ui:58
+#, kde-format
+msgid "Move down"
+msgstr "Помјери надоље"
+
+#. i18n: ectx: property (text), widget (QToolButton, buttonMoveUp)
+#: ui/kmoretoolsconfigwidget.ui:78
+#, kde-format
+msgid "Move up"
+msgstr "Помјери нагоре"
+
+#. i18n: ectx: property (text), widget (QToolButton, buttonMoveToMain)
+#: ui/kmoretoolsconfigwidget.ui:98
+#, kde-format
+msgid "Move to Main section"
+msgstr "Премести у главни одељак"
+
+#. i18n: ectx: property (text), widget (QToolButton, buttonMoveToMore)
+#: ui/kmoretoolsconfigwidget.ui:118
+#, kde-format
+msgid "Move to More section"
+msgstr "Премести у додатни одељак"
+
+#. i18n: ectx: property (text), widget (QToolButton, buttonReset)
+#: ui/kmoretoolsconfigwidget.ui:138
+#, kde-format
+msgid "Reset"
+msgstr "Ресетуј"
+
+#. i18n: ectx: property (title), widget (QGroupBox, gbMoreSection)
+#: ui/kmoretoolsconfigwidget.ui:159
+#, kde-format
+msgid "More section"
+msgstr "Додатни одељак"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/kmoretoolsconfigwidget.ui:211
+#, kde-format
+msgid ""
+"For this menu there are some more tools suggested which are currently not "
+"installed:"
+msgstr ""
+"За овај мени има још неких алатки које су предложене али тренутно нису "
+"инсталиране:"
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonNotInstalledTools)
+#: ui/kmoretoolsconfigwidget.ui:221
+#, kde-format
+msgid "More tools..."
+msgstr "Више алатки..."
+
+#~ msgid "All categories are missing"
+#~ msgstr "Све категорије недостају."
+
+#~ msgctxt ""
+#~ "the price of a download item, parameter 1 is the currency, 2 is the price"
+#~ msgid ""
+#~ "This item costs %1 %2.\n"
+#~ "Do you want to buy it?"
+#~ msgstr ""
+#~ "Ова ставка кошта %2 %1.\n"
+#~ "Желите ли да је купите?"
+
+# skip-rule: t-account
+#~ msgid ""
+#~ "Your account balance is too low:\n"
+#~ "Your balance: %1\n"
+#~ "Price: %2"
+#~ msgstr ""
+#~ "Стање на рачуну вам је прениско:\n"
+#~ "стање: %1\n"
+#~ "цијена: %2"
+
+#~ msgctxt "voting for an item (good/bad)"
+#~ msgid "Your vote was recorded."
+#~ msgstr "Ваш глас је убиљежен."
+
+#~ msgid "You are now a fan."
+#~ msgstr "Сада сте љубитељ."
+
+#~ msgid "Network error %1: %2"
+#~ msgstr "Мрежна грешка %1: %2"
+
+#~ msgid "Too many requests to server. Please try again in a few minutes."
+#~ msgstr "Превише захтијева серверу. Покушајте поново за неколико минута."
+
+#~ msgid "Unknown Open Collaboration Service API error. (%1)"
+#~ msgstr "Непозната грешка АПИ‑ја сервиса отворене сарадње. (%1)"
+
+#~ msgid "Download New Stuff..."
+#~ msgstr "Преузми новотарије..."
+
+#~ msgid "Initializing"
+#~ msgstr "Припремам"
+
+#~ msgid "Configuration file exists, but cannot be opened: \"%1\""
+#~ msgstr "Поставни фајл постоји али не може да се отвори: „%1“"
+
+#~ msgid "Configuration file is invalid: \"%1\""
+#~ msgstr "Поставни фајл није добар: „%1“"
+
+#~ msgid "Loading provider information"
+#~ msgstr "Учитавам податке о добављачу"
+
+#~ msgid "Could not load get hot new stuff providers from file: %1"
+#~ msgstr "Не могу да учитам добављаче врућих новотарија из фајла: „%1“"
+
+#~ msgid "Error initializing provider."
+#~ msgstr "Грешка у припремању добављача."
+
+#~ msgid "Loading data"
+#~ msgstr "Учитавам податке"
+
+#~ msgid "Loading data from provider"
+#~ msgstr "Учитавам податке од добављача"
+
+#~ msgid "Loading of providers from file: %1 failed"
+#~ msgstr "Учитавање добављача̂ из фајла није успјело: „%1“"
+
+#~ msgid "Re: %1"
+#~ msgstr "Одг: %1"
+
+#~ msgid "Loading one preview"
+#~ msgid_plural "Loading %1 previews"
+#~ msgstr[0] "Учитавам %1 преглед"
+#~ msgstr[1] "Учитавам %1 прегледа"
+#~ msgstr[2] "Учитавам %1 прегледа"
+#~ msgstr[3] "Учитавам преглед"
+
+#~ msgid "Installing"
+#~ msgstr "Инсталирам"
+
+#~ msgid "Invalid item."
+#~ msgstr "Лоша ставка."
+
+#~ msgid "Download of item failed: no download URL for \"%1\"."
+#~ msgstr "Неуспело преузимање ставке: нема УРЛ‑а за преузимање за „%1“."
+
+#~ msgid "Download of \"%1\" failed, error: %2"
+#~ msgstr "Преузимање „%1“ није успјело, грешка: %2"
+
+#~ msgid ""
+#~ "The downloaded file is a html file. This indicates a link to a website "
+#~ "instead of the actual download. Would you like to open the site with a "
+#~ "browser instead?"
+#~ msgstr ""
+#~ "Преузети фајл је ХТМЛ фајл. Ово указује на везу ка веб сајту уместо "
+#~ "стварног садржаја. Желите ли отворите овај сајт у прегледачу?"
+
+#~ msgid "Possibly bad download link"
+#~ msgstr "Могућа лоша веза за преузимање"
+
+#~ msgid "Downloaded file was a HTML file. Opened in browser."
+#~ msgstr "Преузети фајл је ХТМЛ фајл. Отворен у прегледачу."
+
+#~ msgid "Could not install \"%1\": file not found."
+#~ msgstr "Не могу да инсталирам „%1“, фајл није нађен."
+
+#, fuzzy
+#~| msgid "Download of \"%1\" failed, error: %2"
+#~ msgid "Installation of %1 failed: %2"
+#~ msgstr "Преузимање „%1“ није успјело, грешка: %2"
+
+#, fuzzy
+#~| msgid "Overwrite existing file?"
+#~ msgid "Overwrite File"
+#~ msgstr "Пребрисати постојећи фајл?"
+
+#~ msgid ""
+#~ "<qt>Cannot start <i>gpg</i> and retrieve the available keys. Make sure "
+#~ "that <i>gpg</i> is installed, otherwise verification of downloaded "
+#~ "resources will not be possible.</qt>"
+#~ msgstr ""
+#~ "<qt>Не могу да покренем <tt>gpg</tt> и добавим доступне кључеве. "
+#~ "Провјерите да ли је <tt>gpg</tt> инсталирана, у супротном овјера "
+#~ "преузетих ресурса неће бити могућа.</qt>"
+
+#~ msgid ""
+#~ "<qt>Enter passphrase for key <b>0x%1</b>, belonging to<br /><i>%2&lt;"
+#~ "%3&gt;</i><br />:</qt>"
+#~ msgstr ""
+#~ "<qt>Унесите лозинку за кључ <b>0x%1</b>, чији је власник <br/><i>%2&lt;"
+#~ "%3&gt;</i>:</qt>"
+
+#~ msgid ""
+#~ "<qt>Cannot start <i>gpg</i> and check the validity of the file. Make sure "
+#~ "that <i>gpg</i> is installed, otherwise verification of downloaded "
+#~ "resources will not be possible.</qt>"
+#~ msgstr ""
+#~ "<qt>Не могу да покренем <tt>gpg</tt> и провјерим исправност фајла. "
+#~ "Увјерите се да је <tt>gpg</tt> инсталирана, у супротном овјера преузетих "
+#~ "ресурса неће бити могућа.</qt>"
+
+#~ msgid "Key used for signing:"
+#~ msgstr "Кључ за потписивање:"
+
+#~ msgid "Select Signing Key"
+#~ msgstr "Изаберите кључ за потписивање"
+
+#~ msgid ""
+#~ "<qt>Cannot start <i>gpg</i> and sign the file. Make sure that <i>gpg</i> "
+#~ "is installed, otherwise signing of the resources will not be possible.</"
+#~ "qt>"
+#~ msgstr ""
+#~ "<qt>Не могу да покренем <tt>gpg</tt> и потпишем фајл. Увјерите се да је "
+#~ "<tt>gpg</tt> инсталирана, у супротном потписивање ресурса неће бити "
+#~ "могуће.</qt>"
+
+#~ msgid "Get Hot New Stuff"
+#~ msgstr "Добави свјеже новотарије"
+
+#~ msgctxt "Program name followed by 'Add On Installer'"
+#~ msgid "%1 Add-On Installer"
+#~ msgstr "Инсталатер додатака за %1|/|Инсталатер додатака за $[аку %1]"
+
+# rewrite-msgid: /Timeout/Timed out/
+#~ msgid "Timeout. Check Internet connection."
+#~ msgstr "Истекло вријеме. Провјерите интернет везу."
+
+#~ msgid "Server: %1"
+#~ msgstr "Сервер: %1"
+
+#~ msgid "<br />Provider: %1"
+#~ msgstr "<html><br />Добављач: %1</html>"
+
+#~ msgid "<br />Version: %1"
+#~ msgstr "<html><br />Верзија: %1</html>"
+
+#~ msgid "Provider information"
+#~ msgstr "Подаци о добављачу"
+
+#~ msgid "Could not install %1"
+#~ msgstr "Не могу да инсталирам „%1“."
+
+#~ msgid "Get Hot New Stuff!"
+#~ msgstr "Добави свјеже новотарије!"
+
+#~ msgid "Icons view mode"
+#~ msgstr "Приказ иконица"
+
+#~ msgid "Details view mode"
+#~ msgstr "Приказ детаља"
+
+# >> @item:inlistbox
+#~ msgid "All Providers"
+#~ msgstr "сви добављачи"
+
+# >> @item:inlistbox
+#~ msgid "All Categories"
+#~ msgstr "све категорије"
+
+#~ msgid "Provider:"
+#~ msgstr "Добављач:"
+
+#~ msgid "Category:"
+#~ msgstr "Категорија:"
+
+# >> @option:radio Order by
+#~ msgid "Most downloads"
+#~ msgstr "највише преузимања"
+
+# >> @option:radio Order by
+#~ msgid "Newest"
+#~ msgstr "најновијем"
+
+# >> @option:radio Order by
+#~ msgid "Rating"
+#~ msgstr "оцјени"
+
+# >> @option:radio Order by
+#~ msgid "Installed"
+#~ msgstr "инсталираном"
+
+#~ msgid "Order by:"
+#~ msgstr "Поређај према:"
+
+#~ msgid "Search:"
+#~ msgstr "Претражи:"
+
+#~ msgid "Enter search phrase here"
+#~ msgstr "Унесите израз за тражење"
+
+#~ msgid "Author:"
+#~ msgstr "Аутор:"
+
+#, fuzzy
+#~| msgid "<a href=\"http://opendesktop.org\">Homepage</a>"
+#~ msgid "<a href=\"https://opendesktop.org\">Homepage</a>"
+#~ msgstr "<a href=\"http://opendesktop.org\">Домаћа страница</a>"
+
+#~ msgid "Update"
+#~ msgstr "Ажурирај"
+
+#~ msgid "Uninstall"
+#~ msgstr "Деинсталирај"
+
+#~ msgid "Become a Fan"
+#~ msgstr "Љубитељ сам овога"
+
+#~ msgid "Install"
+#~ msgstr "Инсталирај"
+
+# >> @item:inlistbox
+#, fuzzy
+#~| msgid "All Categories"
+#~ msgctxt ""
+#~ "The first entry in the category selection list (also the default value)"
+#~ msgid "Show All Categories"
+#~ msgstr "све категорије"
+
+#, fuzzy
+#~| msgid "Category:"
+#~ msgctxt ""
+#~ "The string passed back in the case the requested category is not known"
+#~ msgid "Unknown Category"
+#~ msgstr "Категорија:"
+
+#, fuzzy
+#~| msgid "Download New Stuff..."
+#~ msgid "Download New %1..."
+#~ msgstr "Преузми новотарије..."
+
+#, fuzzy
+#~| msgid "Download New Stuff..."
+#~ msgctxt ""
+#~ "The dialog title when we know which type of stuff is being requested"
+#~ msgid "Download New %1"
+#~ msgstr "Преузми новотарије..."
+
+#, fuzzy
+#~| msgid "Download New Stuff..."
+#~ msgctxt ""
+#~ "A placeholder title used in the dialog when there is no better title "
+#~ "available"
+#~ msgid "Download New Stuff"
+#~ msgstr "Преузми новотарије..."
+
+#, fuzzy
+#~| msgid "Installing"
+#~ msgctxt ""
+#~ "A passive notification shown when installation of an item is initiated"
+#~ msgid "Installing %1 from %2"
+#~ msgstr "Инсталирам"
+
+#, fuzzy
+#~| msgid "Install"
+#~ msgctxt ""
+#~ "Request installation of this item, available when there is exactly one "
+#~ "downloadable item"
+#~ msgid "Install"
+#~ msgstr "Инсталирај"
+
+#, fuzzy
+#~| msgid "Install"
+#~ msgctxt ""
+#~ "Show installation options, where there is more than one downloadable item"
+#~ msgid "Install..."
+#~ msgstr "Инсталирај"
+
+#~ msgctxt "Request updating of this item"
+#~ msgid "Update"
+#~ msgstr "Ажурирај"
+
+#~ msgctxt "Request uninstallation of this item"
+#~ msgid "Uninstall"
+#~ msgstr "Деинсталирај"
+
+# >> @option:radio Order by
+#, fuzzy
+#~| msgid "Rating"
+#~ msgid "Rating:"
+#~ msgstr "оцјени"
+
+#, fuzzy
+#~| msgctxt "A link to the description of this Get Hot New Stuff item"
+#~| msgid "Homepage"
+#~ msgid "Homepage:"
+#~ msgstr "Домаћа страница"
+
+#~ msgctxt "Request installation of this item"
+#~ msgid "Install"
+#~ msgstr "Инсталирај"
+
+# >> @option:radio Order by
+#, fuzzy
+#~| msgid "Installed"
+#~ msgctxt ""
+#~ "List option which will set the filter so only installed items are shown"
+#~ msgid "Installed Only"
+#~ msgstr "инсталираном"
+
+# >> @option:radio Order by
+#, fuzzy
+#~| msgid "Most downloads"
+#~ msgctxt ""
+#~ "List option which will set the sort order to based on number of downloads"
+#~ msgid "Show most downloaded first"
+#~ msgstr "највише преузимања"
+
+#, fuzzy
+#~| msgid "Use"
+#~ msgctxt ""
+#~ "If a knsrc file defines an adoption command, the option to run this "
+#~ "command and 'use' an item becomes available. This is the text for an "
+#~ "action to do so."
+#~ msgid "Use"
+#~ msgstr "Употреби"
+
+#, fuzzy
+#~| msgid "Search:"
+#~ msgid "Search..."
+#~ msgstr "Претражи:"
+
+#, fuzzy
+#~| msgid "Loading Preview"
+#~ msgctxt ""
+#~ "A text shown beside a busy indicator suggesting that data is being fetched"
+#~ msgid "Loading more..."
+#~ msgstr "Учитавам преглед"
+
+#, fuzzy
+#~| msgid "1 download"
+#~| msgid_plural "%1 downloads"
+#~ msgctxt "The number of times the item has been downloaded"
+#~ msgid "%1 downloads"
+#~ msgstr "%1 преузимање"
+
+#, fuzzy
+#~| msgctxt "Show the author of this item in a list"
+#~| msgid "By <i>%1</i>"
+#~ msgctxt ""
+#~ "Subheading for the tile view, located immediately underneath the name of "
+#~ "the item"
+#~ msgid "By <i>%1</i>"
+#~ msgstr "<i>%1</i>"
+
+#, fuzzy
+#~| msgid "Installing"
+#~ msgctxt "Label for the busy indicator showing an item is being installed"
+#~ msgid "Installing..."
+#~ msgstr "Инсталирам"
+
+#, fuzzy
+#~| msgid "Updating"
+#~ msgctxt ""
+#~ "Label for the busy indicator showing an item is in the process of being "
+#~ "updated"
+#~ msgid "Updating..."
+#~ msgstr "Ажурирам"
+
+#, fuzzy
+#~| msgid "Installing"
+#~ msgctxt "Label for the busy indicator showing an item is installing"
+#~ msgid "Installing..."
+#~ msgstr "Инсталирам"
+
+#, fuzzy
+#~| msgid "Details"
+#~ msgctxt "Show a page with details for this item"
+#~ msgid "Details..."
+#~ msgstr "Детаљи"
+
+#~ msgid "Details for %1"
+#~ msgstr "Детаљи за %1|/|Детаљи за $[аку %1]"
+
+#~ msgid "Changelog:"
+#~ msgstr "Дневник измијена:"
+
+#~ msgctxt "A link to the description of this Get Hot New Stuff item"
+#~ msgid "Homepage"
+#~ msgstr "Домаћа страница"
+
+#~ msgctxt ""
+#~ "A link to make a donation for a Get Hot New Stuff item (opens a web "
+#~ "browser)"
+#~ msgid "Make a donation"
+#~ msgstr "Донирајте"
+
+#~ msgctxt "A link to the knowledgebase (like a forum) (opens a web browser)"
+#~ msgid "Knowledgebase (no entries)"
+#~ msgid_plural "Knowledgebase (%1 entries)"
+#~ msgstr[0] "База знања (%1 унос)"
+#~ msgstr[1] "База знања (%1 уноса)"
+#~ msgstr[2] "База знања (%1 уноса)"
+#~ msgstr[3] "База знања (нема уноса)"
+
+#~ msgctxt "Tooltip for a link in a dialog"
+#~ msgid "Opens in a browser window"
+#~ msgstr "Отвара се у прозору прегледача."
+
+#~ msgid "Rating: %1%"
+#~ msgstr "Оцјена: %1"
+
+#~ msgctxt "Show the size of the file in a list"
+#~ msgid "<br />Size: %1"
+#~ msgstr "<html><br />Величина: %1</html>"
+
+#~ msgctxt "Show the author of this item in a list"
+#~ msgid "By <i>%1</i>"
+#~ msgstr "<i>%1</i>"
+
+#~ msgctxt "fan as in supporter"
+#~ msgid "1 fan"
+#~ msgid_plural "%1 fans"
+#~ msgstr[0] "%1 љубитељ"
+#~ msgstr[1] "%1 љубитеља"
+#~ msgstr[2] "%1 љубитеља"
+#~ msgstr[3] "1 љубитељ"
+
+#~ msgid "1 download"
+#~ msgid_plural "%1 downloads"
+#~ msgstr[0] "%1 преузимање"
+#~ msgstr[1] "%1 преузимања"
+#~ msgstr[2] "%1 преузимања"
+#~ msgstr[3] "1 преузимање"
+
+#~ msgid "Loading Preview"
+#~ msgstr "Учитавам преглед"
+
+#~ msgid "Details"
+#~ msgstr "Детаљи"
+
+#~ msgid "Updating"
+#~ msgstr "Ажурирам"
+
+#~ msgid "Install Again"
+#~ msgstr "Инсталирај поново"
+
+#~ msgid "Use"
+#~ msgstr "Употреби"
+
+#~ msgctxt "Show the size of the file in a list"
+#~ msgid "<p>Size: %1</p>"
+#~ msgstr "<p>Величина: %1</p>"
+
+#~ msgctxt "Opposite to Back"
+#~ msgid "Next"
+#~ msgstr "Напријед"
+
+#~ msgid "Finish"
+#~ msgstr "Заврши"
+
+#~ msgid "Fetching provider information..."
+#~ msgstr "Добављам податке о добављачу..."
+
+#~ msgid "Fetching license data from server..."
+#~ msgstr "Добављам лиценцу са сервера..."
+
+#~ msgid "Fetching content data from server..."
+#~ msgstr "Добављам садржај са сервера..."
+
+#~ msgid "Could not fetch provider information."
+#~ msgstr "Не могу да добавим податке о добављачу."
+
+#~ msgid "Register a new account"
+#~ msgstr "Региструј нови налог"
+
+#~ msgid "Checking login..."
+#~ msgstr "Провјери пријављивање..."
+
+#~ msgid "Fetching your previously updated content..."
+#~ msgstr "Добављам садржај који сте раније ажурирали..."
+
+#~ msgid "Could not verify login, please try again."
+#~ msgstr "Не могу да овјерим пријављивање, покушајте поново."
+
+#~ msgid "Fetching your previously updated content finished."
+#~ msgstr "Завршено добављање садржаја који сте раније ажурирали."
+
+#~ msgid "Fetching content data from server finished."
+#~ msgstr "Завршено добављање садржаја са сервера."
+
+#~ msgctxt ""
+#~ "A link to the website where the get hot new stuff upload can be seen"
+#~ msgid "Visit website"
+#~ msgstr "Посјетите веб сајт"
+
+#~ msgid "Share Hot New Stuff"
+#~ msgstr "Подијели свјеже новотарије"
+
+#~ msgctxt "Program name followed by 'Add On Uploader'"
+#~ msgid "%1 Add-On Uploader"
+#~ msgstr "Отпремач додатака за %1|/|Отпремач додатака за $[аку %1]"
+
+#~ msgid "File not found: %1"
+#~ msgstr "Фајл ‘%1’ није нађен."
+
+#~ msgid "Upload Failed"
+#~ msgstr "Отпремање није успјело"
+
+#~ msgid ""
+#~ "The server does not recognize the category %2 to which you are trying to "
+#~ "upload."
+#~ msgid_plural ""
+#~ "The server does not recognize any of the categories to which you are "
+#~ "trying to upload: %2"
+#~ msgstr[0] ""
+#~ "Сервер не препознаје ниједну од категорија у које покушавате да "
+#~ "отпремате: %2"
+#~ msgstr[1] ""
+#~ "Сервер не препознаје ниједну од категорија у које покушавате да "
+#~ "отпремате: %2"
+#~ msgstr[2] ""
+#~ "Сервер не препознаје ниједну од категорија у које покушавате да "
+#~ "отпремате: %2"
+#~ msgstr[3] ""
+#~ "Сервер не препознаје категорију %2, у коју покушавате да отпремате."
+
+#~ msgid "Error"
+#~ msgstr "Грешка"
+
+#~ msgid "The selected category \"%1\" is invalid."
+#~ msgstr "Изабрана категорија „%1“ није добра."
+
+# >> @title:window
+#~ msgid "Select preview image"
+#~ msgstr "Избор слике прегледа"
+
+#~ msgid "There was a network error."
+#~ msgstr "Грешка у мрежи."
+
+#~ msgid "Uploading Failed"
+#~ msgstr "Отпремање није успјело"
+
+#~ msgid "Authentication error."
+#~ msgstr "Грешка у аутентификацији."
+
+#~ msgid "Upload failed: %1"
+#~ msgstr "Отпремање није успјело: %1"
+
+#~ msgid "Password:"
+#~ msgstr "Лозинка:"
+
+#~ msgid "Username:"
+#~ msgstr "Корисничко име:"
+
+#~ msgid "File to upload:"
+#~ msgstr "Фајл за отпремање:"
+
+#~ msgid "New Upload"
+#~ msgstr "Ново отпремање"
+
+#~ msgid "GPL"
+#~ msgstr "ОЈЛ"
+
+#~ msgid "LGPL"
+#~ msgstr "МОЈЛ"
+
+#~ msgid "BSD"
+#~ msgstr "БСД"
+
+#~ msgid "Description:"
+#~ msgstr "Опис:"
+
+#~ msgid "Version:"
+#~ msgstr "Издање:"
+
+#~ msgid "License:"
+#~ msgstr "Лиценца:"
+
+#~ msgid "Please fill out the information about your upload in English."
+#~ msgstr "Напишите нешто информација на енглеском о отпремку."
+
+#~ msgid "Title:"
+#~ msgstr "Наслов:"
+
+#~ msgid "Name of the file as it will appear on the website"
+#~ msgstr "Име фајла које ће се видети на веб сајту."
+
+#~ msgid ""
+#~ "This should clearly describe the file content. It can be the same text as "
+#~ "the title of the kvtml file."
+#~ msgstr ""
+#~ "Ово треба јасно да опише садржај фајла. Може бити исти текст као онај из "
+#~ "наслова КВТМЛ фајла."
+
+#~ msgid "Preview Images"
+#~ msgstr "Слике прегледа"
+
+#~ msgid "Select Preview..."
+#~ msgstr "Изабери преглед..."
+
+#~ msgid "Set a price for this item"
+#~ msgstr "Постави цијену за ову ставку"
+
+#~ msgid "Price"
+#~ msgstr "Цијена"
+
+#~ msgid "Price:"
+#~ msgstr "Цијена:"
+
+#~ msgid "Reason for price:"
+#~ msgstr "Образложење цене:"
+
+#~ msgid "Fetch content link from server"
+#~ msgstr "Добави везу ка садржају са сервера"
+
+# >> @info:progress
+#~ msgid "Create content on server"
+#~ msgstr "Правим садржај на серверу"
+
+# >> @info:progress
+#~ msgid "Upload content"
+#~ msgstr "Отпремам садржај"
+
+# >> @info:progress
+#~ msgid "Upload first preview"
+#~ msgstr "Отпремам први преглед"
+
+#~ msgid "Note: You can edit, update and delete your content on the website."
+#~ msgstr ""
+#~ "Напомена. Можете уређивати, ажурирати и брисати свој садржај на веб сајту."
+
+# >> @info:progress
+#~ msgid "Upload second preview"
+#~ msgstr "Отпремам други преглед"
+
+# >> @info:progress
+#~ msgid "Upload third preview"
+#~ msgstr "Отпремам трећи преглед"
+
+#~ msgid ""
+#~ "I ensure that this content does not violate any existing copyright, law "
+#~ "or trademark. I agree for my IP address to be logged. (Distributing "
+#~ "content without the permission of the copyright holder is illegal.)"
+#~ msgstr ""
+#~ "Потврђујем да овај садржај не крши било какав ауторска права, закон или "
+#~ "робну марку. Слажем се да се моја ИП адреса забиљежи. (Противзаконито је "
+#~ "расподјељивати садржај без дозволе носиоца ауторска права.)"
+
+#~ msgid "Start Upload"
+#~ msgstr "Почни отпремање"

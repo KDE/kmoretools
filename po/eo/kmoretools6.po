@@ -1,0 +1,1204 @@
+# translation of kmoretools6.po to Esperanto
+# Esperantaj mesaĝoj por "kmoretools"
+# Copyright (C) 1998,2002, 2003, 2004, 2005, 2007, 2008 Free Software Foundation, Inc.
+# Wolfram Diestel <wolfram@steloj.de>, 1998.
+# Heiko Evermann <heiko@evermann.de>, 2002, 2003.
+# Matthias Peick <matthias@peick.de>, 2004, 2005.
+# Oliver Kellogg <okellogg@users.sourceforge.net>, 2007, 2023.
+# Cindy McKee <cfmckee@gmail.com>, 2007, 2008.
+# Axel Rousseau <axel@esperanto-jeunes.org>, 2009.
+# Michael Moroni <michael.moroni@mailoo.org>, 2012.
+#
+# Minuskloj: ĉ ĝ ĵ ĥ ŝ ŭ   Majuskloj: Ĉ Ĝ Ĵ Ĥ Ŝ Ŭ
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kmoretools\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2023-06-10 02:08+0000\n"
+"PO-Revision-Date: 2023-06-09 20:29+0100\n"
+"Last-Translator: Oliver Kellogg <okellogg@users.sourceforge.net>\n"
+"Language-Team: Esperanto <kde-i18n-doc@kde.org>\n"
+"Language: eo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: translate-po (https://github.com/zcribe/translate-po)\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: kmoretools.cpp:517
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Not installed:"
+msgstr "Ne instalita:"
+
+#: kmoretools.cpp:614
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "More"
+msgstr "Pli"
+
+#: kmoretools.cpp:650
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Configure..."
+msgstr "Agordi..."
+
+#: kmoretools_p.h:369
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Visit homepage"
+msgstr "Viziti hejmpaĝon"
+
+#: kmoretools_p.h:378
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Install"
+msgstr "Instali"
+
+#: kmoretools_p.h:386
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "No further information available."
+msgstr "Neniuj pliaj informoj haveblaj."
+
+#: kmoretoolsconfigdialog_p.cpp:170
+#, kde-format
+msgid "Configure menu"
+msgstr "Agordi menuon"
+
+#: kmoretoolsconfigdialog_p.cpp:172
+#, kde-format
+msgid "Configure menu - %1"
+msgstr "Agordi menuon - %1"
+
+#: kmoretoolsmenufactory.cpp:172
+#, kde-format
+msgctxt "@action:inmenu %1=\"$GenericName\""
+msgid "%1 - current folder"
+msgstr "%1 - aktuala dosierujo"
+
+#: kmoretoolsmenufactory.cpp:181
+#, kde-format
+msgctxt "@action:inmenu %1=\"$GenericName\""
+msgid "%1 - current device"
+msgstr "%1 - nuna aparato"
+
+#: kmoretoolsmenufactory.cpp:194
+#, kde-format
+msgctxt "@action:inmenu %1=\"$GenericName\""
+msgid "%1 - all devices"
+msgstr "%1 - ĉiuj aparatoj"
+
+#. i18n: ectx: property (title), widget (QGroupBox, gbMainSection)
+#: ui/kmoretoolsconfigwidget.ui:25
+#, kde-format
+msgid "Main section"
+msgstr "Ĉefa sekcio"
+
+#. i18n: ectx: property (text), widget (QToolButton, buttonMoveDown)
+#: ui/kmoretoolsconfigwidget.ui:58
+#, kde-format
+msgid "Move down"
+msgstr "Movu malsupren"
+
+#. i18n: ectx: property (text), widget (QToolButton, buttonMoveUp)
+#: ui/kmoretoolsconfigwidget.ui:78
+#, kde-format
+msgid "Move up"
+msgstr "Supreniĝi"
+
+#. i18n: ectx: property (text), widget (QToolButton, buttonMoveToMain)
+#: ui/kmoretoolsconfigwidget.ui:98
+#, kde-format
+msgid "Move to Main section"
+msgstr "Movi al Ĉefa sekcio"
+
+#. i18n: ectx: property (text), widget (QToolButton, buttonMoveToMore)
+#: ui/kmoretoolsconfigwidget.ui:118
+#, kde-format
+msgid "Move to More section"
+msgstr "Movi al Pli sekcio"
+
+#. i18n: ectx: property (text), widget (QToolButton, buttonReset)
+#: ui/kmoretoolsconfigwidget.ui:138
+#, kde-format
+msgid "Reset"
+msgstr "Restarigi"
+
+#. i18n: ectx: property (title), widget (QGroupBox, gbMoreSection)
+#: ui/kmoretoolsconfigwidget.ui:159
+#, kde-format
+msgid "More section"
+msgstr "Pli da sekcio"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/kmoretoolsconfigwidget.ui:211
+#, kde-format
+msgid ""
+"For this menu there are some more tools suggested which are currently not "
+"installed:"
+msgstr ""
+"Por ĉi tiu menuo estas proponitaj kelkaj pliaj iloj, kiuj nuntempe ne estas "
+"instalitaj:"
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonNotInstalledTools)
+#: ui/kmoretoolsconfigwidget.ui:221
+#, kde-format
+msgid "More tools..."
+msgstr "Pli da iloj..."
+
+#~ msgid "All categories are missing"
+#~ msgstr "Ĉiuj kategorioj mankas"
+
+#~ msgctxt ""
+#~ "the price of a download item, parameter 1 is the currency, 2 is the price"
+#~ msgid ""
+#~ "This item costs %1 %2.\n"
+#~ "Do you want to buy it?"
+#~ msgstr ""
+#~ "Ĉi tiu ero kostas %1 %2.\n"
+#~ "Ĉu vi volas aĉeti ĝin?"
+
+#~ msgid ""
+#~ "Your account balance is too low:\n"
+#~ "Your balance: %1\n"
+#~ "Price: %2"
+#~ msgstr ""
+#~ "La buĝeto de via kondo estas tro malalta:\n"
+#~ "Via buĝeto: %1\n"
+#~ "Prezo: %2"
+
+#~ msgctxt "voting for an item (good/bad)"
+#~ msgid "Your vote was recorded."
+#~ msgstr "Via marko estis registrita."
+
+#~ msgid "You are now a fan."
+#~ msgstr "Vi nun estas ŝatanto."
+
+#~ msgid ""
+#~ "The service is currently undergoing maintenance and is expected to be "
+#~ "back in %1."
+#~ msgstr "La servo nuntempe estas prizorgata kaj estas atendita reveni en %1."
+
+#~ msgid "Network error %1: %2"
+#~ msgstr "Reta eraro %1: %2"
+
+#~ msgid "Too many requests to server. Please try again in a few minutes."
+#~ msgstr "Tro multaj petoj al servilo. Bonvole reprovu post kelkaj minutoj."
+
+#~ msgid ""
+#~ "The Open Collaboration Services instance %1 does not support the "
+#~ "attempted function."
+#~ msgstr ""
+#~ "La okazo %1 de Open Collaboration Services ne subtenas la provitan "
+#~ "funkcion."
+
+#~ msgid "Unknown Open Collaboration Service API error. (%1)"
+#~ msgstr "Nekonata eraro de API por Malferma Kunlabora Servo. (%1)"
+
+#~ msgid "Download New Stuff..."
+#~ msgstr "Elŝuti tre novajn aĵojn..."
+
+#~ msgctxt ""
+#~ "The value returned for an unknown role when requesting data from the "
+#~ "model."
+#~ msgid "Unknown CommentsModel role"
+#~ msgstr "Nekonata CommentsModel-rolo"
+
+#~ msgid ""
+#~ "An error occurred during the installation process:\n"
+#~ "%1"
+#~ msgstr ""
+#~ "Eraro okazis dum la instala procezo:\n"
+#~ "%1"
+
+#~ msgid "Initializing"
+#~ msgstr "Pravalorizanta"
+
+#~ msgid "Configuration file exists, but cannot be opened: \"%1\""
+#~ msgstr "Agorda dosiero ekzistas, sed ne povas esti malfermita: \"%1\""
+
+#~ msgid "Configuration file is invalid: \"%1\""
+#~ msgstr "Agorddosiero nevalidas: \"%1\""
+
+#~ msgid "Use"
+#~ msgstr "Uzi"
+
+#~ msgid ""
+#~ "Could not initialise the installation handler for %1\n"
+#~ "This is a critical error and should be reported to the application author"
+#~ msgstr ""
+#~ "Ne eblis pravalorigi la instalilon por %1\n"
+#~ "Ĉi tio estas kritika eraro kaj devus esti raportita al la aŭtoro de la "
+#~ "aplikaĵo"
+
+#~ msgid "Loading provider information"
+#~ msgstr "Ŝarganta informojn pri provizanto"
+
+#~ msgid "Could not load get hot new stuff providers from file: %1"
+#~ msgstr "Ne eblis ŝargi akiri varmajn novajn provizantojn de dosiero: %1"
+
+#~ msgid "Error initializing provider."
+#~ msgstr "Eraro dum pravalorizado de provizanto."
+
+#~ msgid "Loading data"
+#~ msgstr "Ŝarganta datumojn"
+
+#~ msgid "Loading data from provider"
+#~ msgstr "Ŝarganta datumojn el provizanto"
+
+#~ msgid "Loading of providers from file: %1 failed"
+#~ msgstr "Ŝargado de provizantoj el dosiero: %1 fiaskis"
+
+#~ msgid ""
+#~ "Could not perform an installation of the entry %1 as it does not have any "
+#~ "downloadable items defined. Please contact the author so they can fix "
+#~ "this."
+#~ msgstr ""
+#~ "Ne eblis fari instaladon de la eniro %1 ĉar ĝi ne havas iujn elŝuteblajn "
+#~ "erojn difinitajn. Bonvolu kontakti la aŭtoron por ke ili povu ripari ĉi "
+#~ "tion."
+
+#~ msgid "Pick Update Item"
+#~ msgstr "Elekti Ĝisdatig-Objekton"
+
+#~ msgid ""
+#~ "Please pick the item from the list below which should be used to apply "
+#~ "this update. We were unable to identify which item to select, based on "
+#~ "the original item, which was named %1"
+#~ msgstr ""
+#~ "Bonvolu elekti la objekton el la suba listo, kiu devus esti uzata por "
+#~ "apliki ĉi tiun ĝisdatigon. Ni ne povis identigi kiun objekton elekti, "
+#~ "surbaze de la origina ero, kiu estis nomita %1"
+
+#~ msgid ""
+#~ "We failed to identify a good link for updating %1, and are unable to "
+#~ "perform the update"
+#~ msgstr ""
+#~ "Ni malsukcesis identigi bonan ligilon por ĝisdatigi %1, kaj ne kapablas "
+#~ "plenumi la ĝisdatigon"
+
+#~ msgid "Re: %1"
+#~ msgstr "Re: %1"
+
+#~ msgid "Installing"
+#~ msgstr "Instalanta"
+
+#~ msgid "Loading one preview"
+#~ msgid_plural "Loading %1 previews"
+#~ msgstr[0] "Ŝargi unu antaŭrigardon"
+#~ msgstr[1] "Ŝargi %1 antaŭrigardojn"
+
+#~ msgid ""
+#~ "Failed to adopt '%1'\n"
+#~ "%2"
+#~ msgstr ""
+#~ "Malsukcesis adopti '%1'\n"
+#~ "%2"
+
+#~ msgid "Invalid item."
+#~ msgstr "Nevalida ero."
+
+#~ msgid "Download of item failed: no download URL for \"%1\"."
+#~ msgstr "Elŝutado de ero fiaskis. neniu elŝutligilo por \"%1\"."
+
+#~ msgid "Download of \"%1\" failed, error: %2"
+#~ msgstr "Elŝutado de \"%1\" fiaskis. Eraro: %2"
+
+#~ msgid ""
+#~ "Cannot install '%1' because it points to a web page. Click <a "
+#~ "href='%2'>here</a> to finish the installation."
+#~ msgstr ""
+#~ "Ne povas instali '%1' ĉar ĝi montras al retpaĝo. Alklaku <a href='%2'>ĉi "
+#~ "tie</a> por fini la instaladon."
+
+#~ msgid "Could not install \"%1\": file not found."
+#~ msgstr "Ne povis instali \"%1\": dosiero ne trovita."
+
+#~ msgid ""
+#~ "The installation of %1 failed to create the expected new directory %2"
+#~ msgstr ""
+#~ "La instalado de %1 malsukcesis krei la atenditan novan dosierujon %2"
+
+#~ msgid "Installation of %1 failed: %2"
+#~ msgstr "Instalado de %1 malsukcesis: %2"
+
+#~ msgid ""
+#~ "The installation of %1 failed, as the service type %2 was not accepted by "
+#~ "the system (did you forget to install the KPackage support plugin for "
+#~ "this type of package?)"
+#~ msgstr ""
+#~ "La instalado de %1 malsukcesis, ĉar la servo-tipo %2 ne estis akceptita "
+#~ "de la sistemo (ĉu vi forgesis instali la KPackage-subtenan kromprogramon "
+#~ "por ĉi tiu speco de pakaĵo?)"
+
+#~ msgid ""
+#~ "The installation of %1 failed, as the downloaded package does not contain "
+#~ "a correct KPackage structure."
+#~ msgstr ""
+#~ "La instalado de %1 malsukcesis, ĉar la elŝutita pako ne enhavas ĝustan "
+#~ "strukturon de KPackage."
+
+#~ msgid ""
+#~ "The installation of %1 failed, as the downloaded package does not list a "
+#~ "service type."
+#~ msgstr ""
+#~ "La instalado de %1 malsukcesis, ĉar la elŝutita pakaĵo ne listigas "
+#~ "servospecon."
+
+#~ msgid ""
+#~ "The installation of %1 failed, as the downloaded package does not contain "
+#~ "any useful meta information, which means it is not a valid KPackage."
+#~ msgstr ""
+#~ "La instalado de %1 malsukcesis, ĉar la elŝutita pakaĵo ne enhavas ajnajn "
+#~ "utilajn metainformojn, kio signifas, ke ĝi ne estas valida KPackage."
+
+#~ msgid "Could not determine the type of archive of the downloaded file %1"
+#~ msgstr "Ne eblis determini la tipon de arkivo de la elŝutita dosiero %1"
+
+#~ msgid "Failed to open the archive file %1. The reported error was: %2"
+#~ msgstr ""
+#~ "Malsukcesis malfermi la arkivan dosieron %1. La raportita eraro estis: %2"
+
+#~ msgid ""
+#~ "This file already exists on disk (possibly due to an earlier failed "
+#~ "download attempt). Continuing means overwriting it. Do you wish to "
+#~ "overwrite the existing file?"
+#~ msgstr ""
+#~ "Ĉi tiu dosiero jam ekzistas sur disko (eble pro pli frua malsukcesa "
+#~ "elŝuta provo). Daŭri signifas anstataŭi ĝin. Ĉu vi volas anstataŭigi la "
+#~ "ekzistantan dosieron?"
+
+#~ msgid "Overwrite File"
+#~ msgstr "Anstataŭigi dosieron"
+
+#~ msgid "Unable to move the file %1 to the intended destination %2"
+#~ msgstr "Ne eblas movi la dosieron %1 al la celita celo %2"
+
+#~ msgid ""
+#~ "The installation failed while attempting to run the command:\n"
+#~ "%1\n"
+#~ "\n"
+#~ "The returned output was:\n"
+#~ "%2"
+#~ msgstr ""
+#~ "La instalado malsukcesis dum provado ruli la komandon:\n"
+#~ "%1\n"
+#~ "\n"
+#~ "La resendita eligo estis:\n"
+#~ "%2"
+
+#~ msgid ""
+#~ "The installation failed with code %1 while attempting to run the "
+#~ "command:\n"
+#~ "%2\n"
+#~ "\n"
+#~ "The returned output was:\n"
+#~ "%3"
+#~ msgstr ""
+#~ "La instalo malsukcesis kun la kodo %1 dum provado ruli la komandon:\n"
+#~ "%2\n"
+#~ "\n"
+#~ "La resendita eligo estis:\n"
+#~ "%3"
+
+#~ msgid ""
+#~ "The removal of %1 failed, as the installed file %2 could not be "
+#~ "automatically removed. You can attempt to manually delete this file, if "
+#~ "you believe this is an error."
+#~ msgstr ""
+#~ "La forigo de %1 malsukcesis, ĉar la instalita dosiero %2 ne povis esti "
+#~ "aŭtomate forigita. Vi povas provi mane forigi ĉi tiun dosieron, se vi "
+#~ "kredas, ke tio estas eraro."
+
+#~ msgid ""
+#~ "The removal of %1 failed, as the installed package does not contain a "
+#~ "correct KPackage structure."
+#~ msgstr ""
+#~ "La forigo de %1 malsukcesis, ĉar la instalita pako ne enhavas ĝustan "
+#~ "strukturon de KPackage."
+
+#~ msgid ""
+#~ "The removal of %1 failed, as the installed package is not a supported "
+#~ "type (did you forget to install the KPackage support plugin for this type "
+#~ "of package?)"
+#~ msgstr ""
+#~ "La forigo de %1 malsukcesis, ĉar la instalita pakaĵo ne estas subtenata "
+#~ "tipo (ĉu vi forgesis instali la KPackage-subtenan kromprogramon por ĉi "
+#~ "tiu tipo de pakaĵo?)"
+
+#~ msgid ""
+#~ "The removal of %1 failed, as the installed package does not contain any "
+#~ "useful meta information, which means it is not a valid KPackage."
+#~ msgstr ""
+#~ "La forigo de %1 malsukcesis, ĉar la instalita pakaĵo ne enhavas ajnajn "
+#~ "utilajn metainformojn, kio signifas, ke ĝi ne estas valida KPackage."
+
+#~ msgid ""
+#~ "The removal of %1 failed, as the downloaded file %2 could not be "
+#~ "automatically removed."
+#~ msgstr ""
+#~ "La forigo de %1 malsukcesis, ĉar la elŝutita dosiero %2 ne povis esti "
+#~ "aŭtomate forigita."
+
+#~ msgid ""
+#~ "The removal of %1 failed, due to the installed file not being a KPackage. "
+#~ "The file in question was %2, and you can attempt to delete it yourself, "
+#~ "if you are certain that it is not needed."
+#~ msgstr ""
+#~ "La forigo de %1 malsukcesis, ĉar la instalita dosiero ne estas KPackage. "
+#~ "La koncerna dosiero estis %2, kaj vi povas provi forigi ĝin mem, se vi "
+#~ "certas, ke ĝi ne estas bezonata."
+
+#~ msgid ""
+#~ "The removal of %1 failed, as there seems to somehow be more than one "
+#~ "thing installed, which is not supposed to be possible for KPackage based "
+#~ "entries."
+#~ msgstr ""
+#~ "La forigo de %1 malsukcesis, ĉar ŝajnas esti pli ol unu aĵo instalita, "
+#~ "kio supozeble ne estas ebla por enskriboj bazitaj en KPackage."
+
+#~ msgid ""
+#~ "The uninstallation process failed to successfully run the command %1\n"
+#~ "The output of was: \n"
+#~ "%2\n"
+#~ "If you think this is incorrect, you can continue or cancel the "
+#~ "uninstallation process"
+#~ msgstr ""
+#~ "La malinstala procezo malsukcesis ruli la komandon %1\n"
+#~ "La eligo de estis: \n"
+#~ "%2\n"
+#~ "Se vi opinias, ke tio estas malĝusta, vi povas daŭrigi aŭ nuligi la "
+#~ "malinstalan procezon"
+
+#~ msgid "Could not open %1 for writing"
+#~ msgstr "Ne eblis malfermi %1 por skribado"
+
+#~ msgid "Could not open %1 for reading"
+#~ msgstr "Ne eblis malfermi %1 por legado"
+
+#~ msgid ""
+#~ "Failed to create a job for the package management task. This is usually "
+#~ "because the package is invalid. We attempted to operate on the package %1"
+#~ msgstr ""
+#~ "Malsukcesis krei labortaskon por la pakaĵadministra tasko. Ĉi tio estas "
+#~ "kutime ĉar la pako estas nevalida. Ni provis operacii sur la pakaĵo %1"
+
+#~ msgid ""
+#~ "Could not create a package installer for the service type %1: The "
+#~ "installer does not have a valid structure"
+#~ msgstr ""
+#~ "Ne eblis krei pakaĵinstalilon por la servotipo %1: La instalilo ne havas "
+#~ "validan strukturon"
+
+#~ msgid "The service type %1 was not understood by the KPackage installer"
+#~ msgstr "La servotipo %1 ne estis komprenita de la instalilo de KPackage"
+
+#~ msgid ""
+#~ "<qt>Cannot start <i>gpg</i> and retrieve the available keys. Make sure "
+#~ "that <i>gpg</i> is installed, otherwise verification of downloaded "
+#~ "resources will not be possible.</qt>"
+#~ msgstr ""
+#~ "<qt>Ne povas lanĉi <i>gpg</i> kaj akiri la disponeblajn ŝlosilojn. "
+#~ "Certiĝu ke <i>gpg</i> estas instalita, alie certigo de elŝutitaj rimedoj "
+#~ "ne estas ebla.</qt>"
+
+#~ msgid ""
+#~ "<qt>Enter passphrase for key <b>0x%1</b>, belonging to<br /><i>%2&lt;"
+#~ "%3&gt;</i><br />:</qt>"
+#~ msgstr ""
+#~ "<qt>Entajpu ĉifroŝlosilan pasvorton por <b>0x%1</b>, kiu apartenas al<br /"
+#~ "><i>%2&lt;%3&gt;</i><br />:</qt>"
+
+#~ msgid ""
+#~ "<qt>Cannot start <i>gpg</i> and check the validity of the file. Make sure "
+#~ "that <i>gpg</i> is installed, otherwise verification of downloaded "
+#~ "resources will not be possible.</qt>"
+#~ msgstr ""
+#~ "<qt>Ne povas lanĉi <i>gpg</i> kaj kontroli validecon de la dosiero. "
+#~ "Certiĝu ke <i>gpg</i> estas instalita, alie certigo de elŝutitaj rimedoj "
+#~ "ne estas ebla.</qt>"
+
+#~ msgid "Key used for signing:"
+#~ msgstr "Uzita ŝlosilo por subskribi:"
+
+#~ msgid "Select Signing Key"
+#~ msgstr "Elekti subskriban ŝlosilon"
+
+#~ msgid ""
+#~ "<qt>Cannot start <i>gpg</i> and sign the file. Make sure that <i>gpg</i> "
+#~ "is installed, otherwise signing of the resources will not be possible.</"
+#~ "qt>"
+#~ msgstr ""
+#~ "<qt>Ne povas lanĉi <i>gpg</i> kaj subskribi la dosieron. Certiĝu ke "
+#~ "<i>gpg</i> estas instalita, alie subskribado de la rimedoj ne estas ebla."
+#~ "</qt>"
+
+#~ msgid "Get Hot New Stuff"
+#~ msgstr "Obtenu tre novajn mojosan aferojn"
+
+#~ msgctxt "Program name followed by 'Add On Installer'"
+#~ msgid "%1 Add-On Installer"
+#~ msgstr "Instalilo de aldonaĵoj %1"
+
+#~ msgid "Timeout. Check Internet connection."
+#~ msgstr "Tempolimo. Kontrolu vian konekton al interreto."
+
+#~ msgid "Server: %1"
+#~ msgstr "Servilo: %1"
+
+#~ msgid "<br />Provider: %1"
+#~ msgstr "<br />Provizanto: %1"
+
+#~ msgid "<br />Version: %1"
+#~ msgstr "<br />Versio: %1"
+
+#~ msgid "Provider information"
+#~ msgstr "Informoj pri provizanto"
+
+#~ msgid "Could not install %1"
+#~ msgstr "Ne povis instali %1"
+
+#~ msgid "Get Hot New Stuff!"
+#~ msgstr "Obteni tre novajn mojosajn aferojn!"
+
+#~ msgid "Icons view mode"
+#~ msgstr "Piktogramvida reĝimo"
+
+#~ msgid "Details view mode"
+#~ msgstr "Detalvida reĝimo"
+
+#~ msgid "All Providers"
+#~ msgstr "Ĉiuj provizantoj"
+
+#~ msgid "All Categories"
+#~ msgstr "Ĉiuj kategorioj"
+
+#~ msgid "Provider:"
+#~ msgstr "Provizanto:"
+
+#~ msgid "Category:"
+#~ msgstr "Kategorio:"
+
+#~ msgid "Most downloads"
+#~ msgstr "Plej elŝutataj"
+
+#~ msgid "Newest"
+#~ msgstr "Plej novaj"
+
+#~ msgid "Rating"
+#~ msgstr "Pritakso"
+
+#~ msgid "Installed"
+#~ msgstr "Instalitaj"
+
+#~ msgid "Order by:"
+#~ msgstr "Ordigi laŭ:"
+
+#~ msgid "Search:"
+#~ msgstr "Serĉi:"
+
+#~ msgid "Search..."
+#~ msgstr "Serĉi..."
+
+#~ msgid "Author:"
+#~ msgstr "Aŭtoro:"
+
+#~ msgid "<a href=\"https://opendesktop.org\">Homepage</a>"
+#~ msgstr "<a href=\"https://opendesktop.org\">Hejmpaĝo</a>"
+
+#~ msgid "Update"
+#~ msgstr "Ĝisdatigi"
+
+#~ msgid "Uninstall"
+#~ msgstr "Malinstali"
+
+#~ msgid "Become a Fan"
+#~ msgstr "Ŝati"
+
+#~ msgid "Install"
+#~ msgstr "Instali"
+
+#~ msgctxt ""
+#~ "The first entry in the category selection list (also the default value)"
+#~ msgid "All Categories"
+#~ msgstr "Ĉiuj kategorioj"
+
+#~ msgctxt ""
+#~ "The string passed back in the case the requested category is not known"
+#~ msgid "Unknown Category"
+#~ msgstr "Nekonata Kategorio"
+
+#~ msgctxt ""
+#~ "Used to construct the button's label (which will become Download New "
+#~ "'this value'...)"
+#~ msgid "Stuff"
+#~ msgstr "Aĵoj"
+
+#~ msgid "Download New %1..."
+#~ msgstr "Elŝuti novan %1..."
+
+#~ msgctxt ""
+#~ "The dialog title when we know which type of stuff is being requested"
+#~ msgid "Download New %1"
+#~ msgstr "Elŝuti Novan %1"
+
+#~ msgctxt ""
+#~ "A placeholder title used in the dialog when there is no better title "
+#~ "available"
+#~ msgid "Download New Stuff"
+#~ msgstr "Elŝuti tre novajn aĵojn"
+
+#~ msgid "Pick Your Installation Option"
+#~ msgstr "Elektu Vian Instalan Opcion"
+
+#~ msgid ""
+#~ "Please select the option you wish to install from the list of "
+#~ "downloadable items below. If it is unclear which you should chose out of "
+#~ "the available options, please contact the author of this item and ask "
+#~ "that they clarify this through the naming of the items."
+#~ msgstr ""
+#~ "Bonvolu elekti la opcion, kiun vi volas instali el la listo de elŝuteblaj "
+#~ "aĵoj sube. Se ne estas klare, kiun vi elektu el la disponeblaj opcioj, "
+#~ "bonvolu kontakti la aŭtoron de ĉi tiu aĵo kaj petu, ke ili klarigu tion "
+#~ "per la nomado de la eroj."
+
+#~ msgctxt ""
+#~ "A passive notification shown when installation of an item is initiated"
+#~ msgid "Installing %1 from %2"
+#~ msgstr "Instalante %1 de %2"
+
+#~ msgctxt ""
+#~ "Status message to be shown when the entry is in the process of being "
+#~ "installed OR uninstalled"
+#~ msgid "Currently working on the item %1 by %2. Please wait..."
+#~ msgstr "Nuntempe laboras pri la ero %1 de %2. Bonvolu atendi..."
+
+#~ msgctxt ""
+#~ "Status message to be shown when the entry is in the process of being "
+#~ "updated"
+#~ msgid "Currently updating the item %1 by %2. Please wait..."
+#~ msgstr "Nuntempe ĝisdatigante la eron %1 de %2. Bonvolu atendi..."
+
+#~ msgctxt ""
+#~ "Status message which should only be shown when the entry has been given "
+#~ "some unknown or invalid status."
+#~ msgid ""
+#~ "This item is currently in an invalid or unknown state. <a href=\"https://"
+#~ "bugs.kde.org/enter_bug.cgi?product=frameworks-knewstuff\">Please report "
+#~ "this to the KDE Community in a bug report</a>."
+#~ msgstr ""
+#~ "Ĉi tiu aĵo estas nuntempe en nevalida aŭ nekonata stato. <a href="
+#~ "\"https://bugs.kde.org/enter_bug.cgi?product=frameworks-knewstuff"
+#~ "\">Bonvolu raporti tion al la KDE-Komunumo en raporto pri eraro</a>."
+
+#~ msgctxt ""
+#~ "Combined title for the entry details page made of the name of the entry, "
+#~ "and the author's name"
+#~ msgid "%1 by %2"
+#~ msgstr "%1 per %2"
+
+#~ msgctxt ""
+#~ "Request installation of this item, available when there is exactly one "
+#~ "downloadable item"
+#~ msgid "Install"
+#~ msgstr "Instali"
+
+#~ msgctxt ""
+#~ "Show installation options, where there is more than one downloadable item"
+#~ msgid "Install..."
+#~ msgstr "Instali..."
+
+#~ msgctxt "Request updating of this item"
+#~ msgid "Update"
+#~ msgstr "Ĝisdatigi"
+
+#~ msgctxt "Request uninstallation of this item"
+#~ msgid "Uninstall"
+#~ msgstr "Malinstali"
+
+#~ msgid "Comments and Reviews:"
+#~ msgstr "Komentoj kaj Recenzoj:"
+
+#~ msgctxt ""
+#~ "A link which, when clicked, opens a new sub page with comments (comments "
+#~ "with or without ratings) for this entry"
+#~ msgid "%1 Reviews and Comments"
+#~ msgstr "%1 Recenzoj kaj Komentoj"
+
+#~ msgid "Rating:"
+#~ msgstr "Pritakso:"
+
+#~ msgid "Homepage:"
+#~ msgstr "Hejmpaĝo:"
+
+#~ msgctxt ""
+#~ "A link which, when clicked, opens the website associated with the entry "
+#~ "(this could be either one specific to the project, the author's homepage, "
+#~ "or any other website they have chosen for the purpose)"
+#~ msgid "Open the homepage for %1"
+#~ msgstr "Malfermu la hejmpaĝon por %1"
+
+#~ msgid "How To Donate:"
+#~ msgstr "Kiel Donaci:"
+
+#~ msgctxt ""
+#~ "A link which, when clicked, opens a website with information on donation "
+#~ "in support of the entry"
+#~ msgid "Find out how to donate to this project"
+#~ msgstr "Eksciu kiel donaci al ĉi tiu projekto"
+
+#~ msgctxt "Request installation of this item"
+#~ msgid "Install"
+#~ msgstr "Instali"
+
+#~ msgctxt "List option which will set the filter to show everything"
+#~ msgid "Show Everything"
+#~ msgstr "Montri Ĉion"
+
+#~ msgctxt ""
+#~ "List option which will set the filter so only installed items are shown"
+#~ msgid "Installed Only"
+#~ msgstr "Nur instalita"
+
+#~ msgctxt ""
+#~ "List option which will set the filter so only installed items with "
+#~ "updates available are shown"
+#~ msgid "Updateable Only"
+#~ msgstr "Ĝisdatigebla Nur"
+
+#~ msgctxt ""
+#~ "List option which will set the sort order to based on when items were "
+#~ "most recently updated"
+#~ msgid "Show most recent first"
+#~ msgstr "Montri la plej freŝajn unue"
+
+#~ msgctxt ""
+#~ "List option which will set the sort order to be alphabetical based on the "
+#~ "name"
+#~ msgid "Sort alphabetically"
+#~ msgstr "Ordigi alfabete"
+
+#~ msgctxt "List option which will set the sort order to based on user ratings"
+#~ msgid "Show highest rated first"
+#~ msgstr "Montri plej alte taksitajn unue"
+
+#~ msgctxt ""
+#~ "List option which will set the sort order to based on number of downloads"
+#~ msgid "Show most downloaded first"
+#~ msgstr "Montri plej elŝutitajn unue"
+
+#~ msgctxt ""
+#~ "A message which is shown when the user attempts to display a specific "
+#~ "entry from a specific provider, but that entry isn't found"
+#~ msgid ""
+#~ "The entry you attempted to display, identified by the unique ID %1, could "
+#~ "not be found."
+#~ msgstr ""
+#~ "La enskribo, kiun vi provis montri, identigita per la unika ID %1, ne "
+#~ "estis trovita."
+
+#~ msgid ""
+#~ "The content available here has been uploaded by users like you, and has "
+#~ "not been reviewed by your distributor for functionality or stability."
+#~ msgstr ""
+#~ "La enhavo disponebla ĉi tie estis alŝutita de uzantoj kiel vi, kaj ne "
+#~ "estis reviziita de via distribuisto por funkcieco aŭ stabileco."
+
+#~ msgid "Tiles"
+#~ msgstr "Kaheloj"
+
+#~ msgid "Icons"
+#~ msgstr "Piktogramoj"
+
+#~ msgid "Preview"
+#~ msgstr "Antaŭrigardo"
+
+#~ msgid "Detailed Tiles View Mode"
+#~ msgstr "Detala Kaheloj Vida Reĝimo"
+
+#~ msgid "Icons Only View Mode"
+#~ msgstr "Nur-Piktograma Vidreĝimo"
+
+#~ msgid "Large Preview View Mode"
+#~ msgstr "Granda Antaŭrigarda Vida Reĝimo"
+
+#~ msgid "Everything"
+#~ msgstr "Ĉio"
+
+#~ msgid "Updateable"
+#~ msgstr "Ĝisdatigebla"
+
+#~ msgctxt "List option which will set the filter to show everything"
+#~ msgid "Show All Entries"
+#~ msgstr "Montri ĉiujn enskribojn"
+
+#~ msgctxt ""
+#~ "List option which will set the filter so only installed items are shown"
+#~ msgid "Show Only Installed Entries"
+#~ msgstr "Montri Nur Instalitajn Enskribojn"
+
+#~ msgctxt ""
+#~ "List option which will set the filter so only installed items with "
+#~ "updates available are shown"
+#~ msgid "Show Only Updateable Entries"
+#~ msgstr "Montri Nur Ĝisdatigeblajn Enskribojn"
+
+#~ msgid "Recent"
+#~ msgstr "Lastatempa"
+
+#~ msgid "Alphabetical"
+#~ msgstr "Alfabeta"
+
+#~ msgid "Downloads"
+#~ msgstr "Elŝutoj"
+
+#~ msgctxt ""
+#~ "List option which will set the sort order to based on when items were "
+#~ "most recently updated"
+#~ msgid "Show Most Recent First"
+#~ msgstr "Montri Plej Lastaj Unue"
+
+#~ msgctxt ""
+#~ "List option which will set the sort order to be alphabetical based on the "
+#~ "name"
+#~ msgid "Sort Alphabetically By Name"
+#~ msgstr "Ordigi Alfabete Laŭ Nomo"
+
+#~ msgctxt "List option which will set the sort order to based on user ratings"
+#~ msgid "Show Highest Rated First"
+#~ msgstr "Montri Plej Altnivelan Unue"
+
+#~ msgctxt ""
+#~ "List option which will set the sort order to based on number of downloads"
+#~ msgid "Show Most Downloaded First"
+#~ msgstr "Montri Plej Elŝutitan Unue"
+
+#~ msgid "Upload..."
+#~ msgstr "Alŝuti..."
+
+#~ msgid "Learn how to add your own hot new stuff to this list"
+#~ msgstr "Lernu kiel aldoni viajn proprajn novajn aĵojn al ĉi tiu listo"
+
+#~ msgid "Go to..."
+#~ msgstr "Iri al..."
+
+#~ msgid "Contribute your own…"
+#~ msgstr "Kontribuu vian propran…"
+
+#~ msgctxt ""
+#~ "A text shown beside a busy indicator suggesting that data is being fetched"
+#~ msgid "Loading more…"
+#~ msgstr "Ŝargante pli…"
+
+#~ msgctxt ""
+#~ "Placeholder title for when a comment has no subject, but does have a "
+#~ "rating"
+#~ msgid "<i>(no title)</i>"
+#~ msgstr "<i>(sen titolo)</i>"
+
+#~ msgctxt ""
+#~ "The author label in case the comment was written by the author of the "
+#~ "content entry the comment is attached to"
+#~ msgid "%1 <i>(author)</i>"
+#~ msgstr "%1 <i>(aŭtoro)</i>"
+
+#~ msgctxt "Title for the page containing a view of the comments for the entry"
+#~ msgid "Comments and Reviews for %1"
+#~ msgstr "Komentoj kaj Recenzoj por %1"
+
+#~ msgctxt ""
+#~ "Title for the item which is checked when all comments should be shown"
+#~ msgid "Show All Comments"
+#~ msgstr "Montri Ĉiujn Komentojn"
+
+#~ msgctxt ""
+#~ "Title for the item which is checked when only comments which are reviews "
+#~ "should be shown"
+#~ msgid "Show Reviews Only"
+#~ msgstr "Montri Nur Recenzojn"
+
+#~ msgctxt ""
+#~ "Title for the item which is checked when comments which are reviews, and "
+#~ "their children should be shown"
+#~ msgid "Show Reviews and Replies"
+#~ msgstr "Montri Recenzojn kaj Respondojn"
+
+#~ msgctxt "The number of times the item has been downloaded"
+#~ msgid "%1 downloads"
+#~ msgstr "%1 elŝutoj"
+
+#~ msgctxt ""
+#~ "Subheading for the tile view, located immediately underneath the name of "
+#~ "the item"
+#~ msgid "By <i>%1</i>"
+#~ msgstr "De <i>%1</i>"
+
+#~ msgctxt ""
+#~ "Label for the busy indicator showing an item is being installed OR "
+#~ "uninstalled"
+#~ msgid "Working..."
+#~ msgstr "Laborante..."
+
+#~ msgctxt ""
+#~ "Label for the busy indicator showing an item is in the process of being "
+#~ "updated"
+#~ msgid "Updating..."
+#~ msgstr "Ĝisdatiganta..."
+
+#~ msgctxt ""
+#~ "Label for the busy indicator which should only be shown when the entry "
+#~ "has been given some unknown or invalid status."
+#~ msgid ""
+#~ "Invalid or unknown state. <a href=\"https://bugs.kde.org/enter_bug.cgi?"
+#~ "product=frameworks-knewstuff\">Please report this to the KDE Community in "
+#~ "a bug report</a>."
+#~ msgstr ""
+#~ "Nevalida aŭ nekonata stato. <a href=\"https://bugs.kde.org/enter_bug.cgi?"
+#~ "product=frameworks-knewstuff\">Bonvolu raporti tion al la KDE-Komunumo en "
+#~ "raporto pri eraro</a>."
+
+#~ msgctxt "Label for the busy indicator showing an item is installing"
+#~ msgid "Installing..."
+#~ msgstr "Instalanta..."
+
+#~ msgctxt "Title for a dialog box which shows error messages"
+#~ msgid "An Error Occurred"
+#~ msgstr "Eraro okazis"
+
+#~ msgid "Please try again later."
+#~ msgstr "Bonvolu reprovi poste."
+
+#~ msgid "None"
+#~ msgstr "Neniu"
+
+#~ msgctxt ""
+#~ "A text representation of the rating, shown as a fraction of the max value"
+#~ msgid "(%1/%2)"
+#~ msgstr "(%1/%2)"
+
+#~ msgctxt "@knewstuff5"
+#~ msgid "Upload New Stuff: %1"
+#~ msgstr "Alŝuti Novajn Aĵojn: %1"
+
+#~ msgctxt ""
+#~ "A text shown beside a busy indicator suggesting that data is being fetched"
+#~ msgid "Updating information..."
+#~ msgstr "Ĝisdatigante informojn..."
+
+#~ msgctxt "The name of the KDE Store"
+#~ msgid "KDE Store"
+#~ msgstr "KDE-vendejo"
+
+#~ msgctxt "An unnamed provider"
+#~ msgid "Your Provider"
+#~ msgstr "Via Provizanto"
+
+#~ msgctxt ""
+#~ "Text for an action which causes the specified website to be opened using "
+#~ "the user's system default browser"
+#~ msgid "Open Website: %1"
+#~ msgstr "Malfermi Retejon: %1"
+
+#~ msgctxt ""
+#~ "Text for an action which will attempt to send an email using the user's "
+#~ "system default email client"
+#~ msgid "Send Email To: %1"
+#~ msgstr "Sendi Retpoŝton Al: %1"
+
+#~ msgctxt "A description of how to upload content to a generic provider"
+#~ msgid ""
+#~ "To upload new entries, or to add content to an existing entry on the KDE "
+#~ "Store, please open the website and log in. Once you have done this, you "
+#~ "will be able to find the My Products entry in the menu which pops up when "
+#~ "you click your user icon. Click on this entry to go to the product "
+#~ "management system, where you can work on your products ."
+#~ msgstr ""
+#~ "Por alŝuti novajn enskribojn, aŭ aldoni enhavon al ekzistanta enskribo en "
+#~ "la KDE-Butiko, bonvolu malfermi la retejon kaj ensaluti. Post kiam vi "
+#~ "faris tion, vi povos trovi la enskribon Miaj Produktoj en la menuo, kiu "
+#~ "aperas kiam vi alklaku vian uzantopiktogramon. Alklaku ĉi tiun eniron por "
+#~ "iri al la produkta administra sistemo, kie vi povas labori pri viaj "
+#~ "produktoj."
+
+#~ msgctxt ""
+#~ "A description of how to upload content to the KDE Store specifically"
+#~ msgid ""
+#~ "To upload new entries, or to add content to an existing entry, please "
+#~ "open the provider's website and follow the instructions there. You will "
+#~ "likely need to create a user and log in to a product management system, "
+#~ "where you will need to follow the instructions for how to add. "
+#~ "Alternatively, you might be required to contact the managers of the site "
+#~ "directly to get new content added."
+#~ msgstr ""
+#~ "Por alŝuti novajn enskribojn, aŭ aldoni enhavon al ekzistanta enskribo, "
+#~ "bonvolu malfermi la retejon de la provizanto kaj sekvi la instrukciojn "
+#~ "tie. Vi verŝajne devos krei uzanton kaj ensaluti al produkta administra "
+#~ "sistemo, kie vi devos sekvi la instrukciojn pri kiel aldoni. Alternative, "
+#~ "vi eble devos kontakti la administrantojn de la retejo rekte por aldoni "
+#~ "novan enhavon."
+
+#~ msgctxt ""
+#~ "An informational message which is shown to inform the user they are not "
+#~ "authorized to use GetHotNewStuff functionality"
+#~ msgid ""
+#~ "You are not authorized to Get Hot New Stuff. If you think this is in "
+#~ "error, please contact the person in charge of your permissions."
+#~ msgstr ""
+#~ "Vi ne estas rajtigita akiri Varmajn Novaĵojn. Se vi pensas, ke tio estas "
+#~ "erara, bonvolu kontakti la respondeculon pri viaj permesoj."
+
+#~ msgctxt "Knewstuff5"
+#~ msgid "Back"
+#~ msgstr "Malantaŭen"
+
+#~ msgctxt "Knewstuff5"
+#~ msgid "Popular"
+#~ msgstr "Populara"
+
+#~ msgctxt "Knewstuff5"
+#~ msgid "Featured"
+#~ msgstr "Prezentita"
+
+#~ msgctxt "Knewstuff5"
+#~ msgid "Restart"
+#~ msgstr "Restarigi"
+
+#~ msgctxt "Knewstuff5"
+#~ msgid "New"
+#~ msgstr "Nova"
+
+#~ msgctxt "Knewstuff5"
+#~ msgid "Home"
+#~ msgstr "Hejmen"
+
+#~ msgctxt "Knewstuff5"
+#~ msgid "Shelf"
+#~ msgstr "Breto"
+
+#~ msgctxt "Knewstuff5"
+#~ msgid "Up"
+#~ msgstr "Supren"
+
+#~ msgctxt "Knewstuff5"
+#~ msgid "Recommended"
+#~ msgstr "Rekomendita"
+
+#~ msgctxt "Knewstuff5"
+#~ msgid "Subscriptions"
+#~ msgstr "Abonoj"
+
+#~ msgctxt "Knewstuff5"
+#~ msgid "All Entries"
+#~ msgstr "Ĉiuj Enskriboj"
+
+#~ msgctxt "Knewstuff5"
+#~ msgid "Search Preset: %1"
+#~ msgstr "Serĉa Antaŭagordita: %1"
+
+#~ msgid ""
+#~ "The KNSRC file you want to show. If none is passed, you will be presented "
+#~ "with a dialog which lets you switch between all the config files "
+#~ "installed into the systemwide knsrc file location"
+#~ msgstr ""
+#~ "La KNSRC-dosieron, kiun vi volas montri. Se neniu estas preterpasita, vi "
+#~ "estos prezentita kun dialogo, kiu ebligas al vi ŝanĝi inter ĉiuj "
+#~ "agordosieroj instalitaj en la tutsistema knsrc-dosierloko."
+
+#~ msgid ""
+#~ "A kns url to show information from. The format for a kns url is kns://"
+#~ "knsrcfile/providerid/entryid\n"
+#~ "'knsrcfile'\n"
+#~ "is the name of a knsrc file as might be passed directly through this "
+#~ "tool's knsrcfile argument\n"
+#~ "'providerid'\n"
+#~ "is the hostname of the provider the entry should exist on\n"
+#~ "'entryid'\n"
+#~ "is the unique ID of an entry found in the provider specified by the knsrc "
+#~ "file.\n"
+#~ " An example of such a url is kns://peruse.knsrc/api.kde-look.org/1316714"
+#~ msgstr ""
+#~ "Kns-url de kiu montri informojn. La formato por kns-url estas kns://"
+#~ "knsrcfile/providerid/entryid\n"
+#~ "'knsrcfile'\n"
+#~ "estas la nomo de knsrc-dosiero kiel eble pasigi rekte tra la knsrcfile "
+#~ "argumento de ĉi tiu ilo\n"
+#~ "'providerid'\n"
+#~ "estas la gastiga nomo de la provizanto la eniro devus ekzisti sur\n"
+#~ "'entryid'\n"
+#~ "estas la unika ID de eniro trovita en la provizanto specifita de la knsrc-"
+#~ "dosiero.\n"
+#~ " Ekzemplo de tia url estas kns://peruse.knsrc/api.kde-look.org/1316714"
+
+#~ msgid "Details for %1"
+#~ msgstr "Detaloj pri %1"
+
+#~ msgid "Changelog:"
+#~ msgstr "Ŝanĝoprotokolo:"
+
+#~ msgctxt "A link to the description of this Get Hot New Stuff item"
+#~ msgid "Homepage"
+#~ msgstr "Hejmpaĝo"
+
+#~ msgctxt ""
+#~ "A link to make a donation for a Get Hot New Stuff item (opens a web "
+#~ "browser)"
+#~ msgid "Make a donation"
+#~ msgstr "Donaci"
+
+#~ msgctxt "A link to the knowledgebase (like a forum) (opens a web browser)"
+#~ msgid "Knowledgebase (no entries)"
+#~ msgid_plural "Knowledgebase (%1 entries)"
+#~ msgstr[0] "Sciobazo (neniuj eniroj)"
+#~ msgstr[1] "Sciobazo (%1 eniroj)"
+
+#~ msgctxt "Tooltip for a link in a dialog"
+#~ msgid "Opens in a browser window"
+#~ msgstr "Malfermi en fenestro de retumilo"
+
+#~ msgid "Rating: %1%"
+#~ msgstr "Pritakso: %1"
+
+#~ msgctxt "Show the size of the file in a list"
+#~ msgid "<br />Size: %1"
+#~ msgstr "<br />Grandeco: %1"
+
+#~ msgctxt "Show the author of this item in a list"
+#~ msgid "By <i>%1</i>"
+#~ msgstr "De <i>%1</i>"
+
+#~ msgctxt "fan as in supporter"
+#~ msgid "1 fan"
+#~ msgid_plural "%1 fans"
+#~ msgstr[0] "1 subtenanto"
+#~ msgstr[1] "%1 subtenantoj"
+
+#~ msgid "1 download"
+#~ msgid_plural "%1 downloads"
+#~ msgstr[0] "1 elŝuto"
+#~ msgstr[1] "%1 elŝutoj"
+
+#~ msgid "Loading Preview"
+#~ msgstr "Ŝarganta antaŭrigardon"
+
+#~ msgid "Details"
+#~ msgstr "Detaloj"
+
+#~ msgid "Updating"
+#~ msgstr "Ĝisdatiganta"
+
+#~ msgid "Install Again"
+#~ msgstr "Instali denove"
+
+#~ msgctxt "Show the size of the file in a list"
+#~ msgid "<p>Size: %1</p>"
+#~ msgstr "<p>Grandeco: %1</p>"
+
+#~ msgctxt "@action:button"
+#~ msgid "Yes"
+#~ msgstr "Jes"
+
+#~ msgctxt "@action:button"
+#~ msgid "No"
+#~ msgstr "Ne"

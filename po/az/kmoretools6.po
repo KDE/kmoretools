@@ -1,0 +1,1451 @@
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the knewstuff package.
+#
+# Xəyyam <xxmn77@gmail.com>, 2020, 2021, 2022, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: knewstuff\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2023-06-10 02:08+0000\n"
+"PO-Revision-Date: 2023-01-14 23:42+0400\n"
+"Last-Translator: Kheyyam <xxmn77@gmail.com>\n"
+"Language-Team: Azerbaijani <kde-i18n-doc@kde.org>\n"
+"Language: az\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 22.12.1\n"
+
+#: kmoretools.cpp:517
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Not installed:"
+msgstr "Quraşdırılmadı:"
+
+#: kmoretools.cpp:614
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "More"
+msgstr "Daha çox"
+
+#: kmoretools.cpp:650
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Configure..."
+msgstr "Tənzimlə..."
+
+#: kmoretools_p.h:369
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Visit homepage"
+msgstr "Ev səhifəsini keç"
+
+#: kmoretools_p.h:378
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Install"
+msgstr "Quraşdırmaq"
+
+#: kmoretools_p.h:386
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "No further information available."
+msgstr "Əlavə məlumat yoxdur."
+
+#: kmoretoolsconfigdialog_p.cpp:170
+#, kde-format
+msgid "Configure menu"
+msgstr "Menyunu tənzimlə"
+
+#: kmoretoolsconfigdialog_p.cpp:172
+#, kde-format
+msgid "Configure menu - %1"
+msgstr "%1 - menyusunu tənzimlə"
+
+#: kmoretoolsmenufactory.cpp:172
+#, kde-format
+msgctxt "@action:inmenu %1=\"$GenericName\""
+msgid "%1 - current folder"
+msgstr "%1 - cari qovluq"
+
+#: kmoretoolsmenufactory.cpp:181
+#, kde-format
+msgctxt "@action:inmenu %1=\"$GenericName\""
+msgid "%1 - current device"
+msgstr "%1 - cari qurğu"
+
+#: kmoretoolsmenufactory.cpp:194
+#, kde-format
+msgctxt "@action:inmenu %1=\"$GenericName\""
+msgid "%1 - all devices"
+msgstr "%1 - bütün qurğular"
+
+#. i18n: ectx: property (title), widget (QGroupBox, gbMainSection)
+#: ui/kmoretoolsconfigwidget.ui:25
+#, kde-format
+msgid "Main section"
+msgstr "Əsas bölmə"
+
+#. i18n: ectx: property (text), widget (QToolButton, buttonMoveDown)
+#: ui/kmoretoolsconfigwidget.ui:58
+#, kde-format
+msgid "Move down"
+msgstr "Aşağı köçür"
+
+#. i18n: ectx: property (text), widget (QToolButton, buttonMoveUp)
+#: ui/kmoretoolsconfigwidget.ui:78
+#, kde-format
+msgid "Move up"
+msgstr "Yuxarı köçür"
+
+#. i18n: ectx: property (text), widget (QToolButton, buttonMoveToMain)
+#: ui/kmoretoolsconfigwidget.ui:98
+#, kde-format
+msgid "Move to Main section"
+msgstr "Əsas bolməyə köçür"
+
+#. i18n: ectx: property (text), widget (QToolButton, buttonMoveToMore)
+#: ui/kmoretoolsconfigwidget.ui:118
+#, kde-format
+msgid "Move to More section"
+msgstr "Əlavə bölməyə köçür"
+
+#. i18n: ectx: property (text), widget (QToolButton, buttonReset)
+#: ui/kmoretoolsconfigwidget.ui:138
+#, kde-format
+msgid "Reset"
+msgstr "Sıfırla"
+
+#. i18n: ectx: property (title), widget (QGroupBox, gbMoreSection)
+#: ui/kmoretoolsconfigwidget.ui:159
+#, kde-format
+msgid "More section"
+msgstr "Əlavə bölmə"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/kmoretoolsconfigwidget.ui:211
+#, kde-format
+msgid ""
+"For this menu there are some more tools suggested which are currently not "
+"installed:"
+msgstr "Bu menyu üçün hazırda quraşdırılmamış daha bir neçə vasitə var:"
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonNotInstalledTools)
+#: ui/kmoretoolsconfigwidget.ui:221
+#, kde-format
+msgid "More tools..."
+msgstr "Əlavə vasitələr..."
+
+#~ msgid "All categories are missing"
+#~ msgstr "Çatışmayan bütün kateqoriyalar"
+
+#~ msgctxt ""
+#~ "the price of a download item, parameter 1 is the currency, 2 is the price"
+#~ msgid ""
+#~ "This item costs %1 %2.\n"
+#~ "Do you want to buy it?"
+#~ msgstr ""
+#~ "Bu elementin qiyməti %1 %2.\n"
+#~ "Siz bunu almaq istıyirsiniz?"
+
+#~ msgid ""
+#~ "Your account balance is too low:\n"
+#~ "Your balance: %1\n"
+#~ "Price: %2"
+#~ msgstr ""
+#~ "Hesabınızda balans çox azdır:\n"
+#~ "Sizin balansınız: %1\n"
+#~ "Qiyməti: %2"
+
+#~ msgctxt "voting for an item (good/bad)"
+#~ msgid "Your vote was recorded."
+#~ msgstr "Seçiminiz qeydə alındı."
+
+#~ msgid "You are now a fan."
+#~ msgstr "İndi siz artıq bu əlavənin fanatısınız."
+
+#~ msgid ""
+#~ "The service is currently undergoing maintenance and is expected to be "
+#~ "back in %1."
+#~ msgstr ""
+#~ "Xidmət hal-hazırda texniki təmirdədir və %1 bərpa olunması göslənilir"
+
+#~ msgid "Network error %1: %2"
+#~ msgstr "Şəbəkə xətası %1: %2"
+
+#~ msgid "Too many requests to server. Please try again in a few minutes."
+#~ msgstr ""
+#~ "Şəbəkəyə müraciət həddindən çoxdur. Lütfən bir neçə dəqiqədən sonra "
+#~ "yenidən cəhd edin."
+
+#~ msgid ""
+#~ "The Open Collaboration Services instance %1 does not support the "
+#~ "attempted function."
+#~ msgstr ""
+#~ "Open Collaboration Services instance %1 serveri tələb olunan funksiyanı "
+#~ "dəstəkləmir."
+
+#~ msgid "Unknown Open Collaboration Service API error. (%1)"
+#~ msgstr "Naməlum Open Collaboration Service API xətası (%1)"
+
+#~ msgid "Download New Stuff..."
+#~ msgstr "Yeni materialı yüklə..."
+
+#~ msgctxt ""
+#~ "The value returned for an unknown role when requesting data from the "
+#~ "model."
+#~ msgid "Unknown CommentsModel role"
+#~ msgstr "CommentsModel -də naməlum əməl"
+
+#~ msgid ""
+#~ "An error occurred during the installation process:\n"
+#~ "%1"
+#~ msgstr ""
+#~ "Quraşdırma prosesi zamanı xəta:\n"
+#~ "%1"
+
+#~ msgid "Initializing"
+#~ msgstr "Başladılır"
+
+#~ msgid "Configuration file exists, but cannot be opened: \"%1\""
+#~ msgstr "Konfiqurasiya faylı mövcuddur, ancaq açıla bilmir: \"%1\""
+
+#~ msgid "Configuration file is invalid: \"%1\""
+#~ msgstr "Konfiqurasiya faylı yararsızdır: \"%1\""
+
+#~ msgid "Use"
+#~ msgstr "İstifadə etmək"
+
+#~ msgid ""
+#~ "Could not initialise the installation handler for %1\n"
+#~ "This is a critical error and should be reported to the application author"
+#~ msgstr ""
+#~ "%1 üçün quraşdırma idarəedicisini başlatmaq olmur\n"
+#~ "Bu kritik bir səhvdir və tətbiq müəllifinə bildirilməlidir"
+
+#~ msgid "Loading provider information"
+#~ msgstr "Təminatçı haqqında məlumatın yüklənməsi"
+
+#~ msgid "Could not load get hot new stuff providers from file: %1"
+#~ msgstr "Fayl: %1 -dən təminatçı siyahısını yükləmək mümkün olmadı"
+
+#~ msgid "Error initializing provider."
+#~ msgstr "Təminatçının başladılmasında xəta."
+
+#~ msgid "Loading data"
+#~ msgstr "Verilənlər yüklənir"
+
+#~ msgid "Loading data from provider"
+#~ msgstr "Verilənlər təminatçıdan yüklənir"
+
+#~ msgid "Loading of providers from file: %1 failed"
+#~ msgstr "Təminatçıların: %1 faylından yüklənməsində xəta"
+
+#~ msgid ""
+#~ "Could not perform an installation of the entry %1 as it does not have any "
+#~ "downloadable items defined. Please contact the author so they can fix "
+#~ "this."
+#~ msgstr ""
+#~ "Hər hansı bir yüklənə bilən element olmadığı üçün %1 girişinin "
+#~ "quraşdırılması həyata keçirilə bilmədi. Xahiş olunur müəlliflə əlaqə "
+#~ "qurun ki, bunu düzəldə bilsinlər."
+
+#~ msgid "Pick Update Item"
+#~ msgstr "Yenilənmə keçidini seçin"
+
+#~ msgid ""
+#~ "Please pick the item from the list below which should be used to apply "
+#~ "this update. We were unable to identify which item to select, based on "
+#~ "the original item, which was named %1"
+#~ msgstr ""
+#~ "Bu yenilənmənin tətbiqi üçün istifadə olunmalı elementi aşağıdakı "
+#~ "siyahıdan seçin. %1 adlı orijinal elementə əsasən hansı elementin "
+#~ "seçiləcəyini müəyyən edə bilmədik."
+
+#~ msgid ""
+#~ "We failed to identify a good link for updating %1, and are unable to "
+#~ "perform the update"
+#~ msgstr ""
+#~ "%1 yenilənməsi üçün yararlı bir keçid müəyyənləşdirə və yenilənməni "
+#~ "həyata keçirə bilmədik"
+
+#~ msgid "Re: %1"
+#~ msgstr "Re: %1"
+
+#~ msgid "Installing"
+#~ msgstr "Quraşdırılma"
+
+#~ msgid "Loading one preview"
+#~ msgid_plural "Loading %1 previews"
+#~ msgstr[0] "Bir miniatür yüklənir"
+#~ msgstr[1] "%1 miniatür yüklənir"
+
+#~ msgid ""
+#~ "Failed to adopt '%1'\n"
+#~ "%2"
+#~ msgstr ""
+#~ "\"%1\" qəbul edilə bilmədi.\n"
+#~ "%2"
+
+#~ msgid "Invalid item."
+#~ msgstr "Yararsız element."
+
+#~ msgid "Download of item failed: no download URL for \"%1\"."
+#~ msgstr ""
+#~ "Elementin yüklənməsi alınmadı: \"%1\" üçün URL ünvanı göstərilməyib."
+
+#~ msgid "Download of \"%1\" failed, error: %2"
+#~ msgstr "\"%1\" yüklənməsi alınmadı, xəta: %2"
+
+#~ msgid ""
+#~ "Cannot install '%1' because it points to a web page. Click <a "
+#~ "href='%2'>here</a> to finish the installation."
+#~ msgstr ""
+#~ "\"%1\" quraşdırıla bilməz. çünki o bir veb-səhifəyə işarə edir. "
+#~ "Quraşdırmanı tamamlamaq üçün <a href='%2'>buraya</a> vurun."
+
+#~ msgid "Could not install \"%1\": file not found."
+#~ msgstr "\"%1\" quraşdırıla bilmədi: fayl tapılmadı."
+
+#~ msgid ""
+#~ "The installation of %1 failed to create the expected new directory %2"
+#~ msgstr "%1, quraşdırması gözlənilən %2 qovluğunu yarada bilmədi"
+
+#~ msgid "Installation of %1 failed: %2"
+#~ msgstr "%1 quraşdırılması alınmadı: %2"
+
+#~ msgid ""
+#~ "The installation of %1 failed, as the service type %2 was not accepted by "
+#~ "the system (did you forget to install the KPackage support plugin for "
+#~ "this type of package?)"
+#~ msgstr ""
+#~ "%2 xidmət növü sistem tərəfindən qəbul edilmədiyi üçün %1-in "
+#~ "quraşdırılması uğursuz oldu (bu tip paket üçün KPackage dəstək plaginini "
+#~ "quraşdırmağı unutmusunuz?)"
+
+#~ msgid ""
+#~ "The installation of %1 failed, as the downloaded package does not contain "
+#~ "a correct KPackage structure."
+#~ msgstr ""
+#~ "Yüklənmiş paketdə düzgün KPackage quruluşu olmadığı üçün %1-in "
+#~ "quraşdırılması uğursuz oldu."
+
+#~ msgid ""
+#~ "The installation of %1 failed, as the downloaded package does not list a "
+#~ "service type."
+#~ msgstr ""
+#~ "Yüklənmiş paketdə xidmət növü göstərilmədiyi üçün %1-in quraşdırılması "
+#~ "uğursuz oldu."
+
+#~ msgid ""
+#~ "The installation of %1 failed, as the downloaded package does not contain "
+#~ "any useful meta information, which means it is not a valid KPackage."
+#~ msgstr ""
+#~ "%1-in quraşdırılması uğursuz oldu, çünki yüklənmiş paketdə heç bir "
+#~ "faydalı meta məlumatı yoxdur, yəni etibarlı KPackage deyildir."
+
+#~ msgid "Could not determine the type of archive of the downloaded file %1"
+#~ msgstr "Yüklənmiş %1 arxivinin növünü təyin etmək mümkün olmadı"
+
+#~ msgid "Failed to open the archive file %1. The reported error was: %2"
+#~ msgstr "%1 arxiv faylının açılması mümkün olmadı. Xəta hesabatı: %2"
+
+#~ msgid ""
+#~ "This file already exists on disk (possibly due to an earlier failed "
+#~ "download attempt). Continuing means overwriting it. Do you wish to "
+#~ "overwrite the existing file?"
+#~ msgstr ""
+#~ "Bu fayl artıq diskdə mövcuddur (yəqin ki, əvvələr səhv yüklənməsinə cəhd "
+#~ "edildiyinə görə). Davam etmək mövcud faylı əvəzləyəcək. Siz mövcud olan "
+#~ "faylın üzərinə yazmaq istəyirsinizmi?"
+
+#~ msgid "Overwrite File"
+#~ msgstr "Faylın üzərinə yazın"
+
+#~ msgid "Unable to move the file %1 to the intended destination %2"
+#~ msgstr "%1 faylını %2 təyinat yerinə daşımaq mümkün olmadı"
+
+#~ msgid ""
+#~ "The installation failed while attempting to run the command:\n"
+#~ "%1\n"
+#~ "\n"
+#~ "The returned output was:\n"
+#~ "%2"
+#~ msgstr ""
+#~ "Əmrin icra edilməsi zamanı quraşdırma uğursuz oldu:\n"
+#~ "%1\n"
+#~ "\n"
+#~ "Göstərilən nəticə:\n"
+#~ "%2"
+
+#~ msgid ""
+#~ "The installation failed with code %1 while attempting to run the "
+#~ "command:\n"
+#~ "%2\n"
+#~ "\n"
+#~ "The returned output was:\n"
+#~ "%3"
+#~ msgstr ""
+#~ "Əmrin başladılmasına cəhd zamanı %1 kodu ilə quraşdırılma xətası:\n"
+#~ "%2\n"
+#~ "\n"
+#~ "Göstərilən nəticə:\n"
+#~ "%3"
+
+#~ msgid ""
+#~ "The removal of %1 failed, as the installed file %2 could not be "
+#~ "automatically removed. You can attempt to manually delete this file, if "
+#~ "you believe this is an error."
+#~ msgstr ""
+#~ "Qurulmuş %2 faylı avtomatik silinə bilmədiyi üçün %1 silinməsi baş "
+#~ "tutmadı. Əgər hesab edirsinizsə ki, bu düzgün deyil o zaman əl ilə "
+#~ "silməyə cəhd edin."
+
+#~ msgid ""
+#~ "The removal of %1 failed, as the installed package does not contain a "
+#~ "correct KPackage structure."
+#~ msgstr ""
+#~ "%1 silinə bilmədi, çünki quraşdırılmış paketin KPackage quruluşu səhvdir."
+
+#~ msgid ""
+#~ "The removal of %1 failed, as the installed package is not a supported "
+#~ "type (did you forget to install the KPackage support plugin for this type "
+#~ "of package?)"
+#~ msgstr ""
+#~ "%1 silinə bilmədi, çünki quraşdırılmış paket dəstəklənən növ deyil (bu "
+#~ "tip paket üçün KPackage dəstək plaginini quraşdırmağı unutmusunuz?)"
+
+#~ msgid ""
+#~ "The removal of %1 failed, as the installed package does not contain any "
+#~ "useful meta information, which means it is not a valid KPackage."
+#~ msgstr ""
+#~ "%1 silinə bilmədi, çünki quraşdırılmış paketdə heç bir faydalı meta "
+#~ "məlumatı yoxdur, yəni KPackage etibarlı deyil."
+
+#~ msgid ""
+#~ "The removal of %1 failed, as the downloaded file %2 could not be "
+#~ "automatically removed."
+#~ msgstr ""
+#~ "%1 silinə bilmədi, çünki yüklənmiş %2 faylı avtomatik silinə bilmədi."
+
+#~ msgid ""
+#~ "The removal of %1 failed, due to the installed file not being a KPackage. "
+#~ "The file in question was %2, and you can attempt to delete it yourself, "
+#~ "if you are certain that it is not needed."
+#~ msgstr ""
+#~ "Quraşdırılmış fayl bir KPackage olmadığı üçün %1 silinə bilmədi. Sözü "
+#~ "gedən fayl %2 idi və ona ehtiyac olmadığına əminsinizsə, özünüz silməyə "
+#~ "cəhd edə bilərsiniz."
+
+#~ msgid ""
+#~ "The removal of %1 failed, as there seems to somehow be more than one "
+#~ "thing installed, which is not supposed to be possible for KPackage based "
+#~ "entries."
+#~ msgstr ""
+#~ "%1 silinə bilmədi, çünki bu şəkildə birdən çox belə paketin "
+#~ "quraşdırıldığı görünür, bu da KPackage əsaslı girişlər üçün nəzərdə "
+#~ "tutulmayıb."
+
+#~ msgid ""
+#~ "The uninstallation process failed to successfully run the command %1\n"
+#~ "The output of was: \n"
+#~ "%2\n"
+#~ "If you think this is incorrect, you can continue or cancel the "
+#~ "uninstallation process"
+#~ msgstr ""
+#~ "Silinmə prosesi %1 əmrini uğurla yerinə yetirə bilmədi\n"
+#~ "Çıxarəş nəticəsi:\n"
+#~ "%2\n"
+#~ "Əgər siz hesab edirsinz ki, bu səhvdir, silinmə prosesinidavam etdirə və "
+#~ "ya onu dayandıra bilərsiniz"
+
+#~ msgid "Could not open %1 for writing"
+#~ msgstr "%1 yazmaq üçün açıla bilmədi"
+
+#~ msgid "Could not open %1 for reading"
+#~ msgstr "%1 oxumaq üçün açıla bilmədi"
+
+#~ msgid ""
+#~ "Failed to create a job for the package management task. This is usually "
+#~ "because the package is invalid. We attempted to operate on the package %1"
+#~ msgstr ""
+#~ "Paket idarəetmə tapşırığı üçün bir iş yarada bilmədi. Bu ümumiyyətlə "
+#~ "paketin etibarsız olmasıdır. %1 paketində fəaliyyət göstərməyə çalışdıq"
+
+#~ msgid ""
+#~ "Could not create a package installer for the service type %1: The "
+#~ "installer does not have a valid structure"
+#~ msgstr ""
+#~ "%1 xidmət növü üçün bir paket quraşdırıcısı yaradıla bilmədi: Quraşdırıcı "
+#~ "etibarlı bir quruluşa sahib deyil"
+
+#~ msgid "The service type %1 was not understood by the KPackage installer"
+#~ msgstr "%1 xidmət növü KPackage quraşdırıcısı tərəfindən başa düşülmədi"
+
+#~ msgid ""
+#~ "<qt>Cannot start <i>gpg</i> and retrieve the available keys. Make sure "
+#~ "that <i>gpg</i> is installed, otherwise verification of downloaded "
+#~ "resources will not be possible.</qt>"
+#~ msgstr ""
+#~ "<qt> <i>gpg</i> başlatmaq və bütün mövcud açarları almaq mümkün olmadı. "
+#~ "Sisteminizdə <i>gpg</i> quraşdırılmasına əmin olun, əks halda yükləmə "
+#~ "resursunun etibarlılığının yoxlanılması mümkün olmayacaq.</qt>"
+
+#~ msgid ""
+#~ "<qt>Enter passphrase for key <b>0x%1</b>, belonging to<br /><i>%2&lt;"
+#~ "%3&gt;</i><br />:</qt>"
+#~ msgstr ""
+#~ "<qt> <br /><i>%2&lt;%3&gt;</i><br /> məxsus <b>0x%1</b> açarı üçün "
+#~ "şifrəni daxil edin:</qt>"
+
+#~ msgid ""
+#~ "<qt>Cannot start <i>gpg</i> and check the validity of the file. Make sure "
+#~ "that <i>gpg</i> is installed, otherwise verification of downloaded "
+#~ "resources will not be possible.</qt>"
+#~ msgstr ""
+#~ "<qt> <i>gpg</i> başlatmaq və faylın etibarlılığını yoxlamaq mümkün "
+#~ "olmadı. Əmin olun ki, <i>gpg</i> quraşdırılıb, əks halda yükləmə "
+#~ "resursunun etibarlılığının yoxlanması mümkün olmayacaq.</qt>"
+
+#~ msgid "Key used for signing:"
+#~ msgstr "İmza üçün istifadə olunan açar:"
+
+#~ msgid "Select Signing Key"
+#~ msgstr "İmza üçün açarı seçin"
+
+#~ msgid ""
+#~ "<qt>Cannot start <i>gpg</i> and sign the file. Make sure that <i>gpg</i> "
+#~ "is installed, otherwise signing of the resources will not be possible.</"
+#~ "qt>"
+#~ msgstr ""
+#~ "<qt> <i>gpg</i> başlatmaq və faylı imzalamaq mümkün olmadı. Əmin olun ki, "
+#~ "<i>gpg</i> quraşdırılıb. Əks halda faylı imzalamaq mümkün olmayacaq.</qt>"
+
+#~ msgid "Get Hot New Stuff"
+#~ msgstr "Ən yenilərini internetdən yükləyin"
+
+#~ msgctxt "Program name followed by 'Add On Installer'"
+#~ msgid "%1 Add-On Installer"
+#~ msgstr "%1 üçün əlavələri quraşdırma proqramı"
+
+#~ msgid "Timeout. Check Internet connection."
+#~ msgstr "Vaxt bitdi. İnternet bağlantısının yoxlanılması."
+
+#~ msgid "Server: %1"
+#~ msgstr "Server: %1"
+
+#~ msgid "<br />Provider: %1"
+#~ msgstr "<br />Təminatçı: %1"
+
+#~ msgid "<br />Version: %1"
+#~ msgstr "<br />Versiya: %1"
+
+#~ msgid "Provider information"
+#~ msgstr "Təminatçı haqqında məlumat"
+
+#~ msgid "Could not install %1"
+#~ msgstr "%1 quraşdırıla bilmədi"
+
+#~ msgid "Get Hot New Stuff!"
+#~ msgstr "Ən yenilərini İnternetdən yüklə"
+
+#~ msgid "Icons view mode"
+#~ msgstr "İkonları göstərmə rejimi"
+
+#~ msgid "Details view mode"
+#~ msgstr "Təfərrüatları göstərmə rejimi"
+
+#~ msgid "All Providers"
+#~ msgstr "Bütün təminatçılar"
+
+#~ msgid "All Categories"
+#~ msgstr "Bütün kateqoriyalar"
+
+#~ msgid "Provider:"
+#~ msgstr "Təminatçı:"
+
+#~ msgid "Category:"
+#~ msgstr "Kateqoriya:"
+
+#~ msgid "Most downloads"
+#~ msgstr "Ən çox yüklənənlər"
+
+#~ msgid "Newest"
+#~ msgstr "Ən yenisi"
+
+#~ msgid "Rating"
+#~ msgstr "Ən qiymətli"
+
+#~ msgid "Installed"
+#~ msgstr "Quraşdırılan"
+
+#~ msgid "Order by:"
+#~ msgstr "Sırala:"
+
+#~ msgid "Search:"
+#~ msgstr "Axtar:"
+
+#~ msgid "Search..."
+#~ msgstr "Axtarış..."
+
+#~ msgid "Author:"
+#~ msgstr "Müəllif:"
+
+#~ msgid "<a href=\"https://opendesktop.org\">Homepage</a>"
+#~ msgstr "<a href=\"https://opendesktop.org\">Ev səhifəsi</a>"
+
+#~ msgid "Update"
+#~ msgstr "Yenilə"
+
+#~ msgid "Uninstall"
+#~ msgstr "Sil"
+
+#~ msgid "Become a Fan"
+#~ msgstr "Pərəstişkarı olun"
+
+#~ msgid "Install"
+#~ msgstr "Quraşdır"
+
+#~ msgctxt ""
+#~ "The first entry in the category selection list (also the default value)"
+#~ msgid "All Categories"
+#~ msgstr "Bütün Koteqoriyalar"
+
+#~ msgctxt ""
+#~ "The string passed back in the case the requested category is not known"
+#~ msgid "Unknown Category"
+#~ msgstr "Naməlum Kateqoriya"
+
+#~ msgctxt ""
+#~ "Used to construct the button's label (which will become Download New "
+#~ "'this value'...)"
+#~ msgid "Stuff"
+#~ msgstr "Doldurmaq"
+
+#~ msgid "Download New %1..."
+#~ msgstr "Yeni %1 yüklə..."
+
+#~ msgctxt ""
+#~ "The dialog title when we know which type of stuff is being requested"
+#~ msgid "Download New %1"
+#~ msgstr "Yeni %1 yüklə"
+
+#~ msgctxt ""
+#~ "A placeholder title used in the dialog when there is no better title "
+#~ "available"
+#~ msgid "Download New Stuff"
+#~ msgstr "Yeni materialı yüklə"
+
+#~ msgid "Pick Your Installation Option"
+#~ msgstr "Materialın quraşdırılma variantını seşin"
+
+#~ msgid ""
+#~ "Please select the option you wish to install from the list of "
+#~ "downloadable items below. If it is unclear which you should chose out of "
+#~ "the available options, please contact the author of this item and ask "
+#~ "that they clarify this through the naming of the items."
+#~ msgstr ""
+#~ "Lütfən, aşağıdakı yüklənə bilən materiallar siyahısından quraşdırmaq "
+#~ "istədiyiniz variantı seçin. Əgər mövcud variantlardan hansısa sizə aydın "
+#~ "deyilsə, bu materailın müəllifi ilə əlaqə yaradın və əşyaların adlarının "
+#~ "açıqlanmasını ondan xahiş edin."
+
+#~ msgctxt ""
+#~ "A passive notification shown when installation of an item is initiated"
+#~ msgid "Installing %1 from %2"
+#~ msgstr "%1 elementinin %2 ünvanından quraşdırılması"
+
+#~ msgctxt ""
+#~ "Status message to be shown when the entry is in the process of being "
+#~ "installed OR uninstalled"
+#~ msgid "Currently working on the item %1 by %2. Please wait..."
+#~ msgstr "%2 tərəfindən %1 komponenti işləyir. Lütfən gözləyin..."
+
+#~ msgctxt ""
+#~ "Status message to be shown when the entry is in the process of being "
+#~ "updated"
+#~ msgid "Currently updating the item %1 by %2. Please wait..."
+#~ msgstr "%2 tərəfindən %1 komponenti yenilənir. Lütfən gözləyin..."
+
+#~ msgctxt ""
+#~ "Status message which should only be shown when the entry has been given "
+#~ "some unknown or invalid status."
+#~ msgid ""
+#~ "This item is currently in an invalid or unknown state. <a href=\"https://"
+#~ "bugs.kde.org/enter_bug.cgi?product=frameworks-knewstuff\">Please report "
+#~ "this to the KDE Community in a bug report</a>."
+#~ msgstr ""
+#~ "Material hal-hazırda xətalı və ya naməlum vəziyyətdədir. <a href="
+#~ "\"https://bugs.kde.org/enter_bug.cgi?product=frameworks-knewstuff"
+#~ "\">Lütfən bu xəta haqqında KDE Cəmiyyətinə xəta hesabatı göndərin</a>."
+
+#~ msgctxt ""
+#~ "Combined title for the entry details page made of the name of the entry, "
+#~ "and the author's name"
+#~ msgid "%1 by %2"
+#~ msgstr "%2 tərəfindən %1"
+
+#~ msgctxt ""
+#~ "Request installation of this item, available when there is exactly one "
+#~ "downloadable item"
+#~ msgid "Install"
+#~ msgstr "Quraşdırmaq"
+
+#~ msgctxt ""
+#~ "Show installation options, where there is more than one downloadable item"
+#~ msgid "Install..."
+#~ msgstr "Quraşdırın..."
+
+#~ msgctxt "Request updating of this item"
+#~ msgid "Update"
+#~ msgstr "Yeniləmək"
+
+#~ msgctxt "Request uninstallation of this item"
+#~ msgid "Uninstall"
+#~ msgstr "Silmək"
+
+#~ msgid "Comments and Reviews:"
+#~ msgstr "Şərhlər və rəylər:"
+
+#~ msgctxt ""
+#~ "A link which, when clicked, opens a new sub page with comments (comments "
+#~ "with or without ratings) for this entry"
+#~ msgid "%1 Reviews and Comments"
+#~ msgstr "%1 Rəy və Şərh"
+
+#~ msgid "Rating:"
+#~ msgstr "Qiymət:"
+
+#~ msgid "Homepage:"
+#~ msgstr "Ev səhifəsi:"
+
+#~ msgctxt ""
+#~ "A link which, when clicked, opens the website associated with the entry "
+#~ "(this could be either one specific to the project, the author's homepage, "
+#~ "or any other website they have chosen for the purpose)"
+#~ msgid "Open the homepage for %1"
+#~ msgstr "%1 səhifəsini açın"
+
+#~ msgid "How To Donate:"
+#~ msgstr "Necə ianə verməli:"
+
+#~ msgctxt ""
+#~ "A link which, when clicked, opens a website with information on donation "
+#~ "in support of the entry"
+#~ msgid "Find out how to donate to this project"
+#~ msgstr "Bu layihəyə necə maddi kömək göstərməyi öyrənin"
+
+#~ msgctxt "Request installation of this item"
+#~ msgid "Install"
+#~ msgstr "Quraşdırmaq"
+
+#~ msgctxt "List option which will set the filter to show everything"
+#~ msgid "Show Everything"
+#~ msgstr "Hamısını göstərmək"
+
+#~ msgctxt ""
+#~ "List option which will set the filter so only installed items are shown"
+#~ msgid "Installed Only"
+#~ msgstr "Yalnız quraşdırılanlar"
+
+#~ msgctxt ""
+#~ "List option which will set the filter so only installed items with "
+#~ "updates available are shown"
+#~ msgid "Updateable Only"
+#~ msgstr "Yalnız yenilənənlər"
+
+#~ msgctxt ""
+#~ "List option which will set the sort order to based on when items were "
+#~ "most recently updated"
+#~ msgid "Show most recent first"
+#~ msgstr "Öncə ən yeniləri"
+
+#~ msgctxt ""
+#~ "List option which will set the sort order to be alphabetical based on the "
+#~ "name"
+#~ msgid "Sort alphabetically"
+#~ msgstr "Əlifba sırası ilə"
+
+#~ msgctxt "List option which will set the sort order to based on user ratings"
+#~ msgid "Show highest rated first"
+#~ msgstr "Öncə ən çox qiymət verilənlər"
+
+#~ msgctxt ""
+#~ "List option which will set the sort order to based on number of downloads"
+#~ msgid "Show most downloaded first"
+#~ msgstr "Öncə ən çox yüklənənlər"
+
+#~ msgctxt ""
+#~ "A message which is shown when the user attempts to display a specific "
+#~ "entry from a specific provider, but that entry isn't found"
+#~ msgid ""
+#~ "The entry you attempted to display, identified by the unique ID %1, could "
+#~ "not be found."
+#~ msgstr ""
+#~ "Göstərməyə çalışdığınız, %1 unikal identifikatoru tərəfindən müəyyən "
+#~ "edilmiş giriş tapılmadı."
+
+#~ msgid ""
+#~ "The content available here has been uploaded by users like you, and has "
+#~ "not been reviewed by your distributor for functionality or stability."
+#~ msgstr ""
+#~ "Burada mövcud olan məzmun sizin kimi istifadəçilər tərəfindən yüklənib və "
+#~ "distribyutorunuz tərəfindən funksionallıq və sabitlik baxımından nəzərdən "
+#~ "keçirilməyib."
+
+#~ msgid "Tiles"
+#~ msgstr "Mozaikalar"
+
+#~ msgid "Icons"
+#~ msgstr "Nişanlar"
+
+#~ msgid "Preview"
+#~ msgstr "İlk baxış"
+
+#~ msgid "Detailed Tiles View Mode"
+#~ msgstr "Mozaik görünüş rejimi"
+
+#~ msgid "Icons Only View Mode"
+#~ msgstr "Yalnız nişanlarla görünüş rejimi"
+
+#~ msgid "Large Preview View Mode"
+#~ msgstr "Geniş ilk baxış rejimi"
+
+#~ msgid "Everything"
+#~ msgstr "Hamısı"
+
+#~ msgid "Updateable"
+#~ msgstr "Yenilənə bilənlər"
+
+#~ msgctxt "List option which will set the filter to show everything"
+#~ msgid "Show All Entries"
+#~ msgstr "Bütün girişləri göstərmək"
+
+#~ msgctxt ""
+#~ "List option which will set the filter so only installed items are shown"
+#~ msgid "Show Only Installed Entries"
+#~ msgstr "Yalnız quraşdırılmış girişləri göstərmək"
+
+#~ msgctxt ""
+#~ "List option which will set the filter so only installed items with "
+#~ "updates available are shown"
+#~ msgid "Show Only Updateable Entries"
+#~ msgstr "Yalnız yenilənəbilən girişləri göstərmək"
+
+#~ msgid "Recent"
+#~ msgstr "Ən yeni"
+
+#~ msgid "Alphabetical"
+#~ msgstr "Əlifba sırası ilə"
+
+#~ msgid "Downloads"
+#~ msgstr "Endirmələr"
+
+#~ msgctxt ""
+#~ "List option which will set the sort order to based on when items were "
+#~ "most recently updated"
+#~ msgid "Show Most Recent First"
+#~ msgstr "Öncə ən yeniləri"
+
+#~ msgctxt ""
+#~ "List option which will set the sort order to be alphabetical based on the "
+#~ "name"
+#~ msgid "Sort Alphabetically By Name"
+#~ msgstr "Adına görə əlifba sırası ilə"
+
+#~ msgctxt "List option which will set the sort order to based on user ratings"
+#~ msgid "Show Highest Rated First"
+#~ msgstr "Öncə ən çox qiymətləndirilənlər"
+
+#~ msgctxt ""
+#~ "List option which will set the sort order to based on number of downloads"
+#~ msgid "Show Most Downloaded First"
+#~ msgstr "Öncə ən çox endirilənlər"
+
+#~ msgid "Upload..."
+#~ msgstr "Yükləmək..."
+
+#~ msgid "Learn how to add your own hot new stuff to this list"
+#~ msgstr "Bu siyahıya ən yeni elementinizi necə əlavə edəcəyinizi öyrənin"
+
+#~ msgid "Go to..."
+#~ msgstr "Keçmək..."
+
+#~ msgid "Contribute your own…"
+#~ msgstr "Öz işinizi əlavə edin..."
+
+#~ msgctxt ""
+#~ "A text shown beside a busy indicator suggesting that data is being fetched"
+#~ msgid "Loading more…"
+#~ msgstr "Daha çox yüklənir..."
+
+#~ msgctxt ""
+#~ "Placeholder title for when a comment has no subject, but does have a "
+#~ "rating"
+#~ msgid "<i>(no title)</i>"
+#~ msgstr "<i>(başlıqsız)</i>"
+
+#~ msgctxt ""
+#~ "The author label in case the comment was written by the author of the "
+#~ "content entry the comment is attached to"
+#~ msgid "%1 <i>(author)</i>"
+#~ msgstr "%1 <i>(müəllif)</i>"
+
+#~ msgctxt "Title for the page containing a view of the comments for the entry"
+#~ msgid "Comments and Reviews for %1"
+#~ msgstr "%1 üçün Rəylər və Şərhlər"
+
+#~ msgctxt ""
+#~ "Title for the item which is checked when all comments should be shown"
+#~ msgid "Show All Comments"
+#~ msgstr "Bütün şərhləri göstərmək"
+
+#~ msgctxt ""
+#~ "Title for the item which is checked when only comments which are reviews "
+#~ "should be shown"
+#~ msgid "Show Reviews Only"
+#~ msgstr "Yalnız ryləri göstərmək"
+
+#~ msgctxt ""
+#~ "Title for the item which is checked when comments which are reviews, and "
+#~ "their children should be shown"
+#~ msgid "Show Reviews and Replies"
+#~ msgstr "Rəyləri və Cavabları göstərmək"
+
+#~ msgctxt "The number of times the item has been downloaded"
+#~ msgid "%1 downloads"
+#~ msgstr "%1 yüklənən"
+
+#~ msgctxt ""
+#~ "Subheading for the tile view, located immediately underneath the name of "
+#~ "the item"
+#~ msgid "By <i>%1</i>"
+#~ msgstr "<i>%1</i> tərəfindən"
+
+#~ msgctxt ""
+#~ "Label for the busy indicator showing an item is being installed OR "
+#~ "uninstalled"
+#~ msgid "Working..."
+#~ msgstr "İşləyir..."
+
+#~ msgctxt ""
+#~ "Label for the busy indicator showing an item is in the process of being "
+#~ "updated"
+#~ msgid "Updating..."
+#~ msgstr "Yenilənir..."
+
+#~ msgctxt ""
+#~ "Label for the busy indicator which should only be shown when the entry "
+#~ "has been given some unknown or invalid status."
+#~ msgid ""
+#~ "Invalid or unknown state. <a href=\"https://bugs.kde.org/enter_bug.cgi?"
+#~ "product=frameworks-knewstuff\">Please report this to the KDE Community in "
+#~ "a bug report</a>."
+#~ msgstr ""
+#~ "Xətalı və Naməlum vəziyyət. <a href=\"https://bugs.kde.org/enter_bug.cgi?"
+#~ "product=frameworks-knewstuff\">Lütfən bu xəta haqqında KDE Cəmiyyətinə "
+#~ "xəta hesabatı göndərin</a>."
+
+#~ msgctxt "Label for the busy indicator showing an item is installing"
+#~ msgid "Installing..."
+#~ msgstr "Quraşdırılır..."
+
+#~ msgctxt "Title for a dialog box which shows error messages"
+#~ msgid "An Error Occurred"
+#~ msgstr "Xəta baş verdi"
+
+#~ msgid "Please try again later."
+#~ msgstr "Lütfən sonra yenidən cəhd edin."
+
+#~ msgid "None"
+#~ msgstr "Heç biri"
+
+#~ msgctxt ""
+#~ "A text representation of the rating, shown as a fraction of the max value"
+#~ msgid "(%1/%2)"
+#~ msgstr "(%1/%2)"
+
+#~ msgctxt "@knewstuff5"
+#~ msgid "Upload New Stuff: %1"
+#~ msgstr "Yeni elementi yükləmək: %1"
+
+#~ msgctxt ""
+#~ "A text shown beside a busy indicator suggesting that data is being fetched"
+#~ msgid "Updating information..."
+#~ msgstr "Məlumatlar yenilənir..."
+
+#~ msgctxt "The name of the KDE Store"
+#~ msgid "KDE Store"
+#~ msgstr "KDE Mağazası"
+
+#~ msgctxt "An unnamed provider"
+#~ msgid "Your Provider"
+#~ msgstr "Sizin təminatçı"
+
+#~ msgctxt ""
+#~ "Text for an action which causes the specified website to be opened using "
+#~ "the user's system default browser"
+#~ msgid "Open Website: %1"
+#~ msgstr "Veb-səhifəni açın: %1"
+
+#~ msgctxt ""
+#~ "Text for an action which will attempt to send an email using the user's "
+#~ "system default email client"
+#~ msgid "Send Email To: %1"
+#~ msgstr "E-poçt göndərin: %1"
+
+#~ msgctxt "A description of how to upload content to a generic provider"
+#~ msgid ""
+#~ "To upload new entries, or to add content to an existing entry on the KDE "
+#~ "Store, please open the website and log in. Once you have done this, you "
+#~ "will be able to find the My Products entry in the menu which pops up when "
+#~ "you click your user icon. Click on this entry to go to the product "
+#~ "management system, where you can work on your products ."
+#~ msgstr ""
+#~ "Yeni yazını və ya mövcud yazının məzmununu KDE Mağazasına əlavə etmək "
+#~ "üçün lütfən, veb-səhifəni açın və hesabınıza daxil olun. Siz bunu "
+#~ "etdikdə, istifadəçi nişanına vurduqda açılan ani pəncərədə 'Məhsullarım "
+#~ "haqqında yazılar'ı tapa biləcəksiniz. Bu yazıya vurmaqla məhsullarınızın "
+#~ "üzərində işləmək üçün məhsulun idarə edilməsi sistemi açılacaqdır."
+
+#~ msgctxt ""
+#~ "A description of how to upload content to the KDE Store specifically"
+#~ msgid ""
+#~ "To upload new entries, or to add content to an existing entry, please "
+#~ "open the provider's website and follow the instructions there. You will "
+#~ "likely need to create a user and log in to a product management system, "
+#~ "where you will need to follow the instructions for how to add. "
+#~ "Alternatively, you might be required to contact the managers of the site "
+#~ "directly to get new content added."
+#~ msgstr ""
+#~ "Yeni yazını və ya mövcud yazının məzmununu yükləmək üçün, təminatçı "
+#~ "səhifəsini açın və oradakı təlimata uyğun hərəkət edin. Necə əlavə etmək "
+#~ "haqqında təlimatı izləməniz lazım gələcək və buna görə də çox güman ki, "
+#~ "sizdən məhsulun idarə olunması sisteminə daxil olmaq üçün istifadəçi adı "
+#~ "və hesaba giriş lazım olacaq. Digər halda məzmunu birbaşa sayta əlavə "
+#~ "etmək üçün siz saytın menecerləri ilə əlaqə yaradaraq onlardan bunu xahiş "
+#~ "edə bilərsiniz."
+
+#~ msgctxt ""
+#~ "An informational message which is shown to inform the user they are not "
+#~ "authorized to use GetHotNewStuff functionality"
+#~ msgid ""
+#~ "You are not authorized to Get Hot New Stuff. If you think this is in "
+#~ "error, please contact the person in charge of your permissions."
+#~ msgstr ""
+#~ "Ən yeni materailları yükləmək səlahiyyətiniz yoxdur. Bunun səhv olduğunu "
+#~ "düşünürsənsə, icazə almaq üçün məsul şəxslə əlaqə saxlayın."
+
+#~ msgctxt "Knewstuff5"
+#~ msgid "Back"
+#~ msgstr "Geriyə"
+
+#~ msgctxt "Knewstuff5"
+#~ msgid "Popular"
+#~ msgstr "Tanınmış"
+
+#~ msgctxt "Knewstuff5"
+#~ msgid "Featured"
+#~ msgstr "Məsləhət görülən"
+
+#~ msgctxt "Knewstuff5"
+#~ msgid "Restart"
+#~ msgstr "Yenidən başlatmaq"
+
+#~ msgctxt "Knewstuff5"
+#~ msgid "New"
+#~ msgstr "Yeni"
+
+#~ msgctxt "Knewstuff5"
+#~ msgid "Home"
+#~ msgstr "Ev ünvanı"
+
+#~ msgctxt "Knewstuff5"
+#~ msgid "Shelf"
+#~ msgstr "Rəf"
+
+#~ msgctxt "Knewstuff5"
+#~ msgid "Up"
+#~ msgstr "Yuxarı"
+
+#~ msgctxt "Knewstuff5"
+#~ msgid "Recommended"
+#~ msgstr "Tövsiyyə olunan"
+
+#~ msgctxt "Knewstuff5"
+#~ msgid "Subscriptions"
+#~ msgstr "Abunələr"
+
+#~ msgctxt "Knewstuff5"
+#~ msgid "All Entries"
+#~ msgstr "Bütün girişlər"
+
+#~ msgctxt "Knewstuff5"
+#~ msgid "Search Preset: %1"
+#~ msgstr "Hazır ayarı axtarmaq: %1"
+
+#~ msgid ""
+#~ "The KNSRC file you want to show. If none is passed, you will be presented "
+#~ "with a dialog which lets you switch between all the config files "
+#~ "installed into the systemwide knsrc file location"
+#~ msgstr ""
+#~ "Göstərmək istədiyiniz KNSRC faylı. Əgər heç biri ötürülməyibsə "
+#~ "sisteminizdəki ümumi sistem knsrc faylının qovluğuna yüklənən bütün "
+#~ "konfiqurasiya faylları arasında keçiş etmənizə imkan verən dialoq "
+#~ "pəncərəsini təqdim edir"
+
+#~ msgid ""
+#~ "A kns url to show information from. The format for a kns url is kns://"
+#~ "knsrcfile/providerid/entryid\n"
+#~ "'knsrcfile'\n"
+#~ "is the name of a knsrc file as might be passed directly through this "
+#~ "tool's knsrcfile argument\n"
+#~ "'providerid'\n"
+#~ "is the hostname of the provider the entry should exist on\n"
+#~ "'entryid'\n"
+#~ "is the unique ID of an entry found in the provider specified by the knsrc "
+#~ "file.\n"
+#~ " An example of such a url is kns://peruse.knsrc/api.kde-look.org/1316714"
+#~ msgstr ""
+#~ "Məlumatı göstərmək üçün bir kns url. Kns url üçün format://knsrcfile/"
+#~ "providerid/entryid\n"
+#~ "\"knsrc_faylı\"\n"
+#~ "- bu alətin knsrcfile arqumenti üzərindən birbaşa göndərilə bilən knsrc "
+#~ "faylının adıdır\n"
+#~ "\"provayder_id'si\"\n"
+#~ "- qeyd saxlanıldığı provayder qovşağının adıdır\n"
+#~ "\"qeyd_id'si\"\n"
+#~ "knsrc faylı tərəfindən təyin olunan, provayderdə tapılan unikal qeyd "
+#~ "identifikatorudur\n"
+#~ " Belə URL ünvanının nümunəsi: kns://peruse.knsrc/api.kde-look.org/1316714"
+
+#~ msgid "Details for %1"
+#~ msgstr "%1 təfərrüatları"
+
+#~ msgid "Changelog:"
+#~ msgstr "Dəyişiklik jurnalı:"
+
+#~ msgctxt "A link to the description of this Get Hot New Stuff item"
+#~ msgid "Homepage"
+#~ msgstr "Ev səhifəsi"
+
+#~ msgctxt ""
+#~ "A link to make a donation for a Get Hot New Stuff item (opens a web "
+#~ "browser)"
+#~ msgid "Make a donation"
+#~ msgstr "İanə edin"
+
+#~ msgctxt "A link to the knowledgebase (like a forum) (opens a web browser)"
+#~ msgid "Knowledgebase (no entries)"
+#~ msgid_plural "Knowledgebase (%1 entries)"
+#~ msgstr[0] "Bilik Bazası (qeyd yoxdur)"
+#~ msgstr[1] "Bilik Bazası (%1 qeyd)"
+
+#~ msgctxt "Tooltip for a link in a dialog"
+#~ msgid "Opens in a browser window"
+#~ msgstr "Veb-bələdçi pəncərəsində açın"
+
+#~ msgid "Rating: %1%"
+#~ msgstr "Qiymətləndirmə: %1"
+
+#~ msgctxt "Show the size of the file in a list"
+#~ msgid "<br />Size: %1"
+#~ msgstr "<br />Ölçü: %1"
+
+#~ msgctxt "Show the author of this item in a list"
+#~ msgid "By <i>%1</i>"
+#~ msgstr "<i>%1</i> tərəfindən"
+
+#~ msgctxt "fan as in supporter"
+#~ msgid "1 fan"
+#~ msgid_plural "%1 fans"
+#~ msgstr[0] "%1 pərəstişkar"
+#~ msgstr[1] "%1 pərəstişkar"
+
+#~ msgid "1 download"
+#~ msgid_plural "%1 downloads"
+#~ msgstr[0] "%1 yükləmə"
+#~ msgstr[1] "%1 yükləmə"
+
+#~ msgid "Loading Preview"
+#~ msgstr "İlk baxış yüklənir"
+
+#~ msgid "Details"
+#~ msgstr "Təfərrüatlar"
+
+#~ msgid "Updating"
+#~ msgstr "Yenilənmə"
+
+#~ msgid "Install Again"
+#~ msgstr "Yenidən quraşdırın"
+
+#~ msgctxt "Show the size of the file in a list"
+#~ msgid "<p>Size: %1</p>"
+#~ msgstr "<p>Ölçü: %1</p>"
+
+#~ msgctxt "@action:button"
+#~ msgid "Yes"
+#~ msgstr "Bəli"
+
+#~ msgctxt "@action:button"
+#~ msgid "No"
+#~ msgstr "Xeyr"
+
+#~ msgid ""
+#~ "The downloaded file is a html file. This indicates a link to a website "
+#~ "instead of the actual download. Would you like to open the site with a "
+#~ "browser instead?"
+#~ msgstr ""
+#~ "HTML faylı yüklənəcək. Bu onu göstərir ki, bu link faktiki faylı yükləmək "
+#~ "əvəzinə veb-səhifəyəyə keçid edir. Bu keçid brauzerdə açılsın?"
+
+#~ msgid "Possibly bad download link"
+#~ msgstr "Çox güman ki, keçid düzgün deyil"
+
+#~ msgid "Downloaded file was a HTML file. Opened in browser."
+#~ msgstr "Yüklənmiş fayl HTML faylıdır və brauzerdə açılacaq."
+
+#~ msgctxt ""
+#~ "A message shown when there are no entries in the list, and when it is not "
+#~ "trying to load anything"
+#~ msgid "There is no hot new stuff to get here"
+#~ msgstr "Buraya keçid üçün bir səbəb yoxdur"
+
+#~ msgctxt "Opposite to Back"
+#~ msgid "Next"
+#~ msgstr "Sonrakı"
+
+#~ msgid "Finish"
+#~ msgstr "Hazır"
+
+#~ msgid "Fetching license data from server..."
+#~ msgstr "Serverdən lisenziya alınır..."
+
+#~ msgid "Fetching content data from server..."
+#~ msgstr "Serverdən verilənlər alınır..."
+
+#~ msgid "Could not fetch provider information."
+#~ msgstr "Təminatçı haq. məlumat alına bilmədi."
+
+#~ msgid "Register a new account"
+#~ msgstr "Yeni hesab yaradın"
+
+#~ msgid "Checking login..."
+#~ msgstr "Giriş yoxlanılır..."
+
+#~ msgid "Fetching your previously updated content..."
+#~ msgstr "Əvvəllər yenilənmiş məzmunlar alınır..."
+
+#~ msgid "Could not verify login, please try again."
+#~ msgstr "Giriş təsdiqlənə bilmədi, yenidən cəhd edin."
+
+#~ msgid "Fetching your previously updated content finished."
+#~ msgstr "Əvvəllər yenilənmiş məzmunların alınması başa çatdı."
+
+#~ msgid "Fetching content data from server finished."
+#~ msgstr "Serverdən verilərin alınması başa çatdı."
+
+#~ msgctxt ""
+#~ "A link to the website where the get hot new stuff upload can be seen"
+#~ msgid "Visit website"
+#~ msgstr "Veb səhifəyə keçin"
+
+#~ msgid "Share Hot New Stuff"
+#~ msgstr "Materialları paylaşmaq"
+
+#~ msgctxt "Program name followed by 'Add On Uploader'"
+#~ msgid "%1 Add-On Uploader"
+#~ msgstr "%1 paylaşım əlavəsi proqramı"
+
+#~ msgid "File not found: %1"
+#~ msgstr "Bu fayl tapılmadı: %1"
+
+#~ msgid "Upload Failed"
+#~ msgstr "Serverə yükləmə uğursuz oldu"
+
+#~ msgid ""
+#~ "The server does not recognize the category %2 to which you are trying to "
+#~ "upload."
+#~ msgid_plural ""
+#~ "The server does not recognize any of the categories to which you are "
+#~ "trying to upload: %2"
+#~ msgstr[0] "Server, yükləmək istədiyiniz %2 kateqoriyanı tanımır."
+#~ msgstr[1] "Serverin tanımadığı, yükləməyə çalışdığınız kateqoriyalar: %2"
+
+#~ msgid "Error"
+#~ msgstr "Xəta"
+
+#~ msgid "The selected category \"%1\" is invalid."
+#~ msgstr "Seçilmiş \"%1\" kateqoriyası səhvdir."
+
+#~ msgid "Select preview image"
+#~ msgstr "İlk baxış şəklini seçin"
+
+#~ msgid "There was a network error."
+#~ msgstr "Şəbəkə xətası baş verdi."
+
+#~ msgid "Uploading Failed"
+#~ msgstr "Faylı serverə yükləmək mümkün olmadı"
+
+#~ msgid "Authentication error."
+#~ msgstr "Hesaba giriş xətası."
+
+#~ msgid "Upload failed: %1"
+#~ msgstr "Serverə yüklənə bilmədi: %1"
+
+#~ msgid "Password:"
+#~ msgstr "Şifrə:"
+
+#~ msgid "Username:"
+#~ msgstr "İstifadəçi adı:"
+
+#~ msgid "File to upload:"
+#~ msgstr "Paylaşmaq üçün fayl:"
+
+#~ msgid "GPL"
+#~ msgstr "GPL"
+
+#~ msgid "LGPL"
+#~ msgstr "LGPL"
+
+#~ msgid "BSD"
+#~ msgstr "BSD"
+
+#~ msgid "Description:"
+#~ msgstr "Təsviri:"
+
+#~ msgid "Version:"
+#~ msgstr "Versiyası:"
+
+#~ msgid "License:"
+#~ msgstr "Lisenziyası:"
+
+#~ msgid "Please fill out the information about your upload in English."
+#~ msgstr "Lütfən yükləməniz haqqında məlumatı ingiliscə doldurun."
+
+#~ msgid "Title:"
+#~ msgstr "Başlıq:"
+
+#~ msgid "Name of the file as it will appear on the website"
+#~ msgstr "Faylın veb səhifəsində görünəcək adı"
+
+#~ msgid ""
+#~ "This should clearly describe the file content. It can be the same text as "
+#~ "the title of the kvtml file."
+#~ msgstr ""
+#~ "Ad, faylın məzmununu aydın təsvir etməlidir. Bu təsvir kvtml faylının "
+#~ "başlığı ilə eyni mətndə ola bilər."
+
+#~ msgid "Preview Images"
+#~ msgstr "Miniatür şəkilləri"
+
+#~ msgid "Select Preview..."
+#~ msgstr "Miniatürləri Seçin..."
+
+#~ msgid "Set a price for this item"
+#~ msgstr "Qiymətləndir"
+
+#~ msgid "Price"
+#~ msgstr "Qiyməti"
+
+#~ msgid "Price:"
+#~ msgstr "Qiyməti:"
+
+#~ msgid "Reason for price:"
+#~ msgstr "Qiymət nəyə əsaslanır:"
+
+#~ msgid "Fetch content link from server"
+#~ msgstr "Serverdən materiala keçid alınması"
+
+#~ msgid "Create content on server"
+#~ msgstr "Serverdə materail yaradılması"
+
+#~ msgid "Upload content"
+#~ msgstr "Materialın serverə yüklənməsi"
+
+#~ msgid "Upload first preview"
+#~ msgstr "İlk miniatürün serverə yüklənməsi"
+
+#~ msgid "Note: You can edit, update and delete your content on the website."
+#~ msgstr ""
+#~ "Qeyd: Siz veb səhifədə materialı yeniləyə, silə və ona düzəliş edə "
+#~ "bilərsiniz."
+
+#~ msgid "Upload second preview"
+#~ msgstr "İkinci miniatürün serverə yüklənməsi"
+
+#~ msgid "Upload third preview"
+#~ msgstr "Üçüncü miniatürün serverə yüklənməsi"
+
+#~ msgid ""
+#~ "I ensure that this content does not violate any existing copyright, law "
+#~ "or trademark. I agree for my IP address to be logged. (Distributing "
+#~ "content without the permission of the copyright holder is illegal.)"
+#~ msgstr ""
+#~ "Bu materialların mövcud müəllif hüquqları, qanun və ya ticarət nişanını "
+#~ "pozmadığına əminəm. IP ünvanımın daxil edilməsinə razıyam. (Müəllif "
+#~ "hüquqları sahibinin icazəsi olmadan materialın yayılması qanunsuzdur.)"
+
+#~ msgid "Start Upload"
+#~ msgstr "Yükləməni başlamaq"
+
+#~ msgid "Failed to execute install script"
+#~ msgstr "Quraşdırma skriptini yerinə yetirmək alınmadı"
+
+#~ msgctxt ""
+#~ "Status message to be shown when the entry is in the process of being "
+#~ "installed"
+#~ msgid "Currently installing the item %1 by %2. Please wait..."
+#~ msgstr "%2 tərəfindən %1 komponenti quarşdırılır. Lütfən gözləyin..."
+
+#~ msgctxt "Label for the busy indicator showing an item is being installed"
+#~ msgid "Installing..."
+#~ msgstr "Quraşdırılır..."
+
+#~ msgid "Tiles view mode"
+#~ msgstr "Mozaikalı baxış rejimi"
+
+#~ msgid "Show:"
+#~ msgstr "Göstərmək:"
+
+#~ msgctxt ""
+#~ "List option which will set the sort order to based on when items were "
+#~ "most recently updated"
+#~ msgid "Most recent first"
+#~ msgstr "Öncə ən yeniləri"
+
+#~ msgctxt ""
+#~ "List option which will set the sort order to be alphabetical based on the "
+#~ "name"
+#~ msgid "A-Z"
+#~ msgstr "A-Z"
+
+#~ msgctxt "List option which will set the sort order to based on user ratings"
+#~ msgid "Highest rated first"
+#~ msgstr "Öncə ən qiymətlilər"
+
+#~ msgctxt ""
+#~ "List option which will set the sort order to based on number of downloads"
+#~ msgid "Most downloaded first"
+#~ msgstr "Öncə ən çox yüklənənlər"
+
+#~ msgctxt ""
+#~ "If a knsrc file defines an adoption command, the option to run this "
+#~ "command and 'use' an item becomes available. This is the text for an "
+#~ "action to do so."
+#~ msgid "Use"
+#~ msgstr "İstifadə etmək"
+
+#~ msgid "Using %1"
+#~ msgstr "%1 istifadə olunur"
+
+#~ msgctxt "Show a page with details for this item"
+#~ msgid "Details..."
+#~ msgstr "Təfərrüatlar..."
+
+#~ msgid "Enter search phrase here"
+#~ msgstr "Axtarış ifadəsini bura daxil edin"
+
+#~ msgid "The uninstallation process failed to successfully run the command %1"
+#~ msgstr "Silinmə prosesində %1 əmrinin icrası mümkün olmadı"

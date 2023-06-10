@@ -1,0 +1,823 @@
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Lukáš Tinkl <lukas@kde.org>, 2010, 2011, 2012.
+# Vít Pelčák <vit@pelcak.org>, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020.
+# Tomáš Chvátal <tomas.chvatal@gmail.com>, 2012, 2013.
+# Vit Pelcak <vit@pelcak.org>, 2021, 2022, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kdelibs4\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2023-06-10 02:08+0000\n"
+"PO-Revision-Date: 2023-01-25 09:11+0100\n"
+"Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
+"Language-Team: Czech <kde-i18n-doc@kde.org>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Lokalize 23.04.1\n"
+"X-Language: cs_CZ\n"
+"X-Source-Language: en_US\n"
+
+#: kmoretools.cpp:517
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Not installed:"
+msgstr "Nenainstalováno:"
+
+#: kmoretools.cpp:614
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "More"
+msgstr "Více"
+
+#: kmoretools.cpp:650
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Configure..."
+msgstr "Nastavit..."
+
+#: kmoretools_p.h:369
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Visit homepage"
+msgstr "Navštivte domovskou stránku"
+
+#: kmoretools_p.h:378
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Install"
+msgstr "Instalovat"
+
+#: kmoretools_p.h:386
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "No further information available."
+msgstr ""
+
+#: kmoretoolsconfigdialog_p.cpp:170
+#, kde-format
+msgid "Configure menu"
+msgstr "Nastavit nabídku"
+
+#: kmoretoolsconfigdialog_p.cpp:172
+#, kde-format
+msgid "Configure menu - %1"
+msgstr "Nastavit nabídku - %1"
+
+#: kmoretoolsmenufactory.cpp:172
+#, kde-format
+msgctxt "@action:inmenu %1=\"$GenericName\""
+msgid "%1 - current folder"
+msgstr "%1 - současná složka"
+
+#: kmoretoolsmenufactory.cpp:181
+#, kde-format
+msgctxt "@action:inmenu %1=\"$GenericName\""
+msgid "%1 - current device"
+msgstr "%1 - současné zařízení"
+
+#: kmoretoolsmenufactory.cpp:194
+#, kde-format
+msgctxt "@action:inmenu %1=\"$GenericName\""
+msgid "%1 - all devices"
+msgstr "%1 - všechna zařízení"
+
+#. i18n: ectx: property (title), widget (QGroupBox, gbMainSection)
+#: ui/kmoretoolsconfigwidget.ui:25
+#, kde-format
+msgid "Main section"
+msgstr "Hlavní oddíl"
+
+#. i18n: ectx: property (text), widget (QToolButton, buttonMoveDown)
+#: ui/kmoretoolsconfigwidget.ui:58
+#, kde-format
+msgid "Move down"
+msgstr "Posunout dolů"
+
+#. i18n: ectx: property (text), widget (QToolButton, buttonMoveUp)
+#: ui/kmoretoolsconfigwidget.ui:78
+#, kde-format
+msgid "Move up"
+msgstr "Posunout nahoru"
+
+#. i18n: ectx: property (text), widget (QToolButton, buttonMoveToMain)
+#: ui/kmoretoolsconfigwidget.ui:98
+#, kde-format
+msgid "Move to Main section"
+msgstr "Přesunout do hlavního oddílu"
+
+#. i18n: ectx: property (text), widget (QToolButton, buttonMoveToMore)
+#: ui/kmoretoolsconfigwidget.ui:118
+#, kde-format
+msgid "Move to More section"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QToolButton, buttonReset)
+#: ui/kmoretoolsconfigwidget.ui:138
+#, kde-format
+msgid "Reset"
+msgstr "Obnovit"
+
+#. i18n: ectx: property (title), widget (QGroupBox, gbMoreSection)
+#: ui/kmoretoolsconfigwidget.ui:159
+#, kde-format
+msgid "More section"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/kmoretoolsconfigwidget.ui:211
+#, kde-format
+msgid ""
+"For this menu there are some more tools suggested which are currently not "
+"installed:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonNotInstalledTools)
+#: ui/kmoretoolsconfigwidget.ui:221
+#, kde-format
+msgid "More tools..."
+msgstr "Více nástrojů..."
+
+#~ msgid "All categories are missing"
+#~ msgstr "Chybí všechny kategorie"
+
+#~ msgctxt ""
+#~ "the price of a download item, parameter 1 is the currency, 2 is the price"
+#~ msgid ""
+#~ "This item costs %1 %2.\n"
+#~ "Do you want to buy it?"
+#~ msgstr ""
+#~ "Tato položka stojí %1 %2.\n"
+#~ "Přejete si ji zakoupit?"
+
+#~ msgid ""
+#~ "Your account balance is too low:\n"
+#~ "Your balance: %1\n"
+#~ "Price: %2"
+#~ msgstr ""
+#~ "Stav vašeho konta je příliš nízký:\n"
+#~ "Stav: %1\n"
+#~ "Cena: %2"
+
+#~ msgctxt "voting for an item (good/bad)"
+#~ msgid "Your vote was recorded."
+#~ msgstr "Váš hlas byl zaznamenán."
+
+#~ msgid "You are now a fan."
+#~ msgstr "Nyní jste fanoušek."
+
+#~ msgid "Network error %1: %2"
+#~ msgstr "Chyba sítě %1: %2"
+
+#~ msgid "Too many requests to server. Please try again in a few minutes."
+#~ msgstr ""
+#~ "Příliš mnoho požadavků na server. Prosím zkuste znovu za několik minut."
+
+#~ msgid "Unknown Open Collaboration Service API error. (%1)"
+#~ msgstr "Neznámá chyba OCS API. (%1)"
+
+#~ msgid "Download New Stuff..."
+#~ msgstr "Stáhnout nový obsah..."
+
+#~ msgid "Initializing"
+#~ msgstr "Probíhá inicializace"
+
+#~ msgid "Configuration file exists, but cannot be opened: \"%1\""
+#~ msgstr "Konfigurační soubor nalezen, ale nelze otevřít: \"%1\""
+
+#~ msgid "Configuration file is invalid: \"%1\""
+#~ msgstr "Konfigurační soubor je neplatný: \"%1\""
+
+#~ msgid "Use"
+#~ msgstr "Použít"
+
+#~ msgid "Loading provider information"
+#~ msgstr "Načítají se informace o poskytovateli"
+
+#~ msgid "Could not load get hot new stuff providers from file: %1"
+#~ msgstr "Nelze získat poskytovatele obsahu ze souboru: %1"
+
+#~ msgid "Error initializing provider."
+#~ msgstr "Chyba během inicializace poskytovatele."
+
+#~ msgid "Loading data"
+#~ msgstr "Načítají se data"
+
+#~ msgid "Loading data from provider"
+#~ msgstr "Načítají se data od poskytovatele"
+
+#~ msgid "Loading of providers from file: %1 failed"
+#~ msgstr "Načítání poskytovatelů ze souboru %1 selhalo"
+
+#~ msgid "Re: %1"
+#~ msgstr "Znovu: %1"
+
+#~ msgid "Installing"
+#~ msgstr "Instaluje se"
+
+#~ msgid "Loading one preview"
+#~ msgid_plural "Loading %1 previews"
+#~ msgstr[0] "Načítá se náhled"
+#~ msgstr[1] "Načítají se %1 náhledy"
+#~ msgstr[2] "Načítá se %1 náhledů"
+
+#~ msgid "Invalid item."
+#~ msgstr "Neplatná položka."
+
+#~ msgid "Download of item failed: no download URL for \"%1\"."
+#~ msgstr "Stažení položky selhalo: neexistuje URL pro stažení \"%1\"."
+
+#~ msgid "Download of \"%1\" failed, error: %2"
+#~ msgstr "Stažení \"%1\" selhalo, chyba: %2"
+
+#~ msgid "Could not install \"%1\": file not found."
+#~ msgstr "Nelze nainstalovat \"%1\": soubor nenalezen."
+
+#~ msgid "Installation of %1 failed: %2"
+#~ msgstr "Instalace %1 selhala: %2"
+
+#~ msgid "Overwrite File"
+#~ msgstr "Přepsat soubor"
+
+#~ msgid "Could not open %1 for writing"
+#~ msgstr "Nelze otevřít '%1' pro zápis"
+
+#~ msgid "Could not open %1 for reading"
+#~ msgstr "Nelze pro čtení otevřít %1"
+
+#~ msgid ""
+#~ "<qt>Cannot start <i>gpg</i> and retrieve the available keys. Make sure "
+#~ "that <i>gpg</i> is installed, otherwise verification of downloaded "
+#~ "resources will not be possible.</qt>"
+#~ msgstr ""
+#~ "<qt>Nelze spustit <i>gpg</i> a získat dostupné klíče. Ujistěte se, že je "
+#~ "<i>gpg</i> nainstalováno, jinak nebude ověřování stažených zdrojů možné.</"
+#~ "qt>"
+
+#~ msgid ""
+#~ "<qt>Enter passphrase for key <b>0x%1</b>, belonging to<br /><i>%2&lt;"
+#~ "%3&gt;</i><br />:</qt>"
+#~ msgstr ""
+#~ "<qt>Zadejte heslo ke klíči <b>0x%1</b>, patřící osobě<br /><i>%2&lt;%3&gt;"
+#~ "</i><br />:</qt>"
+
+#~ msgid ""
+#~ "<qt>Cannot start <i>gpg</i> and check the validity of the file. Make sure "
+#~ "that <i>gpg</i> is installed, otherwise verification of downloaded "
+#~ "resources will not be possible.</qt>"
+#~ msgstr ""
+#~ "<qt>Nelze spustit <i>gpg</i> a ověřit soubor. Ujistěte se, že je <i>gpg</"
+#~ "i> nainstalováno, jinak nebude ověřování stažených zdrojů možné.</qt>"
+
+#~ msgid "Key used for signing:"
+#~ msgstr "Klíč pro podepsání:"
+
+#~ msgid "Select Signing Key"
+#~ msgstr "Vybrat klíč k podepsání"
+
+#~ msgid ""
+#~ "<qt>Cannot start <i>gpg</i> and sign the file. Make sure that <i>gpg</i> "
+#~ "is installed, otherwise signing of the resources will not be possible.</"
+#~ "qt>"
+#~ msgstr ""
+#~ "<qt>Nelze spustit <i>gpg</i> a podepsat soubor. Ujistěte se, že je "
+#~ "<i>gpg</i> nainstalováno, jinak nebude ověřování stažených zdrojů možné.</"
+#~ "qt>"
+
+#~ msgid "Get Hot New Stuff"
+#~ msgstr "Získat novinky"
+
+#~ msgctxt "Program name followed by 'Add On Installer'"
+#~ msgid "%1 Add-On Installer"
+#~ msgstr "Instalátor doplňků '%1'"
+
+#~ msgid "Timeout. Check Internet connection."
+#~ msgstr "Čas vypršel, zkontrolujte připojení k internetu."
+
+#~ msgid "Server: %1"
+#~ msgstr "Server: %1"
+
+#~ msgid "<br />Provider: %1"
+#~ msgstr "<br />Poskytovatel: %1"
+
+#~ msgid "<br />Version: %1"
+#~ msgstr "<br />Verze: %1"
+
+#~ msgid "Provider information"
+#~ msgstr "Informace o poskytovateli"
+
+#~ msgid "Could not install %1"
+#~ msgstr "Nelze nainstalovat %1"
+
+#~ msgid "Get Hot New Stuff!"
+#~ msgstr "Získat novinky!"
+
+#~ msgid "Icons view mode"
+#~ msgstr "Režim zobrazení ikon"
+
+#~ msgid "Details view mode"
+#~ msgstr "Režim zobrazení podrobností"
+
+#~ msgid "All Providers"
+#~ msgstr "Všichni poskytovatelé"
+
+#~ msgid "All Categories"
+#~ msgstr "Všechny kategorie"
+
+#~ msgid "Provider:"
+#~ msgstr "Poskytovatel:"
+
+#~ msgid "Category:"
+#~ msgstr "Kategorie:"
+
+#~ msgid "Most downloads"
+#~ msgstr "Nejvíce stáhnutí"
+
+#~ msgid "Newest"
+#~ msgstr "Nejnovější"
+
+#~ msgid "Rating"
+#~ msgstr "Hodnocení"
+
+#~ msgid "Installed"
+#~ msgstr "Nainstalováno"
+
+#~ msgid "Order by:"
+#~ msgstr "Setřídit podle:"
+
+#~ msgid "Search:"
+#~ msgstr "Hledat:"
+
+#~ msgid "Search..."
+#~ msgstr "Hledat..."
+
+#~ msgid "Author:"
+#~ msgstr "Autor:"
+
+#~ msgid "<a href=\"https://opendesktop.org\">Homepage</a>"
+#~ msgstr "<a href=\"https://opendesktop.org\">Domovská stránka</a>"
+
+#~ msgid "Update"
+#~ msgstr "Aktualizovat"
+
+#~ msgid "Uninstall"
+#~ msgstr "Odinstalovat"
+
+#~ msgid "Become a Fan"
+#~ msgstr "Staňte se fanouškem"
+
+#~ msgid "Install"
+#~ msgstr "Instalovat"
+
+#~ msgctxt ""
+#~ "The first entry in the category selection list (also the default value)"
+#~ msgid "All Categories"
+#~ msgstr "Všechny kategorie"
+
+#~ msgctxt ""
+#~ "The string passed back in the case the requested category is not known"
+#~ msgid "Unknown Category"
+#~ msgstr "Neznámá kategorie"
+
+#~ msgid "Download New %1..."
+#~ msgstr "Stáhnout nový %1..."
+
+#~ msgctxt ""
+#~ "The dialog title when we know which type of stuff is being requested"
+#~ msgid "Download New %1"
+#~ msgstr "Stáhnout nový %1"
+
+#~ msgctxt ""
+#~ "A placeholder title used in the dialog when there is no better title "
+#~ "available"
+#~ msgid "Download New Stuff"
+#~ msgstr "Stáhnout nový obsah"
+
+#~ msgid "Pick Your Installation Option"
+#~ msgstr "Zvolte si možnost instalace"
+
+#~ msgctxt ""
+#~ "A passive notification shown when installation of an item is initiated"
+#~ msgid "Installing %1 from %2"
+#~ msgstr "Instaluje se %1 z %2"
+
+#~ msgctxt ""
+#~ "Status message to be shown when the entry is in the process of being "
+#~ "installed OR uninstalled"
+#~ msgid "Currently working on the item %1 by %2. Please wait..."
+#~ msgstr "Aktuálně pracuji na položce %1 z %2. Prosím, počkejte..."
+
+#~ msgctxt ""
+#~ "Status message to be shown when the entry is in the process of being "
+#~ "updated"
+#~ msgid "Currently updating the item %1 by %2. Please wait..."
+#~ msgstr "Aktuálně aktualizuji %1 z %2. Prosím, počkejte..."
+
+#~ msgctxt ""
+#~ "Combined title for the entry details page made of the name of the entry, "
+#~ "and the author's name"
+#~ msgid "%1 by %2"
+#~ msgstr "%1 od %2"
+
+#~ msgctxt ""
+#~ "Request installation of this item, available when there is exactly one "
+#~ "downloadable item"
+#~ msgid "Install"
+#~ msgstr "Instalovat"
+
+#~ msgctxt ""
+#~ "Show installation options, where there is more than one downloadable item"
+#~ msgid "Install..."
+#~ msgstr "Instalovat..."
+
+#~ msgctxt "Request updating of this item"
+#~ msgid "Update"
+#~ msgstr "Aktualizovat"
+
+#~ msgctxt "Request uninstallation of this item"
+#~ msgid "Uninstall"
+#~ msgstr "Odinstalovat"
+
+#~ msgid "Comments and Reviews:"
+#~ msgstr "Komentáře a kontrola:"
+
+#~ msgctxt ""
+#~ "A link which, when clicked, opens a new sub page with comments (comments "
+#~ "with or without ratings) for this entry"
+#~ msgid "%1 Reviews and Comments"
+#~ msgstr "%1 Hodnocení a komentáře"
+
+#~ msgid "Rating:"
+#~ msgstr "Hodnocení:"
+
+#~ msgid "Homepage:"
+#~ msgstr "Domácí stránka:"
+
+#~ msgctxt ""
+#~ "A link which, when clicked, opens the website associated with the entry "
+#~ "(this could be either one specific to the project, the author's homepage, "
+#~ "or any other website they have chosen for the purpose)"
+#~ msgid "Open the homepage for %1"
+#~ msgstr "Otevřít domovskou stránku pro %1"
+
+#~ msgid "How To Donate:"
+#~ msgstr "Jak přispět:"
+
+#~ msgctxt ""
+#~ "A link which, when clicked, opens a website with information on donation "
+#~ "in support of the entry"
+#~ msgid "Find out how to donate to this project"
+#~ msgstr "Jak přispět na tento projekt"
+
+#~ msgctxt "Request installation of this item"
+#~ msgid "Install"
+#~ msgstr "Instalovat"
+
+#~ msgctxt "List option which will set the filter to show everything"
+#~ msgid "Show Everything"
+#~ msgstr "Zobrazit vše"
+
+#~ msgctxt ""
+#~ "List option which will set the filter so only installed items are shown"
+#~ msgid "Installed Only"
+#~ msgstr "Pouze nainstalováno"
+
+#~ msgctxt ""
+#~ "List option which will set the filter so only installed items with "
+#~ "updates available are shown"
+#~ msgid "Updateable Only"
+#~ msgstr "Pouze aktualizovatelné"
+
+#~ msgctxt ""
+#~ "List option which will set the sort order to based on when items were "
+#~ "most recently updated"
+#~ msgid "Show most recent first"
+#~ msgstr "Nejdříve zobrazit nejnovější"
+
+#~ msgctxt ""
+#~ "List option which will set the sort order to be alphabetical based on the "
+#~ "name"
+#~ msgid "Sort alphabetically"
+#~ msgstr "Seřadit podle abecedy"
+
+#~ msgctxt "List option which will set the sort order to based on user ratings"
+#~ msgid "Show highest rated first"
+#~ msgstr "Nejdříve zobrazit nejlépe hodnocené"
+
+#~ msgctxt ""
+#~ "List option which will set the sort order to based on number of downloads"
+#~ msgid "Show most downloaded first"
+#~ msgstr "Nejdříve zobrazit nejvíce stahované"
+
+#~ msgid ""
+#~ "The content available here has been uploaded by users like you, and has "
+#~ "not been reviewed by your distributor for functionality or stability."
+#~ msgstr ""
+#~ "Zde dostupný obsah byl odeslán uživateli jako jste vy a nebyl "
+#~ "zkontrolován tvůrcem vaší distribuce zda je správně funkční a stabilní."
+
+#~ msgid "Tiles"
+#~ msgstr "Dlaždice"
+
+#~ msgid "Icons"
+#~ msgstr "Ikony"
+
+#~ msgid "Preview"
+#~ msgstr "Náhled"
+
+#~ msgid "Detailed Tiles View Mode"
+#~ msgstr "Režim podrobného dlaždicového zobrazení"
+
+#~ msgid "Icons Only View Mode"
+#~ msgstr "Režim zobrazení pouze s ikonami"
+
+#~ msgid "Large Preview View Mode"
+#~ msgstr "Režim zobrazení velkého náhledu"
+
+#~ msgid "Everything"
+#~ msgstr "Vše"
+
+#~ msgid "Updateable"
+#~ msgstr "Aktualizovatelné"
+
+#~ msgctxt "List option which will set the filter to show everything"
+#~ msgid "Show All Entries"
+#~ msgstr "Zobrazit všechny položky"
+
+#~ msgctxt ""
+#~ "List option which will set the filter so only installed items are shown"
+#~ msgid "Show Only Installed Entries"
+#~ msgstr "Zobrazit pouze nainstalované položky"
+
+#~ msgctxt ""
+#~ "List option which will set the filter so only installed items with "
+#~ "updates available are shown"
+#~ msgid "Show Only Updateable Entries"
+#~ msgstr "Zobrazit pouze aktualizovatelné položky"
+
+#~ msgid "Recent"
+#~ msgstr "Nedávné"
+
+#~ msgid "Alphabetical"
+#~ msgstr "Podle abecedy"
+
+#~ msgid "Downloads"
+#~ msgstr "Stahování"
+
+#~ msgctxt ""
+#~ "List option which will set the sort order to based on when items were "
+#~ "most recently updated"
+#~ msgid "Show Most Recent First"
+#~ msgstr "Nejdříve zobrazit nejnovější"
+
+#~ msgctxt ""
+#~ "List option which will set the sort order to be alphabetical based on the "
+#~ "name"
+#~ msgid "Sort Alphabetically By Name"
+#~ msgstr "Seřadit abecedně podle jména"
+
+#~ msgctxt "List option which will set the sort order to based on user ratings"
+#~ msgid "Show Highest Rated First"
+#~ msgstr "Nejdříve zobrazit nejlépe hodnocené"
+
+#~ msgctxt ""
+#~ "List option which will set the sort order to based on number of downloads"
+#~ msgid "Show Most Downloaded First"
+#~ msgstr "Nejdříve zobrazit nejvíce stahované"
+
+#~ msgid "Upload..."
+#~ msgstr "Odeslat..."
+
+#~ msgid "Go to..."
+#~ msgstr "Přejít na..."
+
+#~ msgid "Contribute your own…"
+#~ msgstr "Přispět vlastní…"
+
+#~ msgctxt ""
+#~ "A text shown beside a busy indicator suggesting that data is being fetched"
+#~ msgid "Loading more…"
+#~ msgstr "Načítám další…"
+
+#~ msgctxt ""
+#~ "Placeholder title for when a comment has no subject, but does have a "
+#~ "rating"
+#~ msgid "<i>(no title)</i>"
+#~ msgstr "<li>(bez názvu)</li>"
+
+#~ msgctxt ""
+#~ "The author label in case the comment was written by the author of the "
+#~ "content entry the comment is attached to"
+#~ msgid "%1 <i>(author)</i>"
+#~ msgstr "%1 <i>(autor)</i>"
+
+#~ msgctxt "Title for the page containing a view of the comments for the entry"
+#~ msgid "Comments and Reviews for %1"
+#~ msgstr "Komentáře a kontrola pro %1"
+
+#~ msgctxt ""
+#~ "Title for the item which is checked when all comments should be shown"
+#~ msgid "Show All Comments"
+#~ msgstr "Zobrazit všechny komentáře"
+
+#~ msgctxt ""
+#~ "Title for the item which is checked when only comments which are reviews "
+#~ "should be shown"
+#~ msgid "Show Reviews Only"
+#~ msgstr "Zobrazit pouze náhledy"
+
+#~ msgctxt ""
+#~ "Title for the item which is checked when comments which are reviews, and "
+#~ "their children should be shown"
+#~ msgid "Show Reviews and Replies"
+#~ msgstr "Zobrazit náhledy a odpovědi"
+
+#~ msgctxt "The number of times the item has been downloaded"
+#~ msgid "%1 downloads"
+#~ msgstr "%1 stažení"
+
+#~ msgctxt ""
+#~ "Subheading for the tile view, located immediately underneath the name of "
+#~ "the item"
+#~ msgid "By <i>%1</i>"
+#~ msgstr "Od <i>%1</i>"
+
+#~ msgctxt ""
+#~ "Label for the busy indicator showing an item is being installed OR "
+#~ "uninstalled"
+#~ msgid "Working..."
+#~ msgstr "Pracuje..."
+
+#~ msgctxt ""
+#~ "Label for the busy indicator showing an item is in the process of being "
+#~ "updated"
+#~ msgid "Updating..."
+#~ msgstr "Aktualizuji..."
+
+#~ msgctxt "Label for the busy indicator showing an item is installing"
+#~ msgid "Installing..."
+#~ msgstr "Instaluje se..."
+
+#~ msgctxt "Title for a dialog box which shows error messages"
+#~ msgid "An Error Occurred"
+#~ msgstr "Nastala chyba"
+
+#~ msgid "Please try again later."
+#~ msgstr "Prosím, zkuste znovu později."
+
+# žádné parametry funkce v inspektoru funkcí
+#~ msgid "None"
+#~ msgstr "Nic"
+
+#~ msgctxt ""
+#~ "A text representation of the rating, shown as a fraction of the max value"
+#~ msgid "(%1/%2)"
+#~ msgstr "(%1/%2)"
+
+#~ msgctxt "@knewstuff5"
+#~ msgid "Upload New Stuff: %1"
+#~ msgstr "Odeslat nový obsah: %1"
+
+#~ msgctxt ""
+#~ "A text shown beside a busy indicator suggesting that data is being fetched"
+#~ msgid "Updating information..."
+#~ msgstr "Aktualizuji informace..."
+
+#~ msgctxt "The name of the KDE Store"
+#~ msgid "KDE Store"
+#~ msgstr "Obchod KDE"
+
+#~ msgctxt "An unnamed provider"
+#~ msgid "Your Provider"
+#~ msgstr "Váš poskytovatel"
+
+#~ msgctxt ""
+#~ "Text for an action which causes the specified website to be opened using "
+#~ "the user's system default browser"
+#~ msgid "Open Website: %1"
+#~ msgstr "Otevřít webovou stránku: %1"
+
+#~ msgctxt ""
+#~ "Text for an action which will attempt to send an email using the user's "
+#~ "system default email client"
+#~ msgid "Send Email To: %1"
+#~ msgstr "Odeslat e-mail na: %1"
+
+#~ msgctxt "Knewstuff5"
+#~ msgid "Back"
+#~ msgstr "Zpět"
+
+#~ msgctxt "Knewstuff5"
+#~ msgid "Popular"
+#~ msgstr "Populární"
+
+#~ msgctxt "Knewstuff5"
+#~ msgid "Restart"
+#~ msgstr "Restartovat"
+
+#~ msgctxt "Knewstuff5"
+#~ msgid "New"
+#~ msgstr "Nový"
+
+#~ msgctxt "Knewstuff5"
+#~ msgid "Home"
+#~ msgstr "Domů"
+
+#~ msgctxt "Knewstuff5"
+#~ msgid "Up"
+#~ msgstr "Nahoru"
+
+#~ msgctxt "Knewstuff5"
+#~ msgid "Recommended"
+#~ msgstr "Doporučeno"
+
+#~ msgctxt "Knewstuff5"
+#~ msgid "Subscriptions"
+#~ msgstr "Přihlášení"
+
+#~ msgctxt "Knewstuff5"
+#~ msgid "All Entries"
+#~ msgstr "Všechny položky"
+
+#~ msgctxt "Knewstuff5"
+#~ msgid "Search Preset: %1"
+#~ msgstr "Hledat předvolbu: %1"
+
+#~ msgid "Details for %1"
+#~ msgstr "Podrobnosti pro %1"
+
+#~ msgid "Changelog:"
+#~ msgstr "Seznam změn:"
+
+#~ msgctxt "A link to the description of this Get Hot New Stuff item"
+#~ msgid "Homepage"
+#~ msgstr "Domovská stránka"
+
+#~ msgctxt ""
+#~ "A link to make a donation for a Get Hot New Stuff item (opens a web "
+#~ "browser)"
+#~ msgid "Make a donation"
+#~ msgstr "Sponzorovat"
+
+#~ msgctxt "A link to the knowledgebase (like a forum) (opens a web browser)"
+#~ msgid "Knowledgebase (no entries)"
+#~ msgid_plural "Knowledgebase (%1 entries)"
+#~ msgstr[0] "Báze znalostí (žádná položka)"
+#~ msgstr[1] "Báze znalostí (%1 položky)"
+#~ msgstr[2] "Báze znalostí (%1 položek)"
+
+#~ msgctxt "Tooltip for a link in a dialog"
+#~ msgid "Opens in a browser window"
+#~ msgstr "Otevřít v okně prohlížeče"
+
+#~ msgid "Rating: %1%"
+#~ msgstr "Hodnocení: %1%"
+
+#~ msgctxt "Show the size of the file in a list"
+#~ msgid "<br />Size: %1"
+#~ msgstr "<br />Velikost: %1"
+
+#~ msgctxt "Show the author of this item in a list"
+#~ msgid "By <i>%1</i>"
+#~ msgstr "Od <i>%1</i>"
+
+#~ msgctxt "fan as in supporter"
+#~ msgid "1 fan"
+#~ msgid_plural "%1 fans"
+#~ msgstr[0] "1 fanoušek"
+#~ msgstr[1] "%1 fanoušci"
+#~ msgstr[2] "%1 fanoušků"
+
+#~ msgid "1 download"
+#~ msgid_plural "%1 downloads"
+#~ msgstr[0] "1 stažení"
+#~ msgstr[1] "%1 stažení"
+#~ msgstr[2] "%1 stažení"
+
+#~ msgid "Loading Preview"
+#~ msgstr "Načítá se náhled"
+
+#~ msgid "Details"
+#~ msgstr "Podrobnosti"
+
+#~ msgid "Updating"
+#~ msgstr "Aktualizuji"
+
+#~ msgid "Install Again"
+#~ msgstr "Znovu nainstalovat"
+
+#~ msgctxt "Show the size of the file in a list"
+#~ msgid "<p>Size: %1</p>"
+#~ msgstr "<p>Velikost: %1</p>"
+
+#~ msgctxt "@action:button"
+#~ msgid "Yes"
+#~ msgstr "Ano"
+
+#~ msgctxt "@action:button"
+#~ msgid "No"
+#~ msgstr "Ne"

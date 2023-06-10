@@ -1,0 +1,1024 @@
+# Vietnamese translation for kdelibs.
+# Copyright © 2007 KDE i18n Project for Vietnamese.
+#
+# Clytie Siddall <clytie@riverland.net.au>, 2006-2007.
+# Hoàng Đức Hiếu <hieu.d.hoang@gmail.com>, 2008, 2011.
+# Lê Hoàng Phương <herophuong93@gmail.com>, 2011, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdelibs4\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2023-06-10 02:08+0000\n"
+"PO-Revision-Date: 2012-09-23 18:43+0800\n"
+"Last-Translator: Lê Hoàng Phương <herophuong93@gmail.com>\n"
+"Language-Team: American English <kde-i18n-vi@kde.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+#: kmoretools.cpp:517
+#, fuzzy, kde-format
+#| msgid "Installed"
+msgctxt "@action:inmenu"
+msgid "Not installed:"
+msgstr "Đã cài"
+
+#: kmoretools.cpp:614
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "@option:check An item in a list of resources that allows to query for "
+#| "more resources to put in the list"
+#| msgid "More..."
+msgctxt "@action:inmenu"
+msgid "More"
+msgstr "Thêm..."
+
+#: kmoretools.cpp:650
+#, fuzzy, kde-format
+#| msgid "Confi&gure..."
+msgctxt "@action:inmenu"
+msgid "Configure..."
+msgstr "&Cấu hình..."
+
+#: kmoretools_p.h:369
+#, fuzzy, kde-format
+#| msgid "Visit contributor's homepage"
+msgctxt "@action:inmenu"
+msgid "Visit homepage"
+msgstr "Xem trang chủ của người đóng góp"
+
+#: kmoretools_p.h:378
+#, fuzzy, kde-format
+#| msgid "Install"
+msgctxt "@action:inmenu"
+msgid "Install"
+msgstr "Cài đặt"
+
+#: kmoretools_p.h:386
+#, fuzzy, kde-format
+#| msgid "There is no matching item available.\n"
+msgctxt "@action:inmenu"
+msgid "No further information available."
+msgstr "Không có gì khớp.\n"
+
+#: kmoretoolsconfigdialog_p.cpp:170
+#, fuzzy, kde-format
+#| msgid "Configure"
+msgid "Configure menu"
+msgstr "Cấu hình"
+
+#: kmoretoolsconfigdialog_p.cpp:172
+#, fuzzy, kde-format
+#| msgid "&Configure %1..."
+msgid "Configure menu - %1"
+msgstr "&Cấu hình %1..."
+
+#: kmoretoolsmenufactory.cpp:172
+#, fuzzy, kde-format
+#| msgid "Path to documents folder"
+msgctxt "@action:inmenu %1=\"$GenericName\""
+msgid "%1 - current folder"
+msgstr "Đường dẫn tới thư mục tài liệu"
+
+#: kmoretoolsmenufactory.cpp:181
+#, kde-format
+msgctxt "@action:inmenu %1=\"$GenericName\""
+msgid "%1 - current device"
+msgstr ""
+
+#: kmoretoolsmenufactory.cpp:194
+#, kde-format
+msgctxt "@action:inmenu %1=\"$GenericName\""
+msgid "%1 - all devices"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, gbMainSection)
+#: ui/kmoretoolsconfigwidget.ui:25
+#, fuzzy, kde-format
+#| msgid "Maintainer"
+msgid "Main section"
+msgstr "Nhà duy trì"
+
+#. i18n: ectx: property (text), widget (QToolButton, buttonMoveDown)
+#: ui/kmoretoolsconfigwidget.ui:58
+#, fuzzy, kde-format
+#| msgid "Move &Down"
+msgid "Move down"
+msgstr "Đem &xuống"
+
+#. i18n: ectx: property (text), widget (QToolButton, buttonMoveUp)
+#: ui/kmoretoolsconfigwidget.ui:78
+#, fuzzy, kde-format
+#| msgid "Move &Up"
+msgid "Move up"
+msgstr "Đem &lên"
+
+#. i18n: ectx: property (text), widget (QToolButton, buttonMoveToMain)
+#: ui/kmoretoolsconfigwidget.ui:98
+#, fuzzy, kde-format
+#| msgid "Move to Trash"
+msgid "Move to Main section"
+msgstr "Chuyển vào Rác"
+
+#. i18n: ectx: property (text), widget (QToolButton, buttonMoveToMore)
+#: ui/kmoretoolsconfigwidget.ui:118
+#, fuzzy, kde-format
+#| msgid "More Actions"
+msgid "Move to More section"
+msgstr "Thêm hành động"
+
+#. i18n: ectx: property (text), widget (QToolButton, buttonReset)
+#: ui/kmoretoolsconfigwidget.ui:138
+#, kde-format
+msgid "Reset"
+msgstr "Đặt lại"
+
+#. i18n: ectx: property (title), widget (QGroupBox, gbMoreSection)
+#: ui/kmoretoolsconfigwidget.ui:159
+#, fuzzy, kde-format
+#| msgid "More Actions"
+msgid "More section"
+msgstr "Thêm hành động"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/kmoretoolsconfigwidget.ui:211
+#, kde-format
+msgid ""
+"For this menu there are some more tools suggested which are currently not "
+"installed:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonNotInstalledTools)
+#: ui/kmoretoolsconfigwidget.ui:221
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "@option:check An item in a list of resources that allows to query for "
+#| "more resources to put in the list"
+#| msgid "More..."
+msgid "More tools..."
+msgstr "Thêm..."
+
+#, fuzzy
+#~| msgid "All Categories"
+#~ msgid "All categories are missing"
+#~ msgstr "Tất cả thể loại"
+
+#, fuzzy
+#~| msgctxt ""
+#~| "the price of a download item, parameter 1 is the currency, 2 is the price"
+#~| msgid ""
+#~| "This items costs %1 %2.\n"
+#~| "Do you want to buy it?"
+#~ msgctxt ""
+#~ "the price of a download item, parameter 1 is the currency, 2 is the price"
+#~ msgid ""
+#~ "This item costs %1 %2.\n"
+#~ "Do you want to buy it?"
+#~ msgstr ""
+#~ "Mục này có giá %1 %2.\n"
+#~ "Bạn có muốn mua chứ?"
+
+#~ msgid ""
+#~ "Your account balance is too low:\n"
+#~ "Your balance: %1\n"
+#~ "Price: %2"
+#~ msgstr ""
+#~ "Số dư tài khoản của bạn quá thấp:\n"
+#~ "Số dư: %1\n"
+#~ "Giá: %2"
+
+#~ msgctxt "voting for an item (good/bad)"
+#~ msgid "Your vote was recorded."
+#~ msgstr "Bình chọn của bạn đã được lưu lại."
+
+#~ msgid "You are now a fan."
+#~ msgstr "Giờ bạn đã là một fan rồi."
+
+#, fuzzy
+#~| msgid "Network error. (%1)"
+#~ msgid "Network error %1: %2"
+#~ msgstr "Lỗi mạng. (%1)"
+
+#~ msgid "Too many requests to server. Please try again in a few minutes."
+#~ msgstr "Quá nhiều yêu cầu đến máy chủ. Hãy thử lại sau vài phút."
+
+#~ msgid "Unknown Open Collaboration Service API error. (%1)"
+#~ msgstr "Lỗi API Dịch vụ cộng tác mở không rõ. (%1)"
+
+#~ msgid "Download New Stuff..."
+#~ msgstr "Tải về các thứ mới..."
+
+#, fuzzy
+#~| msgid "Unknown socket error"
+#~ msgctxt ""
+#~ "The value returned for an unknown role when requesting data from the "
+#~ "model."
+#~ msgid "Unknown CommentsModel role"
+#~ msgstr "Lỗi socket không rõ"
+
+#, fuzzy
+#~| msgid "An error occurred while accessing '%1'"
+#~ msgid ""
+#~ "An error occurred during the installation process:\n"
+#~ "%1"
+#~ msgstr "Gặp lỗi khi truy cập « %1 »"
+
+#~ msgid "Initializing"
+#~ msgstr "Đang khởi chạy"
+
+#, fuzzy
+#~| msgid "Configuration file not found: \"%1\""
+#~ msgid "Configuration file exists, but cannot be opened: \"%1\""
+#~ msgstr "Không thấy tệp cấu hình: \"%1\""
+
+#~ msgid "Configuration file is invalid: \"%1\""
+#~ msgstr "Tệp cấu hình không hợp lệ: \"%1\""
+
+#~ msgid "Loading provider information"
+#~ msgstr "Đang tải thông tin nhà cung cấp"
+
+#~ msgid "Could not load get hot new stuff providers from file: %1"
+#~ msgstr "Không thể lấy nhà cung cấp thứ hay ho mới từ tệp: %1"
+
+#~ msgid "Error initializing provider."
+#~ msgstr "Lỗi khởi tạo nhà cung cấp."
+
+#~ msgid "Loading data"
+#~ msgstr "Đang tải dữ liệu"
+
+#~ msgid "Loading data from provider"
+#~ msgstr "Đang tải dữ liệu từ nhà cung cấp"
+
+#~ msgid "Loading of providers from file: %1 failed"
+#~ msgstr "Nạp nhà cung cấp từ tệp: %1 thất bại"
+
+#~ msgid "Re: %1"
+#~ msgstr "Trả lời: %1"
+
+#~ msgid "Installing"
+#~ msgstr "Đang cài đặt"
+
+#~ msgid "Loading one preview"
+#~ msgid_plural "Loading %1 previews"
+#~ msgstr[0] "Đang tải %1 xem trước"
+
+#~ msgid "Invalid item."
+#~ msgstr "Mục không hợp lệ."
+
+#~ msgid "Download of item failed: no download URL for \"%1\"."
+#~ msgstr "Tải mục thất bại: không có liên kết tải cho \"%1\"."
+
+#~ msgid "Download of \"%1\" failed, error: %2"
+#~ msgstr "Tải \"%1\" thất bại, lỗi: %2"
+
+#~ msgid "Could not install \"%1\": file not found."
+#~ msgstr "Không thể cài đặt \"%1\": không tìm thấy tệp."
+
+#, fuzzy
+#~| msgid "Installing"
+#~ msgid "Installation of %1 failed: %2"
+#~ msgstr "Đang cài đặt"
+
+#, fuzzy
+#~| msgid "Unable to open temporary file."
+#~ msgid "Failed to open the archive file %1. The reported error was: %2"
+#~ msgstr "Không thể mở tệp tạm thời."
+
+#, fuzzy
+#~| msgid "Overwrite File?"
+#~ msgid "Overwrite File"
+#~ msgstr "Ghi đè tệp không?"
+
+#~ msgid ""
+#~ "<qt>Cannot start <i>gpg</i> and retrieve the available keys. Make sure "
+#~ "that <i>gpg</i> is installed, otherwise verification of downloaded "
+#~ "resources will not be possible.</qt>"
+#~ msgstr ""
+#~ "<qt>Không thể khởi chạy <i>gpg</i> để lấy các khoá công bố. Hãy chác "
+#~ "là<i>gpg</i> đã được cài đặt, không thì không thể thẩm tra tài nguyên đã "
+#~ "tải về.</qt>"
+
+#~ msgid ""
+#~ "<qt>Enter passphrase for key <b>0x%1</b>, belonging to<br /><i>%2&lt;"
+#~ "%3&gt;</i><br />:</qt>"
+#~ msgstr ""
+#~ "<qt>Hãy nhập mật khẩu cho khoá <b>0x%1</b>, thuộc về <br /><i>%2&lt;%3&gt;"
+#~ "</i><br />:</qt>"
+
+#~ msgid ""
+#~ "<qt>Cannot start <i>gpg</i> and check the validity of the file. Make sure "
+#~ "that <i>gpg</i> is installed, otherwise verification of downloaded "
+#~ "resources will not be possible.</qt>"
+#~ msgstr ""
+#~ "<qt>Không thể khởi chạy <i>gpg</i> để kiểm tra độ hợp lệ của tệp đó. Hãy "
+#~ "chác là<i>gpg</i> đã được cài đặt, không thì không thể thẩm tra tài "
+#~ "nguyên đã tải về.</qt>"
+
+#~ msgid "Key used for signing:"
+#~ msgstr "Khoá dùng để kí :"
+
+#~ msgid "Select Signing Key"
+#~ msgstr "Chọn khoá kí"
+
+#~ msgid ""
+#~ "<qt>Cannot start <i>gpg</i> and sign the file. Make sure that <i>gpg</i> "
+#~ "is installed, otherwise signing of the resources will not be possible.</"
+#~ "qt>"
+#~ msgstr ""
+#~ "<qt>Không thể khởi chạy <i>gpg</i> để kí tệp đó. Hãy chác là<i>gpg</i> đã "
+#~ "được cài đặt, không thì không thể thẩm tra tài nguyên đã tải về.</qt>"
+
+#~ msgid "Get Hot New Stuff"
+#~ msgstr "Lấy các thứ hay ho mới"
+
+#~ msgctxt "Program name followed by 'Add On Installer'"
+#~ msgid "%1 Add-On Installer"
+#~ msgstr "Trình cài đặt bổ trợ %1"
+
+#~ msgid "Timeout. Check Internet connection."
+#~ msgstr "Hết thời gian. Hãy kiểm tra lại có kết nối mạng không."
+
+#~ msgid "Server: %1"
+#~ msgstr "Máy chủ: %1"
+
+#~ msgid "<br />Provider: %1"
+#~ msgstr "<br />Nhà cung cấp: %1"
+
+#~ msgid "<br />Version: %1"
+#~ msgstr "<br />Phiên bản: %1"
+
+#~ msgid "Provider information"
+#~ msgstr "Thông tin về nhà cung cấp"
+
+#~ msgid "Could not install %1"
+#~ msgstr "Không thể cài %1"
+
+#~ msgid "Get Hot New Stuff!"
+#~ msgstr "Lấy các thứ hay ho mới!"
+
+#~ msgid "Icons view mode"
+#~ msgstr "Xem biểu tượng"
+
+#~ msgid "Details view mode"
+#~ msgstr "Xem chi tiết"
+
+#~ msgid "All Providers"
+#~ msgstr "Tất cả nhà cung cấp"
+
+#~ msgid "All Categories"
+#~ msgstr "Tất cả thể loại"
+
+#~ msgid "Provider:"
+#~ msgstr "Nhà cung cấp:"
+
+#~ msgid "Category:"
+#~ msgstr "Thể loại:"
+
+#~ msgid "Most downloads"
+#~ msgstr "Tải về nhiều nhất"
+
+#~ msgid "Newest"
+#~ msgstr "Mới nhất"
+
+#~ msgid "Rating"
+#~ msgstr "Đánh giá"
+
+#~ msgid "Installed"
+#~ msgstr "Đã cài"
+
+#~ msgid "Order by:"
+#~ msgstr "Sắp xếp theo:"
+
+#~ msgid "Search:"
+#~ msgstr "Tìm kiếm:"
+
+#, fuzzy
+#~| msgid "Search"
+#~ msgid "Search..."
+#~ msgstr "Tìm kiếm"
+
+#~ msgid "Author:"
+#~ msgstr "Tác giả :"
+
+#, fuzzy
+#~| msgid "<a href=\"http://opendesktop.org\">Homepage</a>"
+#~ msgid "<a href=\"https://opendesktop.org\">Homepage</a>"
+#~ msgstr "<a href=\"http://opendesktop.org\">Trang chủ</a>"
+
+#~ msgid "Update"
+#~ msgstr "Cập nhật"
+
+#~ msgid "Uninstall"
+#~ msgstr "Gỡ cài đặt"
+
+#~ msgid "Become a Fan"
+#~ msgstr "Trở thành fan nhé"
+
+#~ msgid "Install"
+#~ msgstr "Cài đặt"
+
+#, fuzzy
+#~| msgid "All Categories"
+#~ msgctxt ""
+#~ "The first entry in the category selection list (also the default value)"
+#~ msgid "All Categories"
+#~ msgstr "Tất cả thể loại"
+
+#, fuzzy
+#~| msgid "Unknown error"
+#~ msgctxt ""
+#~ "The string passed back in the case the requested category is not known"
+#~ msgid "Unknown Category"
+#~ msgstr "Gặp lỗi lạ"
+
+#, fuzzy
+#~| msgid "Download New %1"
+#~ msgid "Download New %1..."
+#~ msgstr "Tải về %1 mới"
+
+#, fuzzy
+#~| msgid "Download New %1"
+#~ msgctxt ""
+#~ "The dialog title when we know which type of stuff is being requested"
+#~ msgid "Download New %1"
+#~ msgstr "Tải về %1 mới"
+
+#, fuzzy
+#~| msgid "Download New Stuff"
+#~ msgctxt ""
+#~ "A placeholder title used in the dialog when there is no better title "
+#~ "available"
+#~ msgid "Download New Stuff"
+#~ msgstr "Tải về các thứ mới"
+
+#, fuzzy
+#~| msgid "Installing"
+#~ msgctxt ""
+#~ "A passive notification shown when installation of an item is initiated"
+#~ msgid "Installing %1 from %2"
+#~ msgstr "Đang cài đặt"
+
+#, fuzzy
+#~| msgid "Install"
+#~ msgctxt ""
+#~ "Request installation of this item, available when there is exactly one "
+#~ "downloadable item"
+#~ msgid "Install"
+#~ msgstr "Cài đặt"
+
+#, fuzzy
+#~| msgid "Install"
+#~ msgctxt ""
+#~ "Show installation options, where there is more than one downloadable item"
+#~ msgid "Install..."
+#~ msgstr "Cài đặt"
+
+#, fuzzy
+#~| msgid "Update"
+#~ msgctxt "Request updating of this item"
+#~ msgid "Update"
+#~ msgstr "Cập nhật"
+
+#, fuzzy
+#~| msgid "Uninstall"
+#~ msgctxt "Request uninstallation of this item"
+#~ msgid "Uninstall"
+#~ msgstr "Gỡ cài đặt"
+
+#, fuzzy
+#~| msgid "View Comments"
+#~ msgctxt ""
+#~ "A link which, when clicked, opens a new sub page with comments (comments "
+#~ "with or without ratings) for this entry"
+#~ msgid "%1 Reviews and Comments"
+#~ msgstr "Xem bình luận"
+
+#, fuzzy
+#~| msgid "Rating: "
+#~ msgid "Rating:"
+#~ msgstr "Đánh giá:"
+
+#, fuzzy
+#~| msgid "Homepage"
+#~ msgid "Homepage:"
+#~ msgstr "Trang chủ"
+
+#, fuzzy
+#~| msgid "Install"
+#~ msgctxt "Request installation of this item"
+#~ msgid "Install"
+#~ msgstr "Cài đặt"
+
+#, fuzzy
+#~| msgid "Install"
+#~ msgctxt ""
+#~ "List option which will set the filter so only installed items are shown"
+#~ msgid "Installed Only"
+#~ msgstr "Cài đặt"
+
+#, fuzzy
+#~| msgid "Show directories first"
+#~ msgctxt ""
+#~ "List option which will set the sort order to based on when items were "
+#~ "most recently updated"
+#~ msgid "Show most recent first"
+#~ msgstr "Hiện thư mục trước"
+
+#, fuzzy
+#~| msgid "Show directories first"
+#~ msgctxt "List option which will set the sort order to based on user ratings"
+#~ msgid "Show highest rated first"
+#~ msgstr "Hiện thư mục trước"
+
+#, fuzzy
+#~| msgid "Most downloads"
+#~ msgctxt ""
+#~ "List option which will set the sort order to based on number of downloads"
+#~ msgid "Show most downloaded first"
+#~ msgstr "Tải về nhiều nhất"
+
+#, fuzzy
+#~| msgid "Preview Images"
+#~ msgid "Preview"
+#~ msgstr "Ảnh xem trước"
+
+#, fuzzy
+#~| msgid "Details view mode"
+#~ msgid "Detailed Tiles View Mode"
+#~ msgstr "Xem chi tiết"
+
+#, fuzzy
+#~| msgid "Icons view mode"
+#~ msgid "Icons Only View Mode"
+#~ msgstr "Xem biểu tượng"
+
+#, fuzzy
+#~| msgid "Details view mode"
+#~ msgid "Large Preview View Mode"
+#~ msgstr "Xem chi tiết"
+
+#, fuzzy
+#~| msgid "Update"
+#~ msgid "Updateable"
+#~ msgstr "Cập nhật"
+
+#, fuzzy
+#~| msgid "All Categories"
+#~ msgctxt "List option which will set the filter to show everything"
+#~ msgid "Show All Entries"
+#~ msgstr "Tất cả thể loại"
+
+#, fuzzy
+#~| msgid "1 download"
+#~| msgid_plural "%1 downloads"
+#~ msgid "Downloads"
+#~ msgstr "%1 tải về"
+
+#, fuzzy
+#~| msgid "Show directories first"
+#~ msgctxt ""
+#~ "List option which will set the sort order to based on when items were "
+#~ "most recently updated"
+#~ msgid "Show Most Recent First"
+#~ msgstr "Hiện thư mục trước"
+
+#, fuzzy
+#~| msgid "Show directories first"
+#~ msgctxt "List option which will set the sort order to based on user ratings"
+#~ msgid "Show Highest Rated First"
+#~ msgstr "Hiện thư mục trước"
+
+#, fuzzy
+#~| msgid "Most downloads"
+#~ msgctxt ""
+#~ "List option which will set the sort order to based on number of downloads"
+#~ msgid "Show Most Downloaded First"
+#~ msgstr "Tải về nhiều nhất"
+
+#, fuzzy
+#~| msgid "New Upload"
+#~ msgid "Upload..."
+#~ msgstr "Tải lên mới"
+
+#, fuzzy
+#~| msgid "Print Previe&w..."
+#~ msgctxt ""
+#~ "A text shown beside a busy indicator suggesting that data is being fetched"
+#~ msgid "Loading more…"
+#~ msgstr "&Xem thử bản in..."
+
+#, fuzzy
+#~| msgctxt "@note/rich"
+#~| msgid "<i>Note</i>: %1"
+#~ msgctxt ""
+#~ "Placeholder title for when a comment has no subject, but does have a "
+#~ "rating"
+#~ msgid "<i>(no title)</i>"
+#~ msgstr "<i>Lưu ý</i>: %1"
+
+#, fuzzy
+#~| msgid "All Categories"
+#~ msgctxt ""
+#~ "Title for the item which is checked when all comments should be shown"
+#~ msgid "Show All Comments"
+#~ msgstr "Tất cả thể loại"
+
+#, fuzzy
+#~| msgid "Show Preview"
+#~ msgctxt ""
+#~ "Title for the item which is checked when only comments which are reviews "
+#~ "should be shown"
+#~ msgid "Show Reviews Only"
+#~ msgstr "Hiện ô xem thử"
+
+#, fuzzy
+#~| msgid "1 download"
+#~| msgid_plural "%1 downloads"
+#~ msgctxt "The number of times the item has been downloaded"
+#~ msgid "%1 downloads"
+#~ msgstr "%1 tải về"
+
+#, fuzzy
+#~| msgctxt "Show the author of this item in a list"
+#~| msgid "By <i>%1</i>"
+#~ msgctxt ""
+#~ "Subheading for the tile view, located immediately underneath the name of "
+#~ "the item"
+#~ msgid "By <i>%1</i>"
+#~ msgstr "Bởi <i>%1</i>"
+
+#, fuzzy
+#~| msgid "Updating"
+#~ msgctxt ""
+#~ "Label for the busy indicator showing an item is in the process of being "
+#~ "updated"
+#~ msgid "Updating..."
+#~ msgstr "Đang cập nhật"
+
+#, fuzzy
+#~| msgid "Installing"
+#~ msgctxt "Label for the busy indicator showing an item is installing"
+#~ msgid "Installing..."
+#~ msgstr "Đang cài đặt"
+
+#, fuzzy
+#~| msgctxt "No border line"
+#~| msgid "None"
+#~ msgid "None"
+#~ msgstr "Không"
+
+#, fuzzy
+#~| msgid "Download New Stuff"
+#~ msgctxt "@knewstuff5"
+#~ msgid "Upload New Stuff: %1"
+#~ msgstr "Tải về các thứ mới"
+
+#, fuzzy
+#~| msgid "Provider information"
+#~ msgctxt ""
+#~ "A text shown beside a busy indicator suggesting that data is being fetched"
+#~ msgid "Updating information..."
+#~ msgstr "Thông tin về nhà cung cấp"
+
+#, fuzzy
+#~| msgid "Provider:"
+#~ msgctxt "An unnamed provider"
+#~ msgid "Your Provider"
+#~ msgstr "Nhà cung cấp:"
+
+#, fuzzy
+#~| msgid "Newest"
+#~ msgctxt "Knewstuff5"
+#~ msgid "New"
+#~ msgstr "Mới nhất"
+
+#, fuzzy
+#~| msgctxt "A link to the description of this Get Hot New Stuff item"
+#~| msgid "Homepage"
+#~ msgctxt "Knewstuff5"
+#~ msgid "Home"
+#~ msgstr "Trang chủ"
+
+#, fuzzy
+#~| msgid "Description:"
+#~ msgctxt "Knewstuff5"
+#~ msgid "Subscriptions"
+#~ msgstr "Mô tả :"
+
+#, fuzzy
+#~| msgid "All Categories"
+#~ msgctxt "Knewstuff5"
+#~ msgid "All Entries"
+#~ msgstr "Tất cả thể loại"
+
+#~ msgid "Details for %1"
+#~ msgstr "Chi tiết cho %1"
+
+#~ msgid "Changelog:"
+#~ msgstr "Bản ghi thay đổi:"
+
+#~ msgctxt "A link to the description of this Get Hot New Stuff item"
+#~ msgid "Homepage"
+#~ msgstr "Trang chủ"
+
+#~ msgctxt ""
+#~ "A link to make a donation for a Get Hot New Stuff item (opens a web "
+#~ "browser)"
+#~ msgid "Make a donation"
+#~ msgstr "Ủng hộ"
+
+#~ msgctxt "A link to the knowledgebase (like a forum) (opens a web browser)"
+#~ msgid "Knowledgebase (no entries)"
+#~ msgid_plural "Knowledgebase (%1 entries)"
+#~ msgstr[0] "Cơ sở tri thức (%1 mục)"
+
+#~ msgctxt "Tooltip for a link in a dialog"
+#~ msgid "Opens in a browser window"
+#~ msgstr "Mở trong một cửa sổ trình duyệt"
+
+#~ msgid "Rating: %1%"
+#~ msgstr "Đánh giá: %1%"
+
+#, fuzzy
+#~| msgid "<br />Provider: %1"
+#~ msgctxt "Show the size of the file in a list"
+#~ msgid "<br />Size: %1"
+#~ msgstr "<br />Nhà cung cấp: %1"
+
+#~ msgctxt "Show the author of this item in a list"
+#~ msgid "By <i>%1</i>"
+#~ msgstr "Bởi <i>%1</i>"
+
+#~ msgctxt "fan as in supporter"
+#~ msgid "1 fan"
+#~ msgid_plural "%1 fans"
+#~ msgstr[0] "%1 fan"
+
+#~ msgid "1 download"
+#~ msgid_plural "%1 downloads"
+#~ msgstr[0] "%1 tải về"
+
+#~ msgid "Loading Preview"
+#~ msgstr "Đang tải xem trước"
+
+#~ msgid "Details"
+#~ msgstr "Chi tiết"
+
+#~ msgid "Updating"
+#~ msgstr "Đang cập nhật"
+
+#~ msgid "Install Again"
+#~ msgstr "Cài đặt lại"
+
+#, fuzzy
+#~| msgid "<p>Downloads: %1</p>\n"
+#~ msgctxt "Show the size of the file in a list"
+#~ msgid "<p>Size: %1</p>"
+#~ msgstr "<p>Tải về: %1</p>\n"
+
+#, fuzzy
+#~| msgctxt "No border line"
+#~| msgid "None"
+#~ msgctxt "@action:button"
+#~ msgid "No"
+#~ msgstr "Không"
+
+#~ msgid ""
+#~ "The downloaded file is a html file. This indicates a link to a website "
+#~ "instead of the actual download. Would you like to open the site with a "
+#~ "browser instead?"
+#~ msgstr ""
+#~ "Tệp đã tải là một tệp html. Điều này biểu thị một liên kết tới một trang "
+#~ "web khác thay vì bản tải thực sự. Bạn có muốn mở trang đó với một trình "
+#~ "duyệt không?"
+
+#~ msgid "Possibly bad download link"
+#~ msgstr "Có thể liên kết tải về bị sai"
+
+#~ msgid "Downloaded file was a HTML file. Opened in browser."
+#~ msgstr "Tệp đã tải là một tệp HTML. Đã mở trong trình duyệt."
+
+#~ msgctxt "Opposite to Back"
+#~ msgid "Next"
+#~ msgstr "Kế"
+
+#~ msgid "Finish"
+#~ msgstr "Kết thúc"
+
+#~ msgid "Fetching license data from server..."
+#~ msgstr "Đang tải dữ liệu giấy phép từ máy chủ..."
+
+#~ msgid "Fetching content data from server..."
+#~ msgstr "Đang tải dữ liệu nội dung từ máy chủ..."
+
+#, fuzzy
+#~| msgid "Provider information"
+#~ msgid "Could not fetch provider information."
+#~ msgstr "Thông tin về nhà cung cấp"
+
+#~ msgid "Checking login..."
+#~ msgstr "Đang kiểm tra đăng nhập..."
+
+#~ msgid "Fetching your previously updated content..."
+#~ msgstr "Đang tải các nội dung cập nhật trước đây của bạn..."
+
+#~ msgid "Could not verify login, please try again."
+#~ msgstr "Không thể xác thực đăng nhập, hay thử lại."
+
+#~ msgid "Fetching your previously updated content finished."
+#~ msgstr "Hoàn tất tải nội dung cập nhật trước đây của bạn."
+
+#~ msgid "Fetching content data from server finished."
+#~ msgstr "Hoàn tất tải dữ liệu nội dung từ máy chủ."
+
+#~ msgctxt ""
+#~ "A link to the website where the get hot new stuff upload can be seen"
+#~ msgid "Visit website"
+#~ msgstr "Ghé thăm trang web"
+
+#~ msgid "Share Hot New Stuff"
+#~ msgstr "Chia sẻ các thứ hay ho mới"
+
+#~ msgctxt "Program name followed by 'Add On Uploader'"
+#~ msgid "%1 Add-On Uploader"
+#~ msgstr "Trình cài đặt bổ trợ %1"
+
+#~ msgid "File not found: %1"
+#~ msgstr "Không tìm thấy tệp: %1"
+
+#~ msgid "Upload Failed"
+#~ msgstr "Tải lên thất bại"
+
+#~ msgid ""
+#~ "The server does not recognize the category %2 to which you are trying to "
+#~ "upload."
+#~ msgid_plural ""
+#~ "The server does not recognize any of the categories to which you are "
+#~ "trying to upload: %2"
+#~ msgstr[0] ""
+#~ "Máy chủ không nhận ra bất kì thể loại nào mà bạn đang muốn tải lên: %2"
+
+#~ msgid "Error"
+#~ msgstr "Lỗi"
+
+#~ msgid "The selected category \"%1\" is invalid."
+#~ msgstr "Thể loại \"%1\" đã chọn không hợp lệ."
+
+#~ msgid "Select preview image"
+#~ msgstr "Chọn ảnh xem trước"
+
+#~ msgid "There was a network error."
+#~ msgstr "Có lỗi mạng."
+
+#~ msgid "Uploading Failed"
+#~ msgstr "Tải lên thất bại"
+
+#~ msgid "Authentication error."
+#~ msgstr "Cấp phép thất bại."
+
+#~ msgid "Upload failed: %1"
+#~ msgstr "Tải lên thất bại: %1"
+
+#~ msgid "Password:"
+#~ msgstr "Mật khẩu:"
+
+#~ msgid "Username:"
+#~ msgstr "Tên người dùng:"
+
+#~ msgid "File to upload:"
+#~ msgstr "Tệp để tải lên:"
+
+#~ msgid "GPL"
+#~ msgstr "GPL"
+
+#~ msgid "LGPL"
+#~ msgstr "LGPL"
+
+#~ msgid "BSD"
+#~ msgstr "BSD"
+
+#~ msgid "Description:"
+#~ msgstr "Mô tả :"
+
+#~ msgid "Version:"
+#~ msgstr "Phiên bản:"
+
+#~ msgid "License:"
+#~ msgstr "Quyền phép:"
+
+#~ msgid "Please fill out the information about your upload in English."
+#~ msgstr "Hãy điền thông tin về tải lên của bạn bằng tiếng anh."
+
+#~ msgid "Title:"
+#~ msgstr "Tựa :"
+
+#~ msgid "Name of the file as it will appear on the website"
+#~ msgstr "Tên của tệp khi nó xuất hiện trên trang web"
+
+#~ msgid ""
+#~ "This should clearly describe the file content. It can be the same text as "
+#~ "the title of the kvtml file."
+#~ msgstr ""
+#~ "Cái này nên miêu tả rõ ràng nội dung tệp. Nó cũng có thể giống với tiêu "
+#~ "đề của tệp kvtml."
+
+#~ msgid "Preview Images"
+#~ msgstr "Ảnh xem trước"
+
+#~ msgid "Select Preview..."
+#~ msgstr "Chọn xem trước..."
+
+#~ msgid "Set a price for this item"
+#~ msgstr "Đặt giá cho mục này"
+
+#~ msgid "Price"
+#~ msgstr "Giá"
+
+#~ msgid "Price:"
+#~ msgstr "Giá:"
+
+#~ msgid "Reason for price:"
+#~ msgstr "Lí do cho giá:"
+
+#~ msgid "Fetch content link from server"
+#~ msgstr "Lấy liên kết nội dung từ máy chủ"
+
+#~ msgid "Create content on server"
+#~ msgstr "Tạo nội dung trên máy chủ"
+
+#~ msgid "Upload content"
+#~ msgstr "Tải lên nội dung"
+
+#~ msgid "Upload first preview"
+#~ msgstr "Tải lên xem trước đầu tiên"
+
+#~ msgid "Note: You can edit, update and delete your content on the website."
+#~ msgstr ""
+#~ "Lưu ý: bạn có thể sửa, cập nhật và xoá nội dung của bạn trên trang web."
+
+#~ msgid "Upload second preview"
+#~ msgstr "Tải lên xem trước thứ hai"
+
+#~ msgid "Upload third preview"
+#~ msgstr "Tải lên xem trước thứ ba"
+
+#~ msgid ""
+#~ "I ensure that this content does not violate any existing copyright, law "
+#~ "or trademark. I agree for my IP address to be logged. (Distributing "
+#~ "content without the permission of the copyright holder is illegal.)"
+#~ msgstr ""
+#~ "Tôi chắc chắn rằng nội dung này không vi phạm bất kì luật, bản quyền hay "
+#~ "nhãn hiệu nào. Tôi đồng ý rằng địa chỉ IP của tôi sẽ được ghi lại. (Phân "
+#~ "phối nội dung không dưới sự cho phép của người giữ bản quyền là bất hợp "
+#~ "pháp.)"
+
+#~ msgid "Start Upload"
+#~ msgstr "Bắt đầu tải lên"
+
+#, fuzzy
+#~| msgid "Failed to open scriptfile \"%1\""
+#~ msgid "Failed to execute install script"
+#~ msgstr "Lỗi mở tệp văn lệnh \"%1\"."
+
+#, fuzzy
+#~| msgid "Installing"
+#~ msgctxt "Label for the busy indicator showing an item is being installed"
+#~ msgid "Installing..."
+#~ msgstr "Đang cài đặt"
+
+#, fuzzy
+#~| msgid "Details view mode"
+#~ msgid "Tiles view mode"
+#~ msgstr "Xem chi tiết"
+
+#~ msgid "Show:"
+#~ msgstr "Hiện:"
+
+#, fuzzy
+#~| msgid "Show directories first"
+#~ msgctxt ""
+#~ "List option which will set the sort order to based on when items were "
+#~ "most recently updated"
+#~ msgid "Most recent first"
+#~ msgstr "Hiện thư mục trước"
+
+#, fuzzy
+#~| msgid "Show directories first"
+#~ msgctxt "List option which will set the sort order to based on user ratings"
+#~ msgid "Highest rated first"
+#~ msgstr "Hiện thư mục trước"
+
+#, fuzzy
+#~| msgid "Most downloads"
+#~ msgctxt ""
+#~ "List option which will set the sort order to based on number of downloads"
+#~ msgid "Most downloaded first"
+#~ msgstr "Tải về nhiều nhất"
+
+#, fuzzy
+#~| msgid "loading %1"
+#~ msgid "Using %1"
+#~ msgstr "đang tải %1"

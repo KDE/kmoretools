@@ -1,0 +1,955 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# GunChleoc <fios@foramnagaidhlig.net>, 2015.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2023-06-10 02:08+0000\n"
+"PO-Revision-Date: 2015-11-04 15:13+0000\n"
+"Last-Translator: Michael Bauer <fios@akerbeltz.org>\n"
+"Language-Team: Fòram na Gàidhlig\n"
+"Language: gd\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1 || n==11) ? 0 : (n==2 || n==12) ? 1 : "
+"(n > 2 && n < 20) ? 2 : 3;\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Project-Style: kde\n"
+
+#: kmoretools.cpp:517
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Not installed:"
+msgstr "Gun stàladh:"
+
+#: kmoretools.cpp:614
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "More"
+msgstr "Barrachd"
+
+#: kmoretools.cpp:650
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Configure..."
+msgstr "Rèitich..."
+
+#: kmoretools_p.h:369
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Visit homepage"
+msgstr "Tadhail air an duilleag-dhachaigh"
+
+#: kmoretools_p.h:378
+#, fuzzy, kde-format
+#| msgid "Install"
+msgctxt "@action:inmenu"
+msgid "Install"
+msgstr "Stàlaich"
+
+#: kmoretools_p.h:386
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "No further information available."
+msgstr "Chan eil barrachd fiosrachaidh ri fhaighinn."
+
+#: kmoretoolsconfigdialog_p.cpp:170
+#, kde-format
+msgid "Configure menu"
+msgstr "Clàr-taice rèiteachaidh"
+
+#: kmoretoolsconfigdialog_p.cpp:172
+#, kde-format
+msgid "Configure menu - %1"
+msgstr "Clàr-taice rèiteachaidh - %1"
+
+#: kmoretoolsmenufactory.cpp:172
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "$GenericName - current folder"
+msgctxt "@action:inmenu %1=\"$GenericName\""
+msgid "%1 - current folder"
+msgstr "$GenericName - am pasgan làithreach"
+
+#: kmoretoolsmenufactory.cpp:181
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "$GenericName - current device"
+msgctxt "@action:inmenu %1=\"$GenericName\""
+msgid "%1 - current device"
+msgstr "$GenericName - an t-uidheam làithreach"
+
+#: kmoretoolsmenufactory.cpp:194
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "$GenericName - all devices"
+msgctxt "@action:inmenu %1=\"$GenericName\""
+msgid "%1 - all devices"
+msgstr "$GenericName - a h-uile uidheam"
+
+#. i18n: ectx: property (title), widget (QGroupBox, gbMainSection)
+#: ui/kmoretoolsconfigwidget.ui:25
+#, kde-format
+msgid "Main section"
+msgstr "Prìomh-earrann"
+
+#. i18n: ectx: property (text), widget (QToolButton, buttonMoveDown)
+#: ui/kmoretoolsconfigwidget.ui:58
+#, kde-format
+msgid "Move down"
+msgstr "Gluais sìos"
+
+#. i18n: ectx: property (text), widget (QToolButton, buttonMoveUp)
+#: ui/kmoretoolsconfigwidget.ui:78
+#, kde-format
+msgid "Move up"
+msgstr "Gluais suas"
+
+#. i18n: ectx: property (text), widget (QToolButton, buttonMoveToMain)
+#: ui/kmoretoolsconfigwidget.ui:98
+#, kde-format
+msgid "Move to Main section"
+msgstr "Gluais dhan phrìomh-earrann"
+
+#. i18n: ectx: property (text), widget (QToolButton, buttonMoveToMore)
+#: ui/kmoretoolsconfigwidget.ui:118
+#, kde-format
+msgid "Move to More section"
+msgstr "Gluais dhan earrann le barrachd innealan"
+
+#. i18n: ectx: property (text), widget (QToolButton, buttonReset)
+#: ui/kmoretoolsconfigwidget.ui:138
+#, kde-format
+msgid "Reset"
+msgstr "Ath-shuidhich"
+
+#. i18n: ectx: property (title), widget (QGroupBox, gbMoreSection)
+#: ui/kmoretoolsconfigwidget.ui:159
+#, kde-format
+msgid "More section"
+msgstr "Earrann le barrachd innealan"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/kmoretoolsconfigwidget.ui:211
+#, kde-format
+msgid ""
+"For this menu there are some more tools suggested which are currently not "
+"installed:"
+msgstr ""
+"Mholamaid barrachd innealan airson a' chlàir-thaice seo nach eil air an "
+"stàladh aig an àm seo:"
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonNotInstalledTools)
+#: ui/kmoretoolsconfigwidget.ui:221
+#, kde-format
+msgid "More tools..."
+msgstr "Barrachd innealan..."
+
+#, fuzzy
+#~| msgid "All Categories"
+#~ msgid "All categories are missing"
+#~ msgstr "A h-uile roinn-seòrsa"
+
+#~ msgctxt ""
+#~ "the price of a download item, parameter 1 is the currency, 2 is the price"
+#~ msgid ""
+#~ "This item costs %1 %2.\n"
+#~ "Do you want to buy it?"
+#~ msgstr ""
+#~ "Tha an nì seo %1 %2.\n"
+#~ "A bheil thu airson a cheannach?"
+
+#~ msgid ""
+#~ "Your account balance is too low:\n"
+#~ "Your balance: %1\n"
+#~ "Price: %2"
+#~ msgstr ""
+#~ "Chan eil airgead gu leòr sa chunntas agad:\n"
+#~ "Am balans agad: %1\n"
+#~ "A' phrìs: %2"
+
+#~ msgctxt "voting for an item (good/bad)"
+#~ msgid "Your vote was recorded."
+#~ msgstr "Chaidh a' bhòt agad a chlàradh."
+
+#~ msgid "You are now a fan."
+#~ msgstr "Tha thu 'ga leantainn a-nis."
+
+#, fuzzy
+#~| msgid "Network error. (%1)"
+#~ msgid "Network error %1: %2"
+#~ msgstr "Mearachd lìonraidh. (%1)"
+
+#~ msgid "Too many requests to server. Please try again in a few minutes."
+#~ msgstr ""
+#~ "Tha iarrtasan aig an fhrithealaiche. Feuch ris a-rithist an ceann mionaid "
+#~ "no dhà."
+
+#~ msgid "Unknown Open Collaboration Service API error. (%1)"
+#~ msgstr "Mearachd Open Collaboration Service API nach aihne dhuinn. (%1)"
+
+#~ msgid "Download New Stuff..."
+#~ msgstr "Luchdaich a-nuas stuth ùr..."
+
+#~ msgid "Initializing"
+#~ msgstr "'Ga thòiseachadh"
+
+#, fuzzy
+#~| msgid "Configuration file not found: \"%1\""
+#~ msgid "Configuration file exists, but cannot be opened: \"%1\""
+#~ msgstr "Cha deach am faidhle rèiteachaidh a lorg: \"%1\""
+
+#~ msgid "Configuration file is invalid: \"%1\""
+#~ msgstr "Chan eil am faidhle rèiteachaidh dligheach: \"%1\""
+
+#~ msgid "Loading provider information"
+#~ msgstr "A' luchdadh fiosrachadh an t-solaraiche"
+
+#~ msgid "Could not load get hot new stuff providers from file: %1"
+#~ msgstr ""
+#~ "Cha b' urrainn dhuinn solaraichean deagh-stuith ùir a luchdadh on "
+#~ "fhaidhle: %1"
+
+#~ msgid "Error initializing provider."
+#~ msgstr "Mearachd le tòiseachadh an t-solaraiche."
+
+#~ msgid "Loading data"
+#~ msgstr "A' luchdadh dàta"
+
+#~ msgid "Loading data from provider"
+#~ msgstr "A' luchdadh dàta on t-solaraiche"
+
+#~ msgid "Loading of providers from file: %1 failed"
+#~ msgstr "Dh'fhàillig le luchdadh nan solaraichean on fhaidhle: %1"
+
+#~ msgid "Re: %1"
+#~ msgstr "Re: %1"
+
+#~ msgid "Installing"
+#~ msgstr "'Ga stàladh"
+
+#~ msgid "Loading one preview"
+#~ msgid_plural "Loading %1 previews"
+#~ msgstr[0] "A' luchdadh %1 ro-shealladh"
+#~ msgstr[1] "A' luchdadh %1 ro-shealladh"
+#~ msgstr[2] "A' luchdadh %1 ro-sheallaidhean"
+#~ msgstr[3] "A' luchdadh %1 ro-shealladh"
+
+#~ msgid "Invalid item."
+#~ msgstr "Nì mì-dhligheach."
+
+#~ msgid "Download of item failed: no download URL for \"%1\"."
+#~ msgstr ""
+#~ "Cha deach leinn an nì a luchdadh: chan eil URL luchdaidh a-nuas airson "
+#~ "\"%1\" ann."
+
+#~ msgid "Download of \"%1\" failed, error: %2"
+#~ msgstr "Cha deach leinn \"%1\" a luchdadh a-nuas, mearachd: %2"
+
+#~ msgid "Could not install \"%1\": file not found."
+#~ msgstr ""
+#~ "Cha b' urrainn dhuinn \"%1\" a stàladh: cha deach am faidhle a lorg."
+
+#, fuzzy
+#~| msgid "Installing"
+#~ msgid "Installation of %1 failed: %2"
+#~ msgstr "'Ga stàladh"
+
+#, fuzzy
+#~| msgid "Overwrite existing file?"
+#~ msgid "Overwrite File"
+#~ msgstr "A bheil thu airson sgrìobhadh thairis air an fhaidhle a tha ann?"
+
+#~ msgid ""
+#~ "<qt>Cannot start <i>gpg</i> and retrieve the available keys. Make sure "
+#~ "that <i>gpg</i> is installed, otherwise verification of downloaded "
+#~ "resources will not be possible.</qt>"
+#~ msgstr ""
+#~ "<qt>Chan urrainn dhuinn <i>gpg</i> a thòiseachadh is na h-iuchraichean ri "
+#~ "am faighinn a luchdadh. Dèan cinnteach gun dèid <i>gpg</i> a stàladh air "
+#~ "neo chan urrainn dhuinn na goireasan air an luchdadh a-nuas a dhearbhadh."
+#~ "</qt>"
+
+#~ msgid ""
+#~ "<qt>Enter passphrase for key <b>0x%1</b>, belonging to<br /><i>%2&lt;"
+#~ "%3&gt;</i><br />:</qt>"
+#~ msgstr ""
+#~ "<qt>Cuir a-steach an abairt-fhaire airson na h-iuchrach <b>0x%1</b> a tha "
+#~ "le<br /><i>%2&lt;%3&gt;</i><br />:</qt>"
+
+#~ msgid ""
+#~ "<qt>Cannot start <i>gpg</i> and check the validity of the file. Make sure "
+#~ "that <i>gpg</i> is installed, otherwise verification of downloaded "
+#~ "resources will not be possible.</qt>"
+#~ msgstr ""
+#~ "<qt>Chan urrainn dhuinn <i>gpg</i> a thòiseachadh airson dligheachd an "
+#~ "fhaidhle a dhearbhadh. Dèan cinnteach gun dèid <i>gpg</i> a stàladh air "
+#~ "neo chan urrainn dhuinn na goireasan air an luchdadh a-nuas a dhearbhadh."
+#~ "</qt>"
+
+#~ msgid "Key used for signing:"
+#~ msgstr "Iuchair airson an t-soidhnidh:"
+
+#~ msgid "Select Signing Key"
+#~ msgstr "Tagh iuchair soidhnidh"
+
+#~ msgid ""
+#~ "<qt>Cannot start <i>gpg</i> and sign the file. Make sure that <i>gpg</i> "
+#~ "is installed, otherwise signing of the resources will not be possible.</"
+#~ "qt>"
+#~ msgstr ""
+#~ "<qt>Chan urrainn dhuinn <i>gpg</i> a thòiseachadh is am faidhle a "
+#~ "shoidhneadh. Dèan cinnteach gun dèid <i>gpg</i> a stàladh air neo chan "
+#~ "urrainn dhuinn na goireasan a shoidhneadh.</qt>"
+
+#~ msgid "Get Hot New Stuff"
+#~ msgstr "Faigh deagh-stuth ùr"
+
+#~ msgctxt "Program name followed by 'Add On Installer'"
+#~ msgid "%1 Add-On Installer"
+#~ msgstr "Stàlaichear tuilleadain %1"
+
+#~ msgid "Timeout. Check Internet connection."
+#~ msgstr "Dh'fhalbh an ùine air. Thoir sùil air a' cheangal dhan eadar-lìon."
+
+#~ msgid "Server: %1"
+#~ msgstr "Frithealaiche: %1"
+
+#~ msgid "<br />Provider: %1"
+#~ msgstr "<br />Solaraiche: %1"
+
+#~ msgid "<br />Version: %1"
+#~ msgstr "<br />Tionndadh: %1"
+
+#~ msgid "Provider information"
+#~ msgstr "Fiosrachadh an t-solaraiche"
+
+#~ msgid "Could not install %1"
+#~ msgstr "Cha b' urrainn dhuinn %1 a stàladh"
+
+#~ msgid "Get Hot New Stuff!"
+#~ msgstr "Faigh deagh-stuth ùr!"
+
+#~ msgid "Icons view mode"
+#~ msgstr "Modh sealladh nan ìomhaigheagan"
+
+#~ msgid "Details view mode"
+#~ msgstr "Modh sealladh an fhiosrachaidh"
+
+#~ msgid "All Providers"
+#~ msgstr "A h-uile solaraiche"
+
+#~ msgid "All Categories"
+#~ msgstr "A h-uile roinn-seòrsa"
+
+#~ msgid "Provider:"
+#~ msgstr "Solaraiche:"
+
+#~ msgid "Category:"
+#~ msgstr "Roinn-seòrsa:"
+
+#~ msgid "Most downloads"
+#~ msgstr "Air a luchdadh a-nuas as trice"
+
+#~ msgid "Newest"
+#~ msgstr "As ùire"
+
+#~ msgid "Rating"
+#~ msgstr "Rangachadh"
+
+#~ msgid "Installed"
+#~ msgstr "Air a stàladh"
+
+#~ msgid "Order by:"
+#~ msgstr "Seòrsaich a-rèir:"
+
+#~ msgid "Search:"
+#~ msgstr "Lorg:"
+
+#, fuzzy
+#~| msgid "Search:"
+#~ msgid "Search..."
+#~ msgstr "Lorg:"
+
+#~ msgid "Author:"
+#~ msgstr "Ùghdar:"
+
+#, fuzzy
+#~| msgid "<a href=\"http://opendesktop.org\">Homepage</a>"
+#~ msgid "<a href=\"https://opendesktop.org\">Homepage</a>"
+#~ msgstr "<a href=\"http://opendesktop.org\">Duilleag-dhachaigh</a>"
+
+#~ msgid "Update"
+#~ msgstr "Ùraich"
+
+#~ msgid "Uninstall"
+#~ msgstr "Dì-stàlaich"
+
+#~ msgid "Become a Fan"
+#~ msgstr "Lean air"
+
+#~ msgid "Install"
+#~ msgstr "Stàlaich"
+
+#, fuzzy
+#~| msgid "All Categories"
+#~ msgctxt ""
+#~ "The first entry in the category selection list (also the default value)"
+#~ msgid "All Categories"
+#~ msgstr "A h-uile roinn-seòrsa"
+
+#, fuzzy
+#~| msgid "Category:"
+#~ msgctxt ""
+#~ "The string passed back in the case the requested category is not known"
+#~ msgid "Unknown Category"
+#~ msgstr "Roinn-seòrsa:"
+
+#, fuzzy
+#~| msgid "Download New Stuff..."
+#~ msgid "Download New %1..."
+#~ msgstr "Luchdaich a-nuas stuth ùr..."
+
+#, fuzzy
+#~| msgid "Download New Stuff..."
+#~ msgctxt ""
+#~ "The dialog title when we know which type of stuff is being requested"
+#~ msgid "Download New %1"
+#~ msgstr "Luchdaich a-nuas stuth ùr..."
+
+#, fuzzy
+#~| msgid "Download New Stuff..."
+#~ msgctxt ""
+#~ "A placeholder title used in the dialog when there is no better title "
+#~ "available"
+#~ msgid "Download New Stuff"
+#~ msgstr "Luchdaich a-nuas stuth ùr..."
+
+#, fuzzy
+#~| msgid "Installing"
+#~ msgctxt ""
+#~ "A passive notification shown when installation of an item is initiated"
+#~ msgid "Installing %1 from %2"
+#~ msgstr "'Ga stàladh"
+
+#, fuzzy
+#~| msgid "Install"
+#~ msgctxt ""
+#~ "Request installation of this item, available when there is exactly one "
+#~ "downloadable item"
+#~ msgid "Install"
+#~ msgstr "Stàlaich"
+
+#, fuzzy
+#~| msgid "Install"
+#~ msgctxt ""
+#~ "Show installation options, where there is more than one downloadable item"
+#~ msgid "Install..."
+#~ msgstr "Stàlaich"
+
+#, fuzzy
+#~| msgid "Update"
+#~ msgctxt "Request updating of this item"
+#~ msgid "Update"
+#~ msgstr "Ùraich"
+
+#, fuzzy
+#~| msgid "Uninstall"
+#~ msgctxt "Request uninstallation of this item"
+#~ msgid "Uninstall"
+#~ msgstr "Dì-stàlaich"
+
+#, fuzzy
+#~| msgid "Rating"
+#~ msgid "Rating:"
+#~ msgstr "Rangachadh"
+
+#, fuzzy
+#~| msgctxt "A link to the description of this Get Hot New Stuff item"
+#~| msgid "Homepage"
+#~ msgid "Homepage:"
+#~ msgstr "Duilleag-dhachaigh"
+
+#, fuzzy
+#~| msgid "Install"
+#~ msgctxt "Request installation of this item"
+#~ msgid "Install"
+#~ msgstr "Stàlaich"
+
+#, fuzzy
+#~| msgid "Installed"
+#~ msgctxt ""
+#~ "List option which will set the filter so only installed items are shown"
+#~ msgid "Installed Only"
+#~ msgstr "Air a stàladh"
+
+#, fuzzy
+#~| msgid "Most downloads"
+#~ msgctxt ""
+#~ "List option which will set the sort order to based on number of downloads"
+#~ msgid "Show most downloaded first"
+#~ msgstr "Air a luchdadh a-nuas as trice"
+
+#, fuzzy
+#~| msgid "Preview Images"
+#~ msgid "Preview"
+#~ msgstr "Dealbhan ro-sheallaidh"
+
+#, fuzzy
+#~| msgid "Details view mode"
+#~ msgid "Detailed Tiles View Mode"
+#~ msgstr "Modh sealladh an fhiosrachaidh"
+
+#, fuzzy
+#~| msgid "Icons view mode"
+#~ msgid "Icons Only View Mode"
+#~ msgstr "Modh sealladh nan ìomhaigheagan"
+
+#, fuzzy
+#~| msgid "Details view mode"
+#~ msgid "Large Preview View Mode"
+#~ msgstr "Modh sealladh an fhiosrachaidh"
+
+#, fuzzy
+#~| msgid "Update"
+#~ msgid "Updateable"
+#~ msgstr "Ùraich"
+
+#, fuzzy
+#~| msgid "All Categories"
+#~ msgctxt "List option which will set the filter to show everything"
+#~ msgid "Show All Entries"
+#~ msgstr "A h-uile roinn-seòrsa"
+
+#, fuzzy
+#~| msgid "1 download"
+#~| msgid_plural "%1 downloads"
+#~ msgid "Downloads"
+#~ msgstr "%1 luchdadh a-nuas"
+
+#, fuzzy
+#~| msgid "Most downloads"
+#~ msgctxt ""
+#~ "List option which will set the sort order to based on when items were "
+#~ "most recently updated"
+#~ msgid "Show Most Recent First"
+#~ msgstr "Air a luchdadh a-nuas as trice"
+
+#, fuzzy
+#~| msgid "Most downloads"
+#~ msgctxt "List option which will set the sort order to based on user ratings"
+#~ msgid "Show Highest Rated First"
+#~ msgstr "Air a luchdadh a-nuas as trice"
+
+#, fuzzy
+#~| msgid "Most downloads"
+#~ msgctxt ""
+#~ "List option which will set the sort order to based on number of downloads"
+#~ msgid "Show Most Downloaded First"
+#~ msgstr "Air a luchdadh a-nuas as trice"
+
+#, fuzzy
+#~| msgid "New Upload"
+#~ msgid "Upload..."
+#~ msgstr "Luchdadh suas ùr"
+
+#, fuzzy
+#~| msgid "Loading Preview"
+#~ msgctxt ""
+#~ "A text shown beside a busy indicator suggesting that data is being fetched"
+#~ msgid "Loading more…"
+#~ msgstr "A' luchdadh an ro-sheallaidh"
+
+#, fuzzy
+#~| msgid "All Categories"
+#~ msgctxt ""
+#~ "Title for the item which is checked when all comments should be shown"
+#~ msgid "Show All Comments"
+#~ msgstr "A h-uile roinn-seòrsa"
+
+#, fuzzy
+#~| msgid "1 download"
+#~| msgid_plural "%1 downloads"
+#~ msgctxt "The number of times the item has been downloaded"
+#~ msgid "%1 downloads"
+#~ msgstr "%1 luchdadh a-nuas"
+
+#, fuzzy
+#~| msgctxt "Show the author of this item in a list"
+#~| msgid "By <i>%1</i>"
+#~ msgctxt ""
+#~ "Subheading for the tile view, located immediately underneath the name of "
+#~ "the item"
+#~ msgid "By <i>%1</i>"
+#~ msgstr "Le <i>%1</i>"
+
+#, fuzzy
+#~| msgid "Updating"
+#~ msgctxt ""
+#~ "Label for the busy indicator showing an item is in the process of being "
+#~ "updated"
+#~ msgid "Updating..."
+#~ msgstr "'Ga ùrachadh"
+
+#, fuzzy
+#~| msgid "Installing"
+#~ msgctxt "Label for the busy indicator showing an item is installing"
+#~ msgid "Installing..."
+#~ msgstr "'Ga stàladh"
+
+#, fuzzy
+#~| msgid "Download New Stuff..."
+#~ msgctxt "@knewstuff5"
+#~ msgid "Upload New Stuff: %1"
+#~ msgstr "Luchdaich a-nuas stuth ùr..."
+
+#, fuzzy
+#~| msgid "Fetching provider information..."
+#~ msgctxt ""
+#~ "A text shown beside a busy indicator suggesting that data is being fetched"
+#~ msgid "Updating information..."
+#~ msgstr "A' faighinn fiosrachadh an t-solaraiche..."
+
+#, fuzzy
+#~| msgid "Provider:"
+#~ msgctxt "An unnamed provider"
+#~ msgid "Your Provider"
+#~ msgstr "Solaraiche:"
+
+#, fuzzy
+#~| msgid "Newest"
+#~ msgctxt "Knewstuff5"
+#~ msgid "New"
+#~ msgstr "As ùire"
+
+#, fuzzy
+#~| msgctxt "A link to the description of this Get Hot New Stuff item"
+#~| msgid "Homepage"
+#~ msgctxt "Knewstuff5"
+#~ msgid "Home"
+#~ msgstr "Duilleag-dhachaigh"
+
+#, fuzzy
+#~| msgid "Description:"
+#~ msgctxt "Knewstuff5"
+#~ msgid "Subscriptions"
+#~ msgstr "Tuairisgeul:"
+
+#, fuzzy
+#~| msgid "All Categories"
+#~ msgctxt "Knewstuff5"
+#~ msgid "All Entries"
+#~ msgstr "A h-uile roinn-seòrsa"
+
+#~ msgid "Details for %1"
+#~ msgstr "Fiosrachadh air %1"
+
+#~ msgid "Changelog:"
+#~ msgstr "Loga nan atharraichean:"
+
+#~ msgctxt "A link to the description of this Get Hot New Stuff item"
+#~ msgid "Homepage"
+#~ msgstr "Duilleag-dhachaigh"
+
+#~ msgctxt ""
+#~ "A link to make a donation for a Get Hot New Stuff item (opens a web "
+#~ "browser)"
+#~ msgid "Make a donation"
+#~ msgstr "Thoir tìodhlac"
+
+#~ msgctxt "A link to the knowledgebase (like a forum) (opens a web browser)"
+#~ msgid "Knowledgebase (no entries)"
+#~ msgid_plural "Knowledgebase (%1 entries)"
+#~ msgstr[0] "Eòlas-lann (%1 nì)"
+#~ msgstr[1] "Eòlas-lann (%1 nì)"
+#~ msgstr[2] "Eòlas-lann (%1 nithean)"
+#~ msgstr[3] "Eòlas-lann (%1 nì)"
+
+#~ msgctxt "Tooltip for a link in a dialog"
+#~ msgid "Opens in a browser window"
+#~ msgstr "Thèid fhosgladh ann an uinneag brabhsair ùr"
+
+#~ msgid "Rating: %1%"
+#~ msgstr "Rangachadh: %1%"
+
+#, fuzzy
+#~| msgid "<br />Provider: %1"
+#~ msgctxt "Show the size of the file in a list"
+#~ msgid "<br />Size: %1"
+#~ msgstr "<br />Solaraiche: %1"
+
+#~ msgctxt "Show the author of this item in a list"
+#~ msgid "By <i>%1</i>"
+#~ msgstr "Le <i>%1</i>"
+
+#~ msgctxt "fan as in supporter"
+#~ msgid "1 fan"
+#~ msgid_plural "%1 fans"
+#~ msgstr[0] "%1 neach-leantainn"
+#~ msgstr[1] "%1 luchd-leantainn"
+#~ msgstr[2] "%1 luchd-leantainn"
+#~ msgstr[3] "%1 luchd-leantainn"
+
+#~ msgid "1 download"
+#~ msgid_plural "%1 downloads"
+#~ msgstr[0] "%1 luchdadh a-nuas"
+#~ msgstr[1] "%1 luchdadh a-nuas"
+#~ msgstr[2] "%1 luchdaidhean a-nuas"
+#~ msgstr[3] "%1 luchdadh a-nuas"
+
+#~ msgid "Loading Preview"
+#~ msgstr "A' luchdadh an ro-sheallaidh"
+
+#~ msgid "Details"
+#~ msgstr "Mion-fhiosrachadh"
+
+#~ msgid "Updating"
+#~ msgstr "'Ga ùrachadh"
+
+#~ msgid "Install Again"
+#~ msgstr "Stàlaich às ùr"
+
+#~ msgid ""
+#~ "The downloaded file is a html file. This indicates a link to a website "
+#~ "instead of the actual download. Would you like to open the site with a "
+#~ "browser instead?"
+#~ msgstr ""
+#~ "Tha am faidhle air a luchdadh a-nuas 'na fhaidhle HTML. Tha seo a' "
+#~ "riochdachadh ceangal seach dearbh-luchdadh a-nuas. A bheil thu airson an "
+#~ "làrach-lìn fhosgladh le brabhsair 'na àite?"
+
+#~ msgid "Possibly bad download link"
+#~ msgstr "Droch-cheangal luchdaidh a-nuas ma dh'fhaoidte"
+
+#~ msgid "Downloaded file was a HTML file. Opened in browser."
+#~ msgstr ""
+#~ "Tha am faidhle a chaidh a luchdadh a-nuas 'na fhaidhle HTML. Dh'fhosgail "
+#~ "sinn sa bhrabhsair e."
+
+#~ msgctxt "Opposite to Back"
+#~ msgid "Next"
+#~ msgstr "Air adhart"
+
+#~ msgid "Finish"
+#~ msgstr "Crìochnaich"
+
+#~ msgid "Fetching license data from server..."
+#~ msgstr "A' faighinn fiosrachadh a' cheadachais on fhrithealaiche..."
+
+#~ msgid "Fetching content data from server..."
+#~ msgstr "A' faighinn dàta na susbainte on fhrithealaiche..."
+
+#~ msgid "Could not fetch provider information."
+#~ msgstr "Cha b' urrainn dhuinn fiosrachadh an t-solaraiche fhaighinn."
+
+#~ msgid "Register a new account"
+#~ msgstr "Clàraich cunntas ùr"
+
+#~ msgid "Checking login..."
+#~ msgstr "A' dearbhadh a' chlàraidh a-steach..."
+
+#~ msgid "Fetching your previously updated content..."
+#~ msgstr "A' faighinn na susbainte a chaidh ùrachadh roimhe..."
+
+#~ msgid "Could not verify login, please try again."
+#~ msgstr ""
+#~ "Cha b' urrainn dhuinn an clàradh a-steach a dhearbhadh, feuch ris a-"
+#~ "rithist."
+
+#~ msgid "Fetching your previously updated content finished."
+#~ msgstr "Tha an t-susbaint agad a chaidh ùrachadh roimhe air a faighinn."
+
+#~ msgid "Fetching content data from server finished."
+#~ msgstr "Tha dàta na susbainte air fhaighinn on fhrithealaiche."
+
+#~ msgctxt ""
+#~ "A link to the website where the get hot new stuff upload can be seen"
+#~ msgid "Visit website"
+#~ msgstr "Tadhail air an làrach-lìn"
+
+#~ msgid "Share Hot New Stuff"
+#~ msgstr "Co-roinn deagh-stuth ùr"
+
+#~ msgctxt "Program name followed by 'Add On Uploader'"
+#~ msgid "%1 Add-On Uploader"
+#~ msgstr "Inneal luchdaidh suas tuilleadain %1"
+
+#~ msgid "File not found: %1"
+#~ msgstr "Cha deach am faidhle a lorg: %1"
+
+#~ msgid "Upload Failed"
+#~ msgstr "Dh'fhàillig leis an luchdadh suas"
+
+#~ msgid ""
+#~ "The server does not recognize the category %2 to which you are trying to "
+#~ "upload."
+#~ msgid_plural ""
+#~ "The server does not recognize any of the categories to which you are "
+#~ "trying to upload: %2"
+#~ msgstr[0] ""
+#~ "Chan aithnich am frithealaiche an roinn-seòrsa %2 dhan a tha thu a' "
+#~ "feuchainn ri rud a luchdadh suas."
+#~ msgstr[1] ""
+#~ "Chan aithnich am frithealaiche gin dhe na roinnean-seòrsa dhan a tha thu "
+#~ "a' feuchainn ri rud a luchdadh suas: %2"
+#~ msgstr[2] ""
+#~ "Chan aithnich am frithealaiche gin dhe na roinnean-seòrsa dhan a tha thu "
+#~ "a' feuchainn ri rud a luchdadh suas: %2"
+#~ msgstr[3] ""
+#~ "Chan aithnich am frithealaiche gin dhe na roinnean-seòrsa dhan a tha thu "
+#~ "a' feuchainn ri rud a luchdadh suas: %2"
+
+#~ msgid "Error"
+#~ msgstr "Mearachd"
+
+#~ msgid "The selected category \"%1\" is invalid."
+#~ msgstr "Chan eil an roinn-seòrsa \"%1\" a thagh thu dligheach."
+
+#~ msgid "Select preview image"
+#~ msgstr "Tagh dealbh ro-sheallaidh"
+
+#~ msgid "There was a network error."
+#~ msgstr "Bha mearachd lìonraidh ann."
+
+#~ msgid "Uploading Failed"
+#~ msgstr "Dh'fhàillig leis an luchdadh suas"
+
+#~ msgid "Authentication error."
+#~ msgstr "Mearachd leis an dearbhadh."
+
+#~ msgid "Upload failed: %1"
+#~ msgstr "Dh'fhàillig leis an luchdadh suas: %1"
+
+#~ msgid "Password:"
+#~ msgstr "Facal-faire:"
+
+#~ msgid "Username:"
+#~ msgstr "Ainm-cleachdaiche:"
+
+#~ msgid "File to upload:"
+#~ msgstr "Am faidhle ri luchdadh suas:"
+
+#~ msgid "GPL"
+#~ msgstr "GPL"
+
+#~ msgid "LGPL"
+#~ msgstr "LGPL"
+
+#~ msgid "BSD"
+#~ msgstr "BSD"
+
+#~ msgid "Description:"
+#~ msgstr "Tuairisgeul:"
+
+#~ msgid "Version:"
+#~ msgstr "Tionndadh:"
+
+#~ msgid "License:"
+#~ msgstr "Ceadachas:"
+
+#~ msgid "Please fill out the information about your upload in English."
+#~ msgstr "Feuch an lìon thu fiosrachadh mun luchdadh suas agad sa Bheurla."
+
+#~ msgid "Title:"
+#~ msgstr "Tiotal:"
+
+#~ msgid "Name of the file as it will appear on the website"
+#~ msgstr "Ainm an fhaidhle mar a nochdas e air an làrach-lìn"
+
+#~ msgid ""
+#~ "This should clearly describe the file content. It can be the same text as "
+#~ "the title of the kvtml file."
+#~ msgstr ""
+#~ "Bu chòir dha seo susbaint an fhaidhle a mhìneachadh gu soilleir. Faodaidh "
+#~ "e bhith co-ionnann ris an tiotal air an fhaidhle kvtml."
+
+#~ msgid "Preview Images"
+#~ msgstr "Dealbhan ro-sheallaidh"
+
+#~ msgid "Select Preview..."
+#~ msgstr "Tagh ro-shealladh..."
+
+#~ msgid "Set a price for this item"
+#~ msgstr "Suidhich prìs airson an nì sei"
+
+#~ msgid "Price"
+#~ msgstr "Prìs"
+
+#~ msgid "Price:"
+#~ msgstr "Prìs:"
+
+#~ msgid "Reason for price:"
+#~ msgstr "Adhbhar na prìse:"
+
+#~ msgid "Fetch content link from server"
+#~ msgstr "Faigh ceangail susbainte on fhrithealaiche"
+
+#~ msgid "Create content on server"
+#~ msgstr "Cruthaich susbaint air an fhrithealaiche"
+
+#~ msgid "Upload content"
+#~ msgstr "Luchdaich suas susbaint"
+
+#~ msgid "Upload first preview"
+#~ msgstr "Luchdaich suas a' chiad ro-shealladh"
+
+#~ msgid "Note: You can edit, update and delete your content on the website."
+#~ msgstr ""
+#~ "An aire: 'S urrainn dhut an t-susbaint agad a dheasachadh, ùrachadh is a "
+#~ "sguabadh às air an làrach-lìn."
+
+#~ msgid "Upload second preview"
+#~ msgstr "Luchdaich suas an dàrna ro-shealladh"
+
+#~ msgid "Upload third preview"
+#~ msgstr "Luchdaich suas an treas ro-shealladh"
+
+#~ msgid ""
+#~ "I ensure that this content does not violate any existing copyright, law "
+#~ "or trademark. I agree for my IP address to be logged. (Distributing "
+#~ "content without the permission of the copyright holder is illegal.)"
+#~ msgstr ""
+#~ "Tha mi a' dèanamh cinnteach nach eil an t-susbaint seo a' briseadh a-"
+#~ "steach air còir-lethbhreac, lagh no comharra-malairt sam bith. Tha mi ag "
+#~ "aontachadh gun dèid an seòladh IP agam a chlàradh. (Tha e mì-laghail a "
+#~ "bhith a' sgaoileadh susbaint gun chead o sheilbheadair na còrach-"
+#~ "lethbhreac.)"
+
+#~ msgid "Start Upload"
+#~ msgstr "Tòisich air an luchdadh suas"
+
+#, fuzzy
+#~| msgid "Installing"
+#~ msgctxt "Label for the busy indicator showing an item is being installed"
+#~ msgid "Installing..."
+#~ msgstr "'Ga stàladh"
+
+#, fuzzy
+#~| msgid "Details view mode"
+#~ msgid "Tiles view mode"
+#~ msgstr "Modh sealladh an fhiosrachaidh"
+
+#, fuzzy
+#~| msgid "Most downloads"
+#~ msgctxt ""
+#~ "List option which will set the sort order to based on number of downloads"
+#~ msgid "Most downloaded first"
+#~ msgstr "Air a luchdadh a-nuas as trice"
+
+#, fuzzy
+#~| msgid "Details"
+#~ msgctxt "Show a page with details for this item"
+#~ msgid "Details..."
+#~ msgstr "Mion-fhiosrachadh"
+
+#~ msgid "Enter search phrase here"
+#~ msgstr "Cuir a-steach faclan-luirg an-seo"
+
+#~ msgid "Download File"
+#~ msgstr "Luchdaich a-nuas faidhle"
+
+#~ msgid "Configuration file not found: \"%1\""
+#~ msgstr "Cha deach am faidhle rèiteachaidh a lorg: \"%1\""

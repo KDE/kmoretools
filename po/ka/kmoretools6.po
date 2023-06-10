@@ -1,0 +1,818 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the knewstuff package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: knewstuff\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2023-06-10 02:08+0000\n"
+"PO-Revision-Date: 2023-01-30 10:13+0100\n"
+"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
+"Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
+"Language: ka\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+
+#: kmoretools.cpp:517
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Not installed:"
+msgstr "დაყენებული არაა:"
+
+#: kmoretools.cpp:614
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "More"
+msgstr "მეტი"
+
+#: kmoretools.cpp:650
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Configure..."
+msgstr "გამართვა..."
+
+#: kmoretools_p.h:369
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Visit homepage"
+msgstr "ეწვიეთ მთავარ გვერდს"
+
+#: kmoretools_p.h:378
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Install"
+msgstr "ჩადგმა"
+
+#: kmoretools_p.h:386
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "No further information available."
+msgstr "მეტი ინფორმაცია ხელმისაწვდომი არაა."
+
+#: kmoretoolsconfigdialog_p.cpp:170
+#, kde-format
+msgid "Configure menu"
+msgstr "მენიუს მორგება"
+
+#: kmoretoolsconfigdialog_p.cpp:172
+#, kde-format
+msgid "Configure menu - %1"
+msgstr "მენიუს მორგება - %1"
+
+#: kmoretoolsmenufactory.cpp:172
+#, kde-format
+msgctxt "@action:inmenu %1=\"$GenericName\""
+msgid "%1 - current folder"
+msgstr "%1 - მიმდინარე საქაღალდე"
+
+#: kmoretoolsmenufactory.cpp:181
+#, kde-format
+msgctxt "@action:inmenu %1=\"$GenericName\""
+msgid "%1 - current device"
+msgstr "%1 - მიმდინარე მოწყობილობა"
+
+#: kmoretoolsmenufactory.cpp:194
+#, kde-format
+msgctxt "@action:inmenu %1=\"$GenericName\""
+msgid "%1 - all devices"
+msgstr "%1 - ყველა მოწყობილობა"
+
+#. i18n: ectx: property (title), widget (QGroupBox, gbMainSection)
+#: ui/kmoretoolsconfigwidget.ui:25
+#, kde-format
+msgid "Main section"
+msgstr "მთავარი სექცია"
+
+#. i18n: ectx: property (text), widget (QToolButton, buttonMoveDown)
+#: ui/kmoretoolsconfigwidget.ui:58
+#, kde-format
+msgid "Move down"
+msgstr "ქვემოთ ჩამოწევა"
+
+#. i18n: ectx: property (text), widget (QToolButton, buttonMoveUp)
+#: ui/kmoretoolsconfigwidget.ui:78
+#, kde-format
+msgid "Move up"
+msgstr "აწევა"
+
+#. i18n: ectx: property (text), widget (QToolButton, buttonMoveToMain)
+#: ui/kmoretoolsconfigwidget.ui:98
+#, kde-format
+msgid "Move to Main section"
+msgstr "მთავარ სექციაში"
+
+#. i18n: ectx: property (text), widget (QToolButton, buttonMoveToMore)
+#: ui/kmoretoolsconfigwidget.ui:118
+#, kde-format
+msgid "Move to More section"
+msgstr "დამატებით სექციაში"
+
+#. i18n: ectx: property (text), widget (QToolButton, buttonReset)
+#: ui/kmoretoolsconfigwidget.ui:138
+#, kde-format
+msgid "Reset"
+msgstr "თავიდან ჩართვა"
+
+#. i18n: ectx: property (title), widget (QGroupBox, gbMoreSection)
+#: ui/kmoretoolsconfigwidget.ui:159
+#, kde-format
+msgid "More section"
+msgstr "დამატებითი სექცია"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/kmoretoolsconfigwidget.ui:211
+#, kde-format
+msgid ""
+"For this menu there are some more tools suggested which are currently not "
+"installed:"
+msgstr "ამ მენიუსთვის საჭიროა მეტი პროგრამა, რომელიც ამჟამად დაყენებული არაა:"
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonNotInstalledTools)
+#: ui/kmoretoolsconfigwidget.ui:221
+#, kde-format
+msgid "More tools..."
+msgstr "მეტი ხელსაწყო..."
+
+#~ msgid "All categories are missing"
+#~ msgstr "კატეგორიები აღმოჩენილი არაა"
+
+#~ msgctxt ""
+#~ "the price of a download item, parameter 1 is the currency, 2 is the price"
+#~ msgid ""
+#~ "This item costs %1 %2.\n"
+#~ "Do you want to buy it?"
+#~ msgstr ""
+#~ "ეს ელემენტი %1 %2 ღირს.\n"
+#~ "გნებავთ, შეიძინოთ?"
+
+#~ msgid ""
+#~ "Your account balance is too low:\n"
+#~ "Your balance: %1\n"
+#~ "Price: %2"
+#~ msgstr ""
+#~ "თქვენი ანგარიშის ბალანსი ძალიან დაბალია:\n"
+#~ "თქვენი ბალანსი: %1\n"
+#~ "ფასი: %2"
+
+#~ msgctxt "voting for an item (good/bad)"
+#~ msgid "Your vote was recorded."
+#~ msgstr "თქვენი ხმა ჩაწერილია."
+
+#~ msgid "You are now a fan."
+#~ msgstr "ახლა ფანი ხარ."
+
+#~ msgid "Network error %1: %2"
+#~ msgstr "ქსელის შეცდომა %1: %2"
+
+#~ msgid "Too many requests to server. Please try again in a few minutes."
+#~ msgstr "სერვერის მეტისმეტად ბევრი მოთხოვნა. რამდენიმე წუთში თავიდან სცადეთ."
+
+#~ msgid "Unknown Open Collaboration Service API error. (%1)"
+#~ msgstr "ღია კოლაბორაციის სერვისის API-ის უცნობი შეცდომა. (%1)"
+
+#~ msgid "Download New Stuff..."
+#~ msgstr "ახალი რამერუმეების მიღება..."
+
+#~ msgid ""
+#~ "An error occurred during the installation process:\n"
+#~ "%1"
+#~ msgstr ""
+#~ "შეცდომა დაყენების პროცესში:\n"
+#~ "%1"
+
+#~ msgid "Initializing"
+#~ msgstr "ინიციალიზაცია"
+
+#~ msgid "Configuration file exists, but cannot be opened: \"%1\""
+#~ msgstr "კონფიგურაციის ფაილი არსებობს, მაგრამ გახსნა შეუძლებელია: \"%1\""
+
+#~ msgid "Configuration file is invalid: \"%1\""
+#~ msgstr "კონფიგურაციის ფაილი არასწორია: \"%1\""
+
+#~ msgid "Use"
+#~ msgstr "გამოყენება"
+
+#~ msgid "Loading provider information"
+#~ msgstr "მომწოდებლის ინფორმაციის ჩატვირთვა"
+
+#~ msgid "Error initializing provider."
+#~ msgstr "მომწოდებლის ინიციალიზაციის შეცდომა."
+
+#~ msgid "Loading data"
+#~ msgstr "მონაცემების ჩატვირთვა"
+
+#~ msgid "Loading data from provider"
+#~ msgstr "მონაცემების ჩატვირთვა მომწოდებლიდან"
+
+#~ msgid "Loading of providers from file: %1 failed"
+#~ msgstr "%1-დან მომწოდებლების ჩატვირთვა შეუძლებელია"
+
+#~ msgid "Pick Update Item"
+#~ msgstr "აირჩიეთ ბმული"
+
+#~ msgid "Re: %1"
+#~ msgstr "Re: %1"
+
+#~ msgid "Installing"
+#~ msgstr "დაყენება"
+
+#~ msgid "Loading one preview"
+#~ msgid_plural "Loading %1 previews"
+#~ msgstr[0] "ერთი მინიატურის ჩატვირთვა"
+#~ msgstr[1] "%1 მინიატურის ჩატვირთვა"
+
+#~ msgid ""
+#~ "Failed to adopt '%1'\n"
+#~ "%2"
+#~ msgstr ""
+#~ "'%1'-ის დამუშავების შეცდომა\n"
+#~ "%2"
+
+#~ msgid "Invalid item."
+#~ msgstr "არასწორი ელემენტი."
+
+#~ msgid "Download of \"%1\" failed, error: %2"
+#~ msgstr "\"%1\"-ის გადმოწერა შეუძლებელია. შეცდომა: %2"
+
+#~ msgid "Could not install \"%1\": file not found."
+#~ msgstr "\"%1\"-ის დაყენების შეცდომა: ფაილი ვერ ვიპოვე;."
+
+#~ msgid "Installation of %1 failed: %2"
+#~ msgstr "%1-ის დაყენების შეცდომა: %2"
+
+#~ msgid "Failed to open the archive file %1. The reported error was: %2"
+#~ msgstr "არქივის ფაილის (%1) გახსნა შეუძლებელია. შეცდომა: %2"
+
+#~ msgid "Overwrite File"
+#~ msgstr "ფაილის ჩანაცვლება"
+
+#~ msgid "Could not open %1 for writing"
+#~ msgstr "%1-ის ჩასაწერად გახსნის შეცდომა"
+
+#~ msgid "Could not open %1 for reading"
+#~ msgstr "%1-ის წასაკითხად გახსნის შეცდომა"
+
+#~ msgid "The service type %1 was not understood by the KPackage installer"
+#~ msgstr "სერვისის ტიპი %1 KPackage-ის დამყენებლისთვის გაუგებარია"
+
+#~ msgid "Key used for signing:"
+#~ msgstr "ხელმოწერისთვის გამოყენებული გასაღები:"
+
+#~ msgid "Select Signing Key"
+#~ msgstr "აირჩიეთ ხელმოწერის გასაღები"
+
+#~ msgid "Get Hot New Stuff"
+#~ msgstr "მიიღეთ ახალი პროგრამები"
+
+#~ msgctxt "Program name followed by 'Add On Installer'"
+#~ msgid "%1 Add-On Installer"
+#~ msgstr "%1 დამატების დამყენებელი"
+
+#~ msgid "Timeout. Check Internet connection."
+#~ msgstr "მოლოდინის დრო გავიდა. გადაამოწმეთ ინტერნეტკავშირი."
+
+#~ msgid "Server: %1"
+#~ msgstr "სერვერი: %1"
+
+#~ msgid "<br />Provider: %1"
+#~ msgstr "<br />მომწოდებელი: %1"
+
+#~ msgid "<br />Version: %1"
+#~ msgstr "<br />ვერსია: %1"
+
+#~ msgid "Provider information"
+#~ msgstr "მომწოდებლის ინფორმაცია"
+
+#~ msgid "Could not install %1"
+#~ msgstr "%1-ის დაყენების შეცდომა"
+
+#~ msgid "Get Hot New Stuff!"
+#~ msgstr "მიიღეთ ახალი პროგრამები!"
+
+#~ msgid "Icons view mode"
+#~ msgstr "ხატულების ხედის რეჟიმი"
+
+#~ msgid "Details view mode"
+#~ msgstr "დეტალების ჩვენების რეჟიმი"
+
+#~ msgid "All Providers"
+#~ msgstr "ყველა მომწოდებელი"
+
+#~ msgid "All Categories"
+#~ msgstr "ყველა კატეგორია"
+
+#~ msgid "Provider:"
+#~ msgstr "მომწოდებელი:"
+
+#~ msgid "Category:"
+#~ msgstr "კატეგორია:"
+
+#~ msgid "Most downloads"
+#~ msgstr "თითქმის ყველა გადმოწერა"
+
+#~ msgid "Newest"
+#~ msgstr "უახლესი"
+
+#~ msgid "Rating"
+#~ msgstr "შეფასება"
+
+#~ msgid "Installed"
+#~ msgstr "დაყენებულია"
+
+#~ msgid "Order by:"
+#~ msgstr "დალაგება:"
+
+#~ msgid "Search:"
+#~ msgstr "ძებნა:"
+
+#~ msgid "Search..."
+#~ msgstr "ძებნა..."
+
+#~ msgid "Author:"
+#~ msgstr "ავტორი:"
+
+#~ msgid "<a href=\"https://opendesktop.org\">Homepage</a>"
+#~ msgstr "<a href=\"https://opendesktop.org\">საწყისი გვერდი</a>"
+
+#~ msgid "Update"
+#~ msgstr "განახლება"
+
+#~ msgid "Uninstall"
+#~ msgstr "ამოშლა"
+
+#~ msgid "Become a Fan"
+#~ msgstr "გახდი გულშემატკივარი"
+
+#~ msgid "Install"
+#~ msgstr "ჩადგმა"
+
+#~ msgctxt ""
+#~ "The first entry in the category selection list (also the default value)"
+#~ msgid "All Categories"
+#~ msgstr "ყველა კატეგორია"
+
+#~ msgctxt ""
+#~ "The string passed back in the case the requested category is not known"
+#~ msgid "Unknown Category"
+#~ msgstr "უცნობი კატეგორია"
+
+#~ msgctxt ""
+#~ "Used to construct the button's label (which will become Download New "
+#~ "'this value'...)"
+#~ msgid "Stuff"
+#~ msgstr "მატერიალები"
+
+#~ msgid "Download New %1..."
+#~ msgstr "ახალი %1-ის გადმოწერა..."
+
+#~ msgctxt ""
+#~ "The dialog title when we know which type of stuff is being requested"
+#~ msgid "Download New %1"
+#~ msgstr "ახალი %1-ის გადმოწერა"
+
+#~ msgctxt ""
+#~ "A placeholder title used in the dialog when there is no better title "
+#~ "available"
+#~ msgid "Download New Stuff"
+#~ msgstr "ახალი მატერიალების გადმოწერა"
+
+#~ msgid "Pick Your Installation Option"
+#~ msgstr "აირჩიეთ დაყენების ვარიანტი"
+
+#~ msgctxt ""
+#~ "A passive notification shown when installation of an item is initiated"
+#~ msgid "Installing %1 from %2"
+#~ msgstr "%1-ის დაყენება %2-დან"
+
+#~ msgctxt ""
+#~ "Status message to be shown when the entry is in the process of being "
+#~ "installed OR uninstalled"
+#~ msgid "Currently working on the item %1 by %2. Please wait..."
+#~ msgstr ""
+#~ "ამჟამად ვმუშაობ ჩანაწერზე %1, რომელიც %2-მა გამოაგზავნა. მოითმინეთ..."
+
+#~ msgctxt ""
+#~ "Status message to be shown when the entry is in the process of being "
+#~ "updated"
+#~ msgid "Currently updating the item %1 by %2. Please wait..."
+#~ msgstr "ამჟამად მიმდინარეობს %2-ის %1 ელემენტის განახლება. მოითმინეთ..."
+
+#~ msgctxt ""
+#~ "Combined title for the entry details page made of the name of the entry, "
+#~ "and the author's name"
+#~ msgid "%1 by %2"
+#~ msgstr "%1 %2-სგან"
+
+#~ msgctxt ""
+#~ "Request installation of this item, available when there is exactly one "
+#~ "downloadable item"
+#~ msgid "Install"
+#~ msgstr "ჩადგმა"
+
+#~ msgctxt ""
+#~ "Show installation options, where there is more than one downloadable item"
+#~ msgid "Install..."
+#~ msgstr "დაყენება..."
+
+#~ msgctxt "Request updating of this item"
+#~ msgid "Update"
+#~ msgstr "განახლება"
+
+#~ msgctxt "Request uninstallation of this item"
+#~ msgid "Uninstall"
+#~ msgstr "ამოშლა"
+
+#~ msgid "Comments and Reviews:"
+#~ msgstr "კომენტარები და მიმოხილვები:"
+
+#~ msgctxt ""
+#~ "A link which, when clicked, opens a new sub page with comments (comments "
+#~ "with or without ratings) for this entry"
+#~ msgid "%1 Reviews and Comments"
+#~ msgstr "%1 მიმოხილვა და კომენტარი"
+
+#~ msgid "Rating:"
+#~ msgstr "შეფასება:"
+
+#~ msgid "Homepage:"
+#~ msgstr "საწყისი გვერდი:"
+
+#~ msgctxt ""
+#~ "A link which, when clicked, opens the website associated with the entry "
+#~ "(this could be either one specific to the project, the author's homepage, "
+#~ "or any other website they have chosen for the purpose)"
+#~ msgid "Open the homepage for %1"
+#~ msgstr "%1-ის საწყისი გვერდის გახსნა"
+
+#~ msgid "How To Donate:"
+#~ msgstr "როგორ შემოგწიროთ:"
+
+#~ msgctxt ""
+#~ "A link which, when clicked, opens a website with information on donation "
+#~ "in support of the entry"
+#~ msgid "Find out how to donate to this project"
+#~ msgstr "გარკვევა, როგორ შევწიროთ ამ პროექტს"
+
+#~ msgctxt "Request installation of this item"
+#~ msgid "Install"
+#~ msgstr "ჩადგმა"
+
+#~ msgctxt "List option which will set the filter to show everything"
+#~ msgid "Show Everything"
+#~ msgstr "ყველაფრის ჩვენება"
+
+#~ msgctxt ""
+#~ "List option which will set the filter so only installed items are shown"
+#~ msgid "Installed Only"
+#~ msgstr "მხოლოდ დაყენებული"
+
+#~ msgctxt ""
+#~ "List option which will set the filter so only installed items with "
+#~ "updates available are shown"
+#~ msgid "Updateable Only"
+#~ msgstr "მხოლოდ განახლებადი"
+
+#~ msgctxt ""
+#~ "List option which will set the sort order to based on when items were "
+#~ "most recently updated"
+#~ msgid "Show most recent first"
+#~ msgstr "ჯერ უახლესები"
+
+#~ msgctxt ""
+#~ "List option which will set the sort order to be alphabetical based on the "
+#~ "name"
+#~ msgid "Sort alphabetically"
+#~ msgstr "ანბანის მიხედვით დალაგება"
+
+#~ msgctxt "List option which will set the sort order to based on user ratings"
+#~ msgid "Show highest rated first"
+#~ msgstr "რეიტინგის მიხედვით დალაგება"
+
+#~ msgctxt ""
+#~ "List option which will set the sort order to based on number of downloads"
+#~ msgid "Show most downloaded first"
+#~ msgstr "ჯერ ხშირად გადმოწერილები"
+
+#~ msgctxt ""
+#~ "A message which is shown when the user attempts to display a specific "
+#~ "entry from a specific provider, but that entry isn't found"
+#~ msgid ""
+#~ "The entry you attempted to display, identified by the unique ID %1, could "
+#~ "not be found."
+#~ msgstr ""
+#~ "ჩანაწერი, რომლის ჩვენებაც გნებავდათ და რომლის უნიკალური ID %1-ა, ვერ "
+#~ "ვიპოვე."
+
+#~ msgid "Tiles"
+#~ msgstr "ნაწილები"
+
+#~ msgid "Icons"
+#~ msgstr "ხატულები"
+
+#~ msgid "Preview"
+#~ msgstr "გადახედვა"
+
+#~ msgid "Detailed Tiles View Mode"
+#~ msgstr "დეტალური ფილების ხედის რეჟიმი"
+
+#~ msgid "Icons Only View Mode"
+#~ msgstr "მხოლოდ ხატულების ხედის რეჟიმი"
+
+#~ msgid "Large Preview View Mode"
+#~ msgstr "დიდი მინიატურების ხედის რეჟიმი"
+
+#~ msgid "Everything"
+#~ msgstr "ყველაფერი"
+
+#~ msgid "Updateable"
+#~ msgstr "განახლებადი"
+
+#~ msgctxt "List option which will set the filter to show everything"
+#~ msgid "Show All Entries"
+#~ msgstr "ყველა ჩანაწერის ჩვენება"
+
+#~ msgctxt ""
+#~ "List option which will set the filter so only installed items are shown"
+#~ msgid "Show Only Installed Entries"
+#~ msgstr "მხოლოდ დაყენებულების ჩვენება"
+
+#~ msgctxt ""
+#~ "List option which will set the filter so only installed items with "
+#~ "updates available are shown"
+#~ msgid "Show Only Updateable Entries"
+#~ msgstr "მხოლოდ განახლებადი ჩანაწერების ჩვენება"
+
+#~ msgid "Recent"
+#~ msgstr "Ბოლო"
+
+#~ msgid "Alphabetical"
+#~ msgstr "ანბანით დალაგებული"
+
+#~ msgid "Downloads"
+#~ msgstr "გადმოწერები"
+
+#~ msgctxt ""
+#~ "List option which will set the sort order to based on when items were "
+#~ "most recently updated"
+#~ msgid "Show Most Recent First"
+#~ msgstr "ჯერ უახლესები"
+
+#~ msgctxt ""
+#~ "List option which will set the sort order to be alphabetical based on the "
+#~ "name"
+#~ msgid "Sort Alphabetically By Name"
+#~ msgstr "სახელით, ანბანის მიხედვით დალაგება"
+
+#~ msgctxt "List option which will set the sort order to based on user ratings"
+#~ msgid "Show Highest Rated First"
+#~ msgstr "რეიტინგის მიხედვით დალაგება"
+
+#~ msgctxt ""
+#~ "List option which will set the sort order to based on number of downloads"
+#~ msgid "Show Most Downloaded First"
+#~ msgstr "ჯერ ხშირად გადმოწერილების ჩვენება"
+
+#~ msgid "Upload..."
+#~ msgstr "ატვირთვა..."
+
+#~ msgid "Learn how to add your own hot new stuff to this list"
+#~ msgstr "ისწავლეთ, როგორ დაამატოთ სიაში თქვენი საკუთარი რამები"
+
+#~ msgid "Go to..."
+#~ msgstr "გადასვლა..."
+
+#~ msgid "Contribute your own…"
+#~ msgstr "თქვენი მასალების შეწირვა…"
+
+#~ msgctxt ""
+#~ "A text shown beside a busy indicator suggesting that data is being fetched"
+#~ msgid "Loading more…"
+#~ msgstr "მეტის ჩატვირთვა…"
+
+#~ msgctxt ""
+#~ "Placeholder title for when a comment has no subject, but does have a "
+#~ "rating"
+#~ msgid "<i>(no title)</i>"
+#~ msgstr "<i>(სათაურის გარეშე)</i>"
+
+#~ msgctxt ""
+#~ "The author label in case the comment was written by the author of the "
+#~ "content entry the comment is attached to"
+#~ msgid "%1 <i>(author)</i>"
+#~ msgstr "%1 <i>(ავტორი)</i>"
+
+#~ msgctxt "Title for the page containing a view of the comments for the entry"
+#~ msgid "Comments and Reviews for %1"
+#~ msgstr "%1-ის მიმოხილვა და კომენტარები"
+
+#~ msgctxt ""
+#~ "Title for the item which is checked when all comments should be shown"
+#~ msgid "Show All Comments"
+#~ msgstr "ყველა კომენტარის ჩვენება"
+
+#~ msgctxt ""
+#~ "Title for the item which is checked when only comments which are reviews "
+#~ "should be shown"
+#~ msgid "Show Reviews Only"
+#~ msgstr "მხოლოდ მიმოხილვების ჩვენება"
+
+#~ msgctxt ""
+#~ "Title for the item which is checked when comments which are reviews, and "
+#~ "their children should be shown"
+#~ msgid "Show Reviews and Replies"
+#~ msgstr "მიმოხილვებისა და გამოხმაურებების ჩვენება"
+
+#~ msgctxt "The number of times the item has been downloaded"
+#~ msgid "%1 downloads"
+#~ msgstr "%1 გადმოწერა"
+
+#~ msgctxt ""
+#~ "Subheading for the tile view, located immediately underneath the name of "
+#~ "the item"
+#~ msgid "By <i>%1</i>"
+#~ msgstr "<i>%1</i>-სგან"
+
+#~ msgctxt ""
+#~ "Label for the busy indicator showing an item is being installed OR "
+#~ "uninstalled"
+#~ msgid "Working..."
+#~ msgstr "მუშავდება..."
+
+#~ msgctxt ""
+#~ "Label for the busy indicator showing an item is in the process of being "
+#~ "updated"
+#~ msgid "Updating..."
+#~ msgstr "მიმდინარეობს განახლება…"
+
+#~ msgctxt "Label for the busy indicator showing an item is installing"
+#~ msgid "Installing..."
+#~ msgstr "დაყენება..."
+
+#~ msgctxt "Title for a dialog box which shows error messages"
+#~ msgid "An Error Occurred"
+#~ msgstr "შეცდომა"
+
+#~ msgid "Please try again later."
+#~ msgstr "მოგვიანებით სცადეთ."
+
+#~ msgid "None"
+#~ msgstr "არაფერი"
+
+#~ msgctxt ""
+#~ "A text representation of the rating, shown as a fraction of the max value"
+#~ msgid "(%1/%2)"
+#~ msgstr "(%1/%2)"
+
+#~ msgctxt "@knewstuff5"
+#~ msgid "Upload New Stuff: %1"
+#~ msgstr "ახალი მასალების ატვირთვა: %1"
+
+#~ msgctxt ""
+#~ "A text shown beside a busy indicator suggesting that data is being fetched"
+#~ msgid "Updating information..."
+#~ msgstr "ინფორმაციის განახლება..."
+
+#~ msgctxt "The name of the KDE Store"
+#~ msgid "KDE Store"
+#~ msgstr "KDE -ის მაღაზია"
+
+#~ msgctxt "An unnamed provider"
+#~ msgid "Your Provider"
+#~ msgstr "თქვენი მომწოდებელი"
+
+#~ msgctxt ""
+#~ "Text for an action which causes the specified website to be opened using "
+#~ "the user's system default browser"
+#~ msgid "Open Website: %1"
+#~ msgstr "ვებგვერდის გახსნა: %1"
+
+#~ msgctxt ""
+#~ "Text for an action which will attempt to send an email using the user's "
+#~ "system default email client"
+#~ msgid "Send Email To: %1"
+#~ msgstr "%1-სთვის ელფოსტის გაგზავნა"
+
+#~ msgctxt "Knewstuff5"
+#~ msgid "Back"
+#~ msgstr "უკან"
+
+#~ msgctxt "Knewstuff5"
+#~ msgid "Popular"
+#~ msgstr "პოპულარული"
+
+#~ msgctxt "Knewstuff5"
+#~ msgid "Featured"
+#~ msgstr "პოპულარული"
+
+#~ msgctxt "Knewstuff5"
+#~ msgid "Restart"
+#~ msgstr "გადატვრთვა"
+
+#~ msgctxt "Knewstuff5"
+#~ msgid "New"
+#~ msgstr "&ახალი"
+
+#~ msgctxt "Knewstuff5"
+#~ msgid "Home"
+#~ msgstr "საწყისი"
+
+#~ msgctxt "Knewstuff5"
+#~ msgid "Shelf"
+#~ msgstr "Shelf"
+
+#~ msgctxt "Knewstuff5"
+#~ msgid "Up"
+#~ msgstr "მაღლა"
+
+#~ msgctxt "Knewstuff5"
+#~ msgid "Recommended"
+#~ msgstr "რეკომენდებულია"
+
+#~ msgctxt "Knewstuff5"
+#~ msgid "Subscriptions"
+#~ msgstr "გამოწერები"
+
+#~ msgctxt "Knewstuff5"
+#~ msgid "All Entries"
+#~ msgstr "ყველა ჩანაწერი"
+
+#~ msgctxt "Knewstuff5"
+#~ msgid "Search Preset: %1"
+#~ msgstr "ძებნის ნიმუში: %1"
+
+#~ msgid "Details for %1"
+#~ msgstr "%1-ის დეტალები"
+
+#~ msgid "Changelog:"
+#~ msgstr "ცვლილებები:"
+
+#~ msgctxt "A link to the description of this Get Hot New Stuff item"
+#~ msgid "Homepage"
+#~ msgstr "Homepage"
+
+#~ msgctxt ""
+#~ "A link to make a donation for a Get Hot New Stuff item (opens a web "
+#~ "browser)"
+#~ msgid "Make a donation"
+#~ msgstr "გააკეთეთ შემოწირულობა"
+
+#~ msgctxt "A link to the knowledgebase (like a forum) (opens a web browser)"
+#~ msgid "Knowledgebase (no entries)"
+#~ msgid_plural "Knowledgebase (%1 entries)"
+#~ msgstr[0] "ცოდნის ბაზა (ჩანაწერების გარეშე)"
+#~ msgstr[1] "ცოდნის ბაზა (%1 ჩანაწერი)"
+
+#~ msgctxt "Tooltip for a link in a dialog"
+#~ msgid "Opens in a browser window"
+#~ msgstr "ბრაუზერის ფანჯარაში გახსნა"
+
+#~ msgid "Rating: %1%"
+#~ msgstr "შეფასება: %1%"
+
+#~ msgctxt "Show the size of the file in a list"
+#~ msgid "<br />Size: %1"
+#~ msgstr "<br />ზომა: %1"
+
+#~ msgctxt "Show the author of this item in a list"
+#~ msgid "By <i>%1</i>"
+#~ msgstr "<i>%1</i>-სგან"
+
+#~ msgctxt "fan as in supporter"
+#~ msgid "1 fan"
+#~ msgid_plural "%1 fans"
+#~ msgstr[0] "1 ფანი"
+#~ msgstr[1] "%1 ფანი"
+
+#~ msgid "1 download"
+#~ msgid_plural "%1 downloads"
+#~ msgstr[0] "1 გადმოწერა"
+#~ msgstr[1] "%1 გადმოწერა"
+
+#~ msgid "Loading Preview"
+#~ msgstr "მინიატურის ჩატვირთვა"
+
+#~ msgid "Details"
+#~ msgstr "დეტალები"
+
+#~ msgid "Updating"
+#~ msgstr "განახლება"
+
+#~ msgid "Install Again"
+#~ msgstr "თავიდან დაყენება"
+
+#~ msgctxt "Show the size of the file in a list"
+#~ msgid "<p>Size: %1</p>"
+#~ msgstr "<p>ზომა: %1</p>"
+
+#~ msgctxt "@action:button"
+#~ msgid "Yes"
+#~ msgstr "დიახ"
+
+#~ msgctxt "@action:button"
+#~ msgid "No"
+#~ msgstr "არა"
