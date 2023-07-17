@@ -5,7 +5,7 @@ cmake_minimum_required(VERSION 3.16)
 
 set(KF_VERSION "5.240.0") # handled by release scripts
 set(KF_DEP_VERSION "5.240.0") # handled by release scripts
-project(KNewStuff VERSION ${KF_VERSION})
+project(KMoreTools VERSION ${KF_VERSION})
 
 set(CMAKE_CXX_EXTENSIONS OFF)
 
