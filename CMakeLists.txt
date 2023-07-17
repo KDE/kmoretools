@@ -79,6 +79,7 @@ if (BUILD_QCH)
         DESTINATION "${CMAKECONFIG_INSTALL_DIR}"
         COMPONENT Devel
     )
+    set(PACKAGE_INCLUDE_QCHTARGETS "include(\"\${CMAKE_CURRENT_LIST_DIR}/KF6MoreToolsQchTargets.cmake\")")
 endif()
 
 include(CMakePackageConfigHelpers)
