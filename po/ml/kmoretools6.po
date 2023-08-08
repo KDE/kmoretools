@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-06-10 02:08+0000\n"
+"POT-Creation-Date: 2023-08-08 02:04+0000\n"
 "PO-Revision-Date: 2010-12-29 15:32+0530\n"
 "Last-Translator: \n"
 "Language-Team: SMC <smc.org.in>\n"
@@ -100,37 +100,37 @@ msgid "Move down"
 msgstr "&താഴേയ്ക്കു് നീക്കുക"
 
 #. i18n: ectx: property (text), widget (QToolButton, buttonMoveUp)
-#: ui/kmoretoolsconfigwidget.ui:78
+#: ui/kmoretoolsconfigwidget.ui:77
 #, fuzzy, kde-format
 msgid "Move up"
 msgstr "&മുകളിലേയ്ക്കു് നീക്കുക"
 
 #. i18n: ectx: property (text), widget (QToolButton, buttonMoveToMain)
-#: ui/kmoretoolsconfigwidget.ui:98
+#: ui/kmoretoolsconfigwidget.ui:96
 #, kde-format
 msgid "Move to Main section"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QToolButton, buttonMoveToMore)
-#: ui/kmoretoolsconfigwidget.ui:118
+#: ui/kmoretoolsconfigwidget.ui:115
 #, fuzzy, kde-format
 msgid "Move to More section"
 msgstr "കൂടുതല്‍ നടപടികള്‍"
 
 #. i18n: ectx: property (text), widget (QToolButton, buttonReset)
-#: ui/kmoretoolsconfigwidget.ui:138
+#: ui/kmoretoolsconfigwidget.ui:134
 #, kde-format
 msgid "Reset"
 msgstr "വീണ്ടും സജ്ജമാക്കുക"
 
 #. i18n: ectx: property (title), widget (QGroupBox, gbMoreSection)
-#: ui/kmoretoolsconfigwidget.ui:159
+#: ui/kmoretoolsconfigwidget.ui:154
 #, fuzzy, kde-format
 msgid "More section"
 msgstr "കൂടുതല്‍ നടപടികള്‍"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: ui/kmoretoolsconfigwidget.ui:211
+#: ui/kmoretoolsconfigwidget.ui:206
 #, kde-format
 msgid ""
 "For this menu there are some more tools suggested which are currently not "
@@ -138,7 +138,7 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, buttonNotInstalledTools)
-#: ui/kmoretoolsconfigwidget.ui:221
+#: ui/kmoretoolsconfigwidget.ui:216
 #, fuzzy, kde-format
 msgid "More tools..."
 msgstr "കൂടുതല്‍..."

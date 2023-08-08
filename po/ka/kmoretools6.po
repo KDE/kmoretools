@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: knewstuff\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-06-10 02:08+0000\n"
+"POT-Creation-Date: 2023-08-08 02:04+0000\n"
 "PO-Revision-Date: 2023-01-30 10:13+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
@@ -95,37 +95,37 @@ msgid "Move down"
 msgstr "ქვემოთ ჩამოწევა"
 
 #. i18n: ectx: property (text), widget (QToolButton, buttonMoveUp)
-#: ui/kmoretoolsconfigwidget.ui:78
+#: ui/kmoretoolsconfigwidget.ui:77
 #, kde-format
 msgid "Move up"
 msgstr "აწევა"
 
 #. i18n: ectx: property (text), widget (QToolButton, buttonMoveToMain)
-#: ui/kmoretoolsconfigwidget.ui:98
+#: ui/kmoretoolsconfigwidget.ui:96
 #, kde-format
 msgid "Move to Main section"
 msgstr "მთავარ სექციაში"
 
 #. i18n: ectx: property (text), widget (QToolButton, buttonMoveToMore)
-#: ui/kmoretoolsconfigwidget.ui:118
+#: ui/kmoretoolsconfigwidget.ui:115
 #, kde-format
 msgid "Move to More section"
 msgstr "დამატებით სექციაში"
 
 #. i18n: ectx: property (text), widget (QToolButton, buttonReset)
-#: ui/kmoretoolsconfigwidget.ui:138
+#: ui/kmoretoolsconfigwidget.ui:134
 #, kde-format
 msgid "Reset"
 msgstr "თავიდან ჩართვა"
 
 #. i18n: ectx: property (title), widget (QGroupBox, gbMoreSection)
-#: ui/kmoretoolsconfigwidget.ui:159
+#: ui/kmoretoolsconfigwidget.ui:154
 #, kde-format
 msgid "More section"
 msgstr "დამატებითი სექცია"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: ui/kmoretoolsconfigwidget.ui:211
+#: ui/kmoretoolsconfigwidget.ui:206
 #, kde-format
 msgid ""
 "For this menu there are some more tools suggested which are currently not "
@@ -133,7 +133,7 @@ msgid ""
 msgstr "ამ მენიუსთვის საჭიროა მეტი პროგრამა, რომელიც ამჟამად დაყენებული არაა:"
 
 #. i18n: ectx: property (text), widget (QPushButton, buttonNotInstalledTools)
-#: ui/kmoretoolsconfigwidget.ui:221
+#: ui/kmoretoolsconfigwidget.ui:216
 #, kde-format
 msgid "More tools..."
 msgstr "მეტი ხელსაწყო..."
