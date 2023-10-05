@@ -122,9 +122,9 @@ KMoreToolsService *KMoreTools::registerServiceByDesktopEntryName(const QString &
             return nullptr;
         }
 
-        auto tryExecProp = kmtDesktopfile->property(QStringLiteral("TryExec"), QMetaType::QString);
-        isInstalled = (tryExecProp.isValid() && !QStandardPaths::findExecutable(tryExecProp.toString()).isEmpty())
-            || !QStandardPaths::findExecutable(kmtDesktopfile->exec()).isEmpty();
+        const QString tryExec = kmtDesktopfile->property<QString>(QStringLiteral("TryExec"));
+        isInstalled =
+            (!tryExec.isEmpty() && !QStandardPaths::findExecutable(tryExec).isEmpty()) || !QStandardPaths::findExecutable(kmtDesktopfile->exec()).isEmpty();
     } else {
         Q_UNREACHABLE(); // case not handled
     }
