@@ -17,128 +17,128 @@
 # Meni Livne <livne@kde.org>, 2007.
 # tahmar1900 <tahmar1900@gmail.com>, 2008, 2009.
 # Elkana Bardugo <ttv200@gmail.com>, 2017. #zanata
+# SPDX-FileCopyrightText: 2023 Yaron Shahrabani <sh.yaron@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: knewstuff5\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-08-08 02:04+0000\n"
-"PO-Revision-Date: 2017-05-16 06:50-0400\n"
-"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
-"Language-Team: Hebrew <kde-i18n-doc@kde.org>\n"
+"PO-Revision-Date: 2023-10-21 16:19+0300\n"
+"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
+"Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Zanata 3.9.6\n"
+"X-Generator: Lokalize 23.08.1\n"
 "Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
 "n % 10 == 0) ? 2 : 3));\n"
 
 #: kmoretools.cpp:517
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Not installed:"
-msgstr "הותקן"
+msgstr "לא מותקן:"
 
 #: kmoretools.cpp:614
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "More"
-msgstr "יותר..."
+msgstr "עוד"
 
 #: kmoretools.cpp:650
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Configure..."
-msgstr "הגד&רות..."
+msgstr "הגדרה…"
 
 #: kmoretools_p.h:369
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Visit homepage"
-msgstr "בקר באתר הבית של התורם"
+msgstr "ביקור באתר הבית"
 
 #: kmoretools_p.h:378
-#, fuzzy, kde-format
-#| msgid "Install"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Install"
 msgstr "התקנה"
 
 #: kmoretools_p.h:386
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "No further information available."
-msgstr "אין אף פריט תואם.\n"
+msgstr "אין מידע נוסף זמין."
 
 #: kmoretoolsconfigdialog_p.cpp:170
-#, fuzzy, kde-format
+#, kde-format
 msgid "Configure menu"
-msgstr "הגדרות"
+msgstr "הגדרת תפריט"
 
 #: kmoretoolsconfigdialog_p.cpp:172
-#, fuzzy, kde-format
+#, kde-format
 msgid "Configure menu - %1"
-msgstr "&הגדרות %1..."
+msgstr "הגדרת תפריט - %1"
 
 #: kmoretoolsmenufactory.cpp:172
 #, kde-format
 msgctxt "@action:inmenu %1=\"$GenericName\""
 msgid "%1 - current folder"
-msgstr ""
+msgstr "%1 - התיקייה הנוכחית"
 
 #: kmoretoolsmenufactory.cpp:181
 #, kde-format
 msgctxt "@action:inmenu %1=\"$GenericName\""
 msgid "%1 - current device"
-msgstr ""
+msgstr "%1 - ההתקן הנוכחי"
 
 #: kmoretoolsmenufactory.cpp:194
 #, kde-format
 msgctxt "@action:inmenu %1=\"$GenericName\""
 msgid "%1 - all devices"
-msgstr ""
+msgstr "%1 - כל ההתקנים"
 
 #. i18n: ectx: property (title), widget (QGroupBox, gbMainSection)
 #: ui/kmoretoolsconfigwidget.ui:25
-#, fuzzy, kde-format
+#, kde-format
 msgid "Main section"
-msgstr "מתחזק"
+msgstr "סעיף ראשי"
 
 #. i18n: ectx: property (text), widget (QToolButton, buttonMoveDown)
 #: ui/kmoretoolsconfigwidget.ui:58
-#, fuzzy, kde-format
+#, kde-format
 msgid "Move down"
-msgstr "&הורד"
+msgstr "הזזה למטה"
 
 #. i18n: ectx: property (text), widget (QToolButton, buttonMoveUp)
 #: ui/kmoretoolsconfigwidget.ui:77
-#, fuzzy, kde-format
+#, kde-format
 msgid "Move up"
-msgstr "הזז מ&עלה"
+msgstr "הזזה למעלה"
 
 #. i18n: ectx: property (text), widget (QToolButton, buttonMoveToMain)
 #: ui/kmoretoolsconfigwidget.ui:96
 #, kde-format
 msgid "Move to Main section"
-msgstr ""
+msgstr "העברה לסעיף הראשי"
 
 #. i18n: ectx: property (text), widget (QToolButton, buttonMoveToMore)
 #: ui/kmoretoolsconfigwidget.ui:115
-#, fuzzy, kde-format
+#, kde-format
 msgid "Move to More section"
-msgstr "פעולות נוספות"
+msgstr "העברה לסעיף עוד"
 
 #. i18n: ectx: property (text), widget (QToolButton, buttonReset)
 #: ui/kmoretoolsconfigwidget.ui:134
 #, kde-format
 msgid "Reset"
-msgstr "אפס"
+msgstr "איפוס"
 
 #. i18n: ectx: property (title), widget (QGroupBox, gbMoreSection)
 #: ui/kmoretoolsconfigwidget.ui:154
-#, fuzzy, kde-format
+#, kde-format
 msgid "More section"
-msgstr "פעולות נוספות"
+msgstr "סעיף נוסף"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: ui/kmoretoolsconfigwidget.ui:206
@@ -146,13 +146,13 @@ msgstr "פעולות נוספות"
 msgid ""
 "For this menu there are some more tools suggested which are currently not "
 "installed:"
-msgstr ""
+msgstr "לתפריט הזה יש כמה כלים מוצעים נוספים שלא מותקנים כרגע:"
 
 #. i18n: ectx: property (text), widget (QPushButton, buttonNotInstalledTools)
 #: ui/kmoretoolsconfigwidget.ui:216
-#, fuzzy, kde-format
+#, kde-format
 msgid "More tools..."
-msgstr "יותר..."
+msgstr "כלים נוספים…"
 
 #, fuzzy
 #~ msgid "All categories are missing"
