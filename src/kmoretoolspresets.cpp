@@ -7,6 +7,7 @@
 #include "kmoretoolspresets.h"
 #include "kmoretools_debug.h"
 #include "kmoretoolspresets_p.h"
+#include <QFile>
 #include <QHash>
 
 #include "kmoretools.h"
@@ -30,6 +31,18 @@ public:
     int maxUrlArgCount;
     QString appstreamId;
 };
+
+namespace KMoreToolsNamespace
+{
+class OSDetection
+{
+public:
+    static bool is_LinuxOSFamily_Debian()
+    {
+        return QFile::exists(QLatin1String("/etc/debian_version"));
+    }
+};
+}
 
 //
 // todo later: add a property "maturity" with values "stable" > "new" > "incubating" or similar
@@ -83,7 +96,7 @@ KMoreToolsService *KMoreToolsPresets::registerServiceByDesktopEntryName(KMoreToo
     ADD_ENTRY(QStringLiteral("org.kde.spectacle"),                  0, QStringLiteral("https://kde.org/applications/utilities/org.kde.spectacle"), QStringLiteral("org.kde.spectacle.desktop"));
     ADD_ENTRY(QStringLiteral("simplescreenrecorder"),               0, QStringLiteral("https://www.maartenbaert.be/simplescreenrecorder/"), QStringLiteral("simplescreenrecorder.desktop"));
     ADD_ENTRY(QStringLiteral("com.obsproject.Studio"),              0, QStringLiteral("https://obsproject.com/"), QStringLiteral("com.obsproject.Studio"));
-    ADD_ENTRY(QStringLiteral("vokoscreenNG"),                       0, QStringLiteral("https://github.com/vkohaupt/vokoscreenNG"), QStringLiteral("com.github.vkohaupt.vokoscreenNG")); // feature-rich screen recorder
+    ADD_ENTRY(QStringLiteral("vokoscreenNG"),                       0, QStringLiteral("https://github.com/vkohaupt/vokoscreenNG"), KMoreToolsNamespace::OSDetection::is_LinuxOSFamily_Debian() ? QLatin1String("de.volkoh.linuxecke.vokoscreen_ng") : QStringLiteral("com.github.vkohaupt.vokoscreenNG")); // feature-rich screen recorder
     ADD_ENTRY(QStringLiteral("xfce4-taskmanager"),                  0, QStringLiteral("https://goodies.xfce.org/projects/applications/xfce4-taskmanager"), QStringLiteral("xfce4-taskmanager.desktop"));
     //
     // ...definitions end
