@@ -66,7 +66,7 @@ KMoreToolsService *KMoreToolsPresets::registerServiceByDesktopEntryName(KMoreToo
     ADD_ENTRY(QStringLiteral("catfish"),                            1, QStringLiteral("http://www.twotoasts.de/index.php/catfish/"), QStringLiteral("catfish"));
     ADD_ENTRY(QStringLiteral("ding"),                               0, QStringLiteral("https://www-user.tu-chemnitz.de/~fri/ding/"), QString()); // Offline dict, Online: https://dict.tu-chemnitz.de/dings.cgi
     ADD_ENTRY(QStringLiteral("disk"),                               0, QStringLiteral("https://en.opensuse.org/YaST_Disk_Controller"), QString());
-    ADD_ENTRY(QStringLiteral("fontinst"),                           0, QStringLiteral("https://docs.kde.org/?application=kcontrol/fontinst&branch=trunk5"), QString()); // good for previewing many fonts at once
+    ADD_ENTRY(QStringLiteral("fontinst"),                           0, QStringLiteral("https://docs.kde.org/?application=kcontrol/fontinst"), QString()); // good for previewing many fonts at once
     ADD_ENTRY(QStringLiteral("fontmatrix"),                         0, QStringLiteral("https://github.com/fontmatrix/fontmatrix"), QString());
     ADD_ENTRY(QStringLiteral("fsearch"),                            0, QStringLiteral("https://github.com/cboxdoerfer/fsearch"), QString());
     ADD_ENTRY(QStringLiteral("giggle"),                             1, QStringLiteral("https://wiki.gnome.org/Apps/giggle/"), QStringLiteral("giggle.desktop")); // good for searching in history
@@ -82,20 +82,20 @@ KMoreToolsService *KMoreToolsPresets::registerServiceByDesktopEntryName(KMoreToo
     ADD_ENTRY(QStringLiteral("hotshots"),                           1, QStringLiteral("https://sourceforge.net/projects/hotshots/"), QString());
     ADD_ENTRY(QStringLiteral("kaption"),                            0, QStringLiteral("https://www.linux-apps.com/content/show.php/?content=139302"), QString());
     ADD_ENTRY(QStringLiteral("kding"),                              0, QString(), QString()); // Offline dict; unmaintained?
-    ADD_ENTRY(QStringLiteral("org.kde.kmousetool"),                 0, QStringLiteral("https://kde.org/applications/utilities/org.kde.kmousetool/"), QStringLiteral("org.kde.kmousetool"));
+    ADD_ENTRY(QStringLiteral("org.kde.kmousetool"),                 0, QStringLiteral("https://apps.kde.org/kmousetool"), QStringLiteral("org.kde.kmousetool"));
     ADD_ENTRY(QStringLiteral("org.gnome.clocks"),                   0, QStringLiteral("https://wiki.gnome.org/Apps/Clocks"), QStringLiteral("org.gnome.clocks.desktop"));
-    ADD_ENTRY(QStringLiteral("org.kde.filelight"),                  1, QStringLiteral("https://kde.org/applications/utilities/org.kde.filelight/"), QStringLiteral("org.kde.filelight.desktop"));
-    ADD_ENTRY(QStringLiteral("org.kde.kcharselect"),                0, QStringLiteral("https://kde.org/applications/utilities/org.kde.kcharselect/"), QStringLiteral("org.kde.kcharselect"));
-    ADD_ENTRY(QStringLiteral("org.kde.kdf"),                        0, QStringLiteral("https://kde.org/applications/system/org.kde.kdf/"), QStringLiteral("org.kde.kdf"));
-    ADD_ENTRY(QStringLiteral("org.kde.kfind"),                      1, QStringLiteral("https://kde.org/applications/utilities/org.kde.kfind/"), QStringLiteral("org.kde.kfind.desktop")); // has good filtering options
-    ADD_ENTRY(QStringLiteral("org.kde.partitionmanager"),           0, QStringLiteral("https://kde.org/applications/system/org.kde.partitionmanager"), QStringLiteral("org.kde.partitionmanager.desktop"));
+    ADD_ENTRY(QStringLiteral("org.kde.filelight"),                  1, QStringLiteral("https://apps.kde.org/filelight"), QStringLiteral("org.kde.filelight.desktop"));
+    ADD_ENTRY(QStringLiteral("org.kde.kcharselect"),                0, QStringLiteral("https://apps.kde.org/kcharselect"), QStringLiteral("org.kde.kcharselect"));
+    ADD_ENTRY(QStringLiteral("org.kde.kdf"),                        0, QStringLiteral("https://apps.kde.org/kdf"), QStringLiteral("org.kde.kdf"));
+    ADD_ENTRY(QStringLiteral("org.kde.kfind"),                      1, QStringLiteral("https://apps.kde.org/kfind"), QStringLiteral("org.kde.kfind.desktop")); // has good filtering options
+    ADD_ENTRY(QStringLiteral("org.kde.partitionmanager"),           0, QStringLiteral("https://apps.kde.org/partitionmanager"), QStringLiteral("org.kde.partitionmanager.desktop"));
     ADD_ENTRY(QStringLiteral("org.kde.plasma.cuttlefish.kmt-edition"), 0, QStringLiteral("https://vizzzion.org/blog/2015/02/say-hi-to-cuttlefish/"), QStringLiteral("org.kde.plasma.cuttlefish"));
-    ADD_ENTRY(QStringLiteral("org.kde.ksysguard"),                  0, QStringLiteral("https://userbase.kde.org/KSysGuard"), QStringLiteral("org.kde.ksysguard"));
-    ADD_ENTRY(QStringLiteral("org.kde.ksystemlog"),                 0, QStringLiteral("https://kde.org/applications/system/org.kde.ksystemlog/"), QStringLiteral("org.kde.ksystemlog"));
-    ADD_ENTRY(QStringLiteral("org.kde.ktimer"),                     0, QStringLiteral("https://kde.org/applications/utilities/org.kde.ktimer/"), QStringLiteral("org.kde.ktimer"));
-    ADD_ENTRY(QStringLiteral("org.kde.spectacle"),                  0, QStringLiteral("https://kde.org/applications/utilities/org.kde.spectacle"), QStringLiteral("org.kde.spectacle.desktop"));
-    ADD_ENTRY(QStringLiteral("simplescreenrecorder"),               0, QStringLiteral("https://www.maartenbaert.be/simplescreenrecorder/"), QStringLiteral("simplescreenrecorder.desktop"));
-    ADD_ENTRY(QStringLiteral("com.obsproject.Studio"),              0, QStringLiteral("https://obsproject.com/"), QStringLiteral("com.obsproject.Studio"));
+    ADD_ENTRY(QStringLiteral("org.kde.ksysguard"),                  0, QStringLiteral("https://apps.kde.org/ksysguard"), QStringLiteral("org.kde.ksysguard"));
+    ADD_ENTRY(QStringLiteral("org.kde.ksystemlog"),                 0, QStringLiteral("https://apps.kde.org/ksystemlog"), QStringLiteral("org.kde.ksystemlog"));
+    ADD_ENTRY(QStringLiteral("org.kde.ktimer"),                     0, QStringLiteral("https://apps.kde.org/ktimer"), QStringLiteral("org.kde.ktimer"));
+    ADD_ENTRY(QStringLiteral("org.kde.spectacle"),                  0, QStringLiteral("https://apps.kde.org/spectacle"), QStringLiteral("org.kde.spectacle.desktop"));
+    ADD_ENTRY(QStringLiteral("simplescreenrecorder"),               0, QStringLiteral("https://www.maartenbaert.be/simplescreenrecorder"), QStringLiteral("simplescreenrecorder.desktop"));
+    ADD_ENTRY(QStringLiteral("com.obsproject.Studio"),              0, QStringLiteral("https://obsproject.com"), QStringLiteral("com.obsproject.Studio"));
     ADD_ENTRY(QStringLiteral("vokoscreenNG"),                       0, QStringLiteral("https://github.com/vkohaupt/vokoscreenNG"), KMoreToolsNamespace::OSDetection::is_LinuxOSFamily_Debian() ? QLatin1String("de.volkoh.linuxecke.vokoscreen_ng") : QStringLiteral("com.github.vkohaupt.vokoscreenNG")); // feature-rich screen recorder
     ADD_ENTRY(QStringLiteral("xfce4-taskmanager"),                  0, QStringLiteral("https://goodies.xfce.org/projects/applications/xfce4-taskmanager"), QStringLiteral("xfce4-taskmanager.desktop"));
     //
