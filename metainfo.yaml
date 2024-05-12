@@ -1,7 +1,6 @@
 # SPDX-FileCopyrightText: none
 # SPDX-License-Identifier: CC0-1.0
 
-maintainer: alex
 description: Support for downloading application assets from the network
 tier: 3
 type: solution
@@ -18,5 +17,3 @@ libraries:
 cmakename: KF6MoreTools
 
 public_lib: true
-group: Frameworks
-subgroup: Tier 3
