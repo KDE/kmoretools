@@ -42,7 +42,7 @@ msgstr "Més"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Configure..."
-msgstr "Configura..."
+msgstr "Configura…"
 
 #: kmoretools_p.h:369
 #, kde-format
@@ -146,4 +146,4 @@ msgstr ""
 #: ui/kmoretoolsconfigwidget.ui:216
 #, kde-format
 msgid "More tools..."
-msgstr "Més eines..."
+msgstr "Més eines…"
