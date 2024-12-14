@@ -1,0 +1,138 @@
+# Sanskrit translations for kmoretools package.
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the kmoretools package.
+# Kali <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kmoretools\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2023-08-08 02:04+0000\n"
+"PO-Revision-Date: 2024-12-13 19:09+0530\n"
+"Last-Translator: Kali <EMAIL@ADDRESS>\n"
+"Language-Team: Sanskrit\n"
+"Language: sa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: kmoretools.cpp:517
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Not installed:"
+msgstr ""
+
+#: kmoretools.cpp:614
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "More"
+msgstr ""
+
+#: kmoretools.cpp:650
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Configure..."
+msgstr ""
+
+#: kmoretools_p.h:369
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Visit homepage"
+msgstr ""
+
+#: kmoretools_p.h:378
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Install"
+msgstr ""
+
+#: kmoretools_p.h:386
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "No further information available."
+msgstr ""
+
+#: kmoretoolsconfigdialog_p.cpp:170
+#, kde-format
+msgid "Configure menu"
+msgstr "मेनू विन्यस्तं कुर्वन्तु"
+
+#: kmoretoolsconfigdialog_p.cpp:172
+#, kde-format
+msgid "Configure menu - %1"
+msgstr "मेनू विन्यस्य - %1"
+
+#: kmoretoolsmenufactory.cpp:172
+#, kde-format
+msgctxt "@action:inmenu %1=\"$GenericName\""
+msgid "%1 - current folder"
+msgstr ""
+
+#: kmoretoolsmenufactory.cpp:181
+#, kde-format
+msgctxt "@action:inmenu %1=\"$GenericName\""
+msgid "%1 - current device"
+msgstr ""
+
+#: kmoretoolsmenufactory.cpp:194
+#, kde-format
+msgctxt "@action:inmenu %1=\"$GenericName\""
+msgid "%1 - all devices"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, gbMainSection)
+#: ui/kmoretoolsconfigwidget.ui:25
+#, kde-format
+msgid "Main section"
+msgstr "मुख्य खण्ड"
+
+#. i18n: ectx: property (text), widget (QToolButton, buttonMoveDown)
+#: ui/kmoretoolsconfigwidget.ui:58
+#, kde-format
+msgid "Move down"
+msgstr "अधः गच्छतु"
+
+#. i18n: ectx: property (text), widget (QToolButton, buttonMoveUp)
+#: ui/kmoretoolsconfigwidget.ui:77
+#, kde-format
+msgid "Move up"
+msgstr "उपरि गच्छतु"
+
+#. i18n: ectx: property (text), widget (QToolButton, buttonMoveToMain)
+#: ui/kmoretoolsconfigwidget.ui:96
+#, kde-format
+msgid "Move to Main section"
+msgstr "मुख्यखण्डं प्रति गच्छन्तु"
+
+#. i18n: ectx: property (text), widget (QToolButton, buttonMoveToMore)
+#: ui/kmoretoolsconfigwidget.ui:115
+#, kde-format
+msgid "Move to More section"
+msgstr "अधिकं विभागं प्रति गच्छन्तु"
+
+#. i18n: ectx: property (text), widget (QToolButton, buttonReset)
+#: ui/kmoretoolsconfigwidget.ui:134
+#, kde-format
+msgid "Reset"
+msgstr "पुनः सेट् करें"
+
+#. i18n: ectx: property (title), widget (QGroupBox, gbMoreSection)
+#: ui/kmoretoolsconfigwidget.ui:154
+#, kde-format
+msgid "More section"
+msgstr "अधिकः खण्डः"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/kmoretoolsconfigwidget.ui:206
+#, kde-format
+msgid ""
+"For this menu there are some more tools suggested which are currently not "
+"installed:"
+msgstr ""
+"अस्य मेन्यू कृते केचन अधिकानि साधनानि सुझातानि सन्ति ये सम्प्रति न संस्थापितानि सन्ति:"
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonNotInstalledTools)
+#: ui/kmoretoolsconfigwidget.ui:216
+#, kde-format
+msgid "More tools..."
+msgstr "अधिकानि साधनानि..."
