@@ -20,37 +20,37 @@ msgstr ""
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Not installed:"
-msgstr ""
+msgstr "न संस्थापितम् : १."
 
 #: kmoretools.cpp:614
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "More"
-msgstr ""
+msgstr "अधिकः"
 
 #: kmoretools.cpp:650
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Configure..."
-msgstr ""
+msgstr "विन्यस्तं कुर्वन्तु..."
 
 #: kmoretools_p.h:369
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Visit homepage"
-msgstr ""
+msgstr "मुखपृष्ठं पश्यन्तु"
 
 #: kmoretools_p.h:378
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Install"
-msgstr ""
+msgstr "प्रतिस्था"
 
 #: kmoretools_p.h:386
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "No further information available."
-msgstr ""
+msgstr "अग्रे सूचना उपलब्धा नास्ति।"
 
 #: kmoretoolsconfigdialog_p.cpp:170
 #, kde-format
@@ -66,19 +66,19 @@ msgstr "मेनू विन्यस्य - %1"
 #, kde-format
 msgctxt "@action:inmenu %1=\"$GenericName\""
 msgid "%1 - current folder"
-msgstr ""
+msgstr "%1 - वर्तमानपुटम्"
 
 #: kmoretoolsmenufactory.cpp:181
 #, kde-format
 msgctxt "@action:inmenu %1=\"$GenericName\""
 msgid "%1 - current device"
-msgstr ""
+msgstr "%1 - वर्तमानयन्त्रम्"
 
 #: kmoretoolsmenufactory.cpp:194
 #, kde-format
 msgctxt "@action:inmenu %1=\"$GenericName\""
 msgid "%1 - all devices"
-msgstr ""
+msgstr "%1 - सर्वाणि यन्त्राणि"
 
 #. i18n: ectx: property (title), widget (QGroupBox, gbMainSection)
 #: ui/kmoretoolsconfigwidget.ui:25
